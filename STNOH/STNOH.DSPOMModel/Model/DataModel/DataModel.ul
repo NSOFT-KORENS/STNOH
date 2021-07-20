@@ -1,0 +1,265 @@
+VERSION '01.13'
+
+[@Guid(949f67c8-78a6-49b0-b81d-66076cbff83f)]
+[@GuidRef(c0e45dbf-8108-48fd-8240-0ac5c0e5dbc2, 11c7714e-95ee-4051-82cb-5b3370b4d74b)]
+ENTITYLINK LaborTraining TO NSOFT.MasterData.Labor_MS.MSModel.DataModel.LaborTraining
+
+[@Guid(1163fd12-3d5a-4b7b-9fe8-2e7de8a06106)]
+[@GuidRef(c0e45dbf-8108-48fd-8240-0ac5c0e5dbc2, 8f56df1c-1549-4b5c-9934-ac8893beb103)]
+ENTITYLINK LaborTrainingPlanDocument TO NSOFT.MasterData.Labor_MS.MSModel.DataModel.LaborTrainingPlanDocument
+
+[@Guid(1c27c92d-cb9a-4dab-a300-8d8e6493e013)]
+[@GuidRef(c0e45dbf-8108-48fd-8240-0ac5c0e5dbc2, dbdfae78-4e7f-4f75-9534-2cce806c1fa9)]
+ENTITYLINK LaborTrainingResultDocument TO NSOFT.MasterData.Labor_MS.MSModel.DataModel.LaborTrainingResultDocument
+
+[@Guid(608a28d4-70f1-4148-ab10-b25862e41b80)]
+[@GuidRef(c0e45dbf-8108-48fd-8240-0ac5c0e5dbc2, 0b278b22-c97d-4c0b-8a47-de929745e43a)]
+ENTITYLINK UserLaborTrainingAssociation TO NSOFT.MasterData.Labor_MS.MSModel.DataModel.UserLaborTrainingAssociation
+
+///This entity represents the association between a User and a Certification. Certifications have a validity expressed by an expiration date for a specific User: once the Certification expires, the association will remain, but cannot be used by that particular User.
+[@Guid(b4d07fc5-f227-45e1-a0f1-24d9e371788d)]
+[@GuidRef(44c9d0a6-aefb-4c8f-823c-a3f196274cf3, 1e9c65df-c72d-487c-b851-46b9e184258d)]
+ENTITYLINK UserCertificationAssociation TO Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.UserCertificationAssociation
+
+///Defines a state in the lifecycle.
+[@Guid(d437394f-377f-4126-b4ac-8a3ffc3ad06d)]
+[@GuidRef(b269393d-8ab1-41c1-9337-181487273e8f, ca703be1-5ff1-4b80-87ed-f802f48b08e4)]
+ENTITYLINK Status TO Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status
+
+///Defines a lifecycle.
+[@Guid(ebb05408-c1f8-42eb-a83f-d83711265efd)]
+[@GuidRef(b269393d-8ab1-41c1-9337-181487273e8f, e1709eb7-c48c-43d6-b186-1c6afa3d17cc)]
+ENTITYLINK StateMachine TO Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine
+
+[@Guid(58983fde-a939-4d22-941c-c752abded105)]
+[@GuidRef(c3bb4a27-6a85-4aef-bb42-c149c1493215, ece84746-8220-4cfa-8e49-b47862e8e936)]
+ENTITYLINK GroupCode TO NSOFT.ReferenceData.CodeFB_RF.RFModel.DataModel.GroupCode
+
+[@Guid(aaf50663-5d16-48cc-b31a-d20d8c979bfb)]
+[@GuidRef(c3bb4a27-6a85-4aef-bb42-c149c1493215, 8e7268ac-b6cb-4e2f-90b0-ef7a657071d5)]
+ENTITYLINK Code TO NSOFT.ReferenceData.CodeFB_RF.RFModel.DataModel.Code
+
+[@Guid(daf394b2-c3d3-4710-b75a-7a4c7efe9c05)]
+[@GuidRef(8935ac92-8ac1-4745-be4c-be0d8c6030cc, ccccbd2e-0c76-4c03-b085-89e5948b81b9)]
+ENTITYLINK Document TO NSOFT.MasterData.Document_MS.MSModel.DataModel.Document
+
+///This entity represents a Certification for performing a specific Operation during runtime, provided that the user possesses the required Skills, Equipment and Material. 
+[@Guid(3439cbcd-1148-4ce4-a414-77851a846989)]
+[@GuidRef(44c9d0a6-aefb-4c8f-823c-a3f196274cf3, d6f7ac88-3cc7-4359-9140-b3b03fbbf123)]
+ENTITYLINK Certification TO Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.Certification
+
+[@Guid(917e6106-14c4-4b2e-8a24-0518e7dba16a)]
+[@GuidRef(0525f2ba-153c-45e5-992e-db4fc7b0ec55, 04956826-c9ef-4830-bffd-154dd49e8ee7)]
+ENTITYLINK LinkManage TO NSOFT.MasterData.LinkFB.MSModel.DataModel.LinkManage
+
+[@Guid(0a5ccb44-08f8-4054-b118-e60a6bdff019)]
+[@GuidRef(0525f2ba-153c-45e5-992e-db4fc7b0ec55, e94a26ff-9043-494c-b5c3-629c7ba98443)]
+ENTITYLINK LinkParameter TO NSOFT.MasterData.LinkFB.MSModel.DataModel.LinkParameter
+
+[@Guid(9c477d45-6ad4-4d44-911a-ce9f16053d86)]
+[@GuidRef(4e6961eb-f897-4ffe-b055-a073579deb7c, d887760b-eaf2-4214-8793-e303bfadd35d)]
+ENTITYLINK FirstArticleInspection TO NSOFT.OperationalData.FAIOP.OPModel.DataModel.FirstArticleInspection
+
+///This entity represents the freeze of a Plant BOP made at a certain point in time and acts as the container of a Processes tree. 
+[@Guid(0a5ec489-6f70-41ed-b8c5-4d9966c9169c)]
+[@GuidRef(43505cfd-dbd3-4fc5-87ae-cda08d8af79c, f637430b-b3be-4033-a0e1-d02b5b2bd386)]
+ENTITYLINK AsPlannedBOP TO Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.AsPlannedBOP
+
+///This Entity represents a Material specifically used for Discrete Manufacturing, as an extension of the Material entity provided by Opcenter Execution Foundation.
+[@Guid(a3c034e9-2218-48f4-9c33-416d7287c658)]
+[@GuidRef(214fb594-6721-4d53-8439-804aba07185d, 09a788c1-08fb-42da-921f-ea4b0b01776f)]
+ENTITYLINK DM_Material TO Siemens.SimaticIT.UADM.MasterData.FB_MS_MAT.MSModel.DataModel.DM_Material
+
+///Defines a specific Material.
+[@Guid(1662943d-7497-49d1-9e0d-d7266c5bd85c)]
+[@GuidRef(e4cb0739-232d-491f-ae07-1146e83707ac, 31c14eca-0b4e-46a5-9c4a-724cfd8c3e57)]
+ENTITYLINK Material TO Siemens.SimaticIT.MasterData.MAT_MS.MSModel.DataModel.Material
+
+///Defines a group of Materials.
+[@Guid(8efb5004-6318-4c8c-8852-4f26cc71c855)]
+[@GuidRef(e4cb0739-232d-491f-ae07-1146e83707ac, 650bc246-70c7-476a-96b9-339cea6b65ad)]
+ENTITYLINK MaterialGroup TO Siemens.SimaticIT.MasterData.MAT_MS.MSModel.DataModel.MaterialGroup
+
+///Represents a Material Class. Materials are grouped into classes based on their purpose in order to logically organize them.
+[@Guid(5881f01e-423a-41ae-a72a-2aa75ed78336)]
+[@GuidRef(214fb594-6721-4d53-8439-804aba07185d, 47c65b2c-e099-4ad9-8838-9819a234ac05)]
+ENTITYLINK MaterialClass TO Siemens.SimaticIT.UADM.MasterData.FB_MS_MAT.MSModel.DataModel.MaterialClass
+
+///This entity represents DM_Materials (that is, a Material to be used in Discrete Manufacturing) classified by Functional Codes. Functional Codes are used to group Materials specifying their functionality or class.
+[@Guid(2d864b01-77ca-4242-85f3-152a2f42df99)]
+[@GuidRef(214fb594-6721-4d53-8439-804aba07185d, 80af34e6-8c2a-46bc-a265-7e9a3d7e0554)]
+ENTITYLINK FunctionalCode TO Siemens.SimaticIT.UADM.MasterData.FB_MS_MAT.MSModel.DataModel.FunctionalCode
+
+///This entity represents a specific Supplier.
+[@Guid(e6a7dda1-71f3-4519-a605-22009a455dbf)]
+[@GuidRef(214fb594-6721-4d53-8439-804aba07185d, ace81132-94b9-4506-b0de-bd50a80edc20)]
+ENTITYLINK Supplier TO Siemens.SimaticIT.UADM.MasterData.FB_MS_MAT.MSModel.DataModel.Supplier
+
+///This entity represents the Master Plan. 
+[@Guid(e4d07afc-4de3-4830-ae7a-383205411a06)]
+[@GuidRef(43505cfd-dbd3-4fc5-87ae-cda08d8af79c, db8218db-6112-4361-b052-3df451e2ffeb)]
+ENTITYLINK MasterPlan TO Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.MasterPlan
+
+///Represents a link between Processes.
+[@Guid(e8ff6858-e06c-4a2f-b8a5-beea4e859a28)]
+[@GuidRef(43505cfd-dbd3-4fc5-87ae-cda08d8af79c, 45d75c86-d8f1-4b17-980e-9fdcdd15b173)]
+ENTITYLINK ProcessToProcessLink TO Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.ProcessToProcessLink
+
+///Represents the Bill of Processes, illustrating the process to be followed to produce a semi-finished or finished product. 
+///It is logically made up of Operations (that is, the activities to be performed at the manufacturing level with associated resources).
+[@Guid(8028674e-b77e-487e-aa1c-27cb751fe056)]
+[@GuidRef(43505cfd-dbd3-4fc5-87ae-cda08d8af79c, 92e75507-e600-4b09-b53e-6a139a2ef0d4)]
+ENTITYLINK Process TO Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.Process
+
+///This entity defines a Process activity that is necessary to manufacture an intermediate part or finished product. 
+///It is characterized by a set of resources that must be used to complete the job (that is, Materials, Tools, Equipment, Documents). 
+///It can be referenced by more than one Process.
+[@Guid(69004f69-699d-4db5-b023-5bfab836593c)]
+[@GuidRef(43505cfd-dbd3-4fc5-87ae-cda08d8af79c, b84119e0-9595-4129-9c14-b25d8367a051)]
+ENTITYLINK Operation TO Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.Operation
+
+[@Guid(4ec738dd-6764-4d56-8b96-5d0ef8c26949)]
+[@GuidRef(2f6a052d-c88a-4acb-82ad-03e89d0f052a, d4127f01-0aa4-4b9d-96b8-2ffc898eb074)]
+ENTITYLINK MailCondition TO NSOFT.MasterData.Mail_MS.MSModel.DataModel.MailCondition
+
+[@Guid(8c85acf1-cb02-41c0-af83-01c468b3829d)]
+[@GuidRef(2f6a052d-c88a-4acb-82ad-03e89d0f052a, 2461f993-32fc-4e9f-baf7-6f206411383c)]
+ENTITYLINK MailConditionGroup TO NSOFT.MasterData.Mail_MS.MSModel.DataModel.MailConditionGroup
+
+[@Guid(b7b31358-6d58-44df-9439-8be187920901)]
+[@GuidRef(2f6a052d-c88a-4acb-82ad-03e89d0f052a, 5c15688e-169f-4074-8444-083c48ba4af5)]
+ENTITYLINK MailContent TO NSOFT.MasterData.Mail_MS.MSModel.DataModel.MailContent
+
+[@Guid(4203b6bf-1083-477e-bc0f-a8ce60fd5e59)]
+[@GuidRef(2f6a052d-c88a-4acb-82ad-03e89d0f052a, 971d53f7-c8b6-41b1-b3f9-e73aa847eff5)]
+ENTITYLINK MailContentAndConditionAssociation TO NSOFT.MasterData.Mail_MS.MSModel.DataModel.MailContentAndConditionAssociation
+
+[@Guid(047aac8b-b7ae-4458-a164-402b5427027e)]
+[@GuidRef(2f6a052d-c88a-4acb-82ad-03e89d0f052a, bd87a5a9-1939-46d8-82d5-4b574dd96219)]
+ENTITYLINK MailContentPersonAssociation TO NSOFT.MasterData.Mail_MS.MSModel.DataModel.MailContentPersonAssociation
+
+[@Guid(4b9d268a-a592-42e5-af99-84697548b4d6)]
+[@GuidRef(2f6a052d-c88a-4acb-82ad-03e89d0f052a, 0e3153f9-55f4-4889-ae1b-a7a266c7416f)]
+ENTITYLINK MailType TO NSOFT.MasterData.Mail_MS.MSModel.DataModel.MailType
+
+[@Guid(0fc99380-97b2-44f7-91fe-f3d5e7597ec7)]
+[@GuidRef(2f6a052d-c88a-4acb-82ad-03e89d0f052a, fce53489-da85-4f50-9c87-e8adaf726cbe)]
+ENTITYLINK MailTypeParameter TO NSOFT.MasterData.Mail_MS.MSModel.DataModel.MailTypeParameter
+
+///Defines a Person
+[@Guid(6c7d4de4-5c73-4085-8331-3500f40cada8)]
+[@GuidRef(caaab03c-210a-4f11-a20d-6fe924b5b001, d091e124-7862-4aea-bea6-89fb747b75a2)]
+ENTITYLINK Person TO Siemens.SimaticIT.MasterData.PRM_MS.MSModel.DataModel.Person
+
+///Defines a Group of Persons.
+[@Guid(e7f82da5-197b-4010-aa90-efeca27b8313)]
+[@GuidRef(caaab03c-210a-4f11-a20d-6fe924b5b001, 772bb769-4c1a-4931-8972-337568b0b7b0)]
+ENTITYLINK PersonGroup TO Siemens.SimaticIT.MasterData.PRM_MS.MSModel.DataModel.PersonGroup
+
+///This entity provides the list of Specifications related to a Defect Group.
+[@Guid(da019545-70d1-422f-a2c5-b3eac414cd2b)]
+[@GuidRef(ead9ee2a-a368-44a0-acc0-b189698b2dd1, add486c7-6433-4589-86b0-89cf53f108cc)]
+ENTITYLINK DefectGroupSpecification TO Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.DefectGroupSpecification
+
+///This entity represents the type of the Defect.
+[@Guid(c5d54548-0329-488c-9ebd-2b4e4e6541d6)]
+[@GuidRef(ead9ee2a-a368-44a0-acc0-b189698b2dd1, f3f6e561-94d2-41d3-a6b3-7fe29d777d14)]
+ENTITYLINK DefectType TO Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.DefectType
+
+///This entity provides the list of Specifications related to a Defect.
+[@Guid(93d6640e-6429-430d-81d1-231493a6455c)]
+[@GuidRef(ead9ee2a-a368-44a0-acc0-b189698b2dd1, 04f8c876-96eb-4955-b27f-a60fefc4b6aa)]
+ENTITYLINK DefectSpecification TO Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.DefectSpecification
+
+///This entity represents a Runtime Defect.
+[@Guid(79e1baaf-538c-4619-b90a-3cbfbe081156)]
+[@GuidRef(dbe8a63f-bfb7-4ace-8028-22723b5552ea, ed7208d0-2bf9-46d0-87fe-6004c6f888e6)]
+ENTITYLINK Defect TO Siemens.SimaticIT.U4DM.OperationalData.Runtime.OPModel.DataModel.Defect
+
+///This entity represents all actions (creation and status changes) performed on a Non-Conformance at runtime.
+[@Guid(8f757566-e9b3-456c-afd1-c921d0683be9)]
+[@GuidRef(dbe8a63f-bfb7-4ace-8028-22723b5552ea, 55c538e5-022d-44ec-a9d0-5f620ed61473)]
+ENTITYLINK NonConformanceHistory TO Siemens.SimaticIT.U4DM.OperationalData.Runtime.OPModel.DataModel.NonConformanceHistory
+
+///This entity represents a runtime Non-Conformance.
+[@Guid(9ca7a71a-50d5-4d05-bf2f-29b4fa229d03)]
+[@GuidRef(dbe8a63f-bfb7-4ace-8028-22723b5552ea, 65fa45ca-842f-4fc7-8666-05272fce5112)]
+ENTITYLINK NonConformance TO Siemens.SimaticIT.U4DM.OperationalData.Runtime.OPModel.DataModel.NonConformance
+
+///This entity represents the details of the documents that can be attached by the User to the Non-Comformance while declaring or managing it.
+[@Guid(012c9024-f701-4d25-87eb-81f841b42d7d)]
+[@GuidRef(dbe8a63f-bfb7-4ace-8028-22723b5552ea, a93fa8d7-7379-404d-bfc2-604e1effde6a)]
+ENTITYLINK NonConformanceAttachment TO Siemens.SimaticIT.U4DM.OperationalData.Runtime.OPModel.DataModel.NonConformanceAttachment
+
+///This entity represents an extension of the **MaterialTrackingUnit** entity, as it contains additional fields compared to the aforementioned entity. It is used to specify a DM_Material in runtime.
+[@Guid(48f0ddfd-87ee-4bdf-8dc6-46e5c93f5d54)]
+[@GuidRef(8631561b-1261-4baa-9756-748245878020, 7449e475-62e8-4528-84fd-3e355017a5d3)]
+ENTITYLINK DM_MaterialTrackingUnit TO Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnit
+
+///This entity represents all types of changes permitted on Work Order Operations. 
+[@Guid(212dfec0-33e3-4078-8128-af44909092b8)]
+[@GuidRef(dbe8a63f-bfb7-4ace-8028-22723b5552ea, 7a2e801a-c63c-49c3-8706-ef9225ea57ae)]
+ENTITYLINK ChangeType TO Siemens.SimaticIT.U4DM.OperationalData.Runtime.OPModel.DataModel.ChangeType
+
+///Defines a Material Lot. 
+[@Guid(add42681-947b-4d80-b289-ecf316834a31)]
+[@GuidRef(60ed4660-135d-4f02-a038-e985798d4e5a, c28e3f37-6a95-438b-b2e4-7b254deccea7)]
+ENTITYLINK MaterialLot TO Siemens.SimaticIT.OperationalData.MAT_OP.OPModel.DataModel.MaterialLot
+
+///This entity represents an item (Tool/Equipment/Material Tracking Unit) on which the Non-Conformance has been raised.
+[@Guid(7068d2d9-4c6f-4eb0-8b25-ebe576a7e685)]
+[@GuidRef(dbe8a63f-bfb7-4ace-8028-22723b5552ea, ab35f877-9912-4f2a-982d-22942f301a4a)]
+ENTITYLINK NonConformanceItem TO Siemens.SimaticIT.U4DM.OperationalData.Runtime.OPModel.DataModel.NonConformanceItem
+
+///This entity represents the resource (User or Role) that performed an action on a Non-Conformance at runtime.
+[@Guid(291e3133-5282-4f51-9153-355db55ef24c)]
+[@GuidRef(dbe8a63f-bfb7-4ace-8028-22723b5552ea, b6941e0e-a03e-42ee-8f20-980c301876ad)]
+ENTITYLINK NonConformanceResource TO Siemens.SimaticIT.U4DM.OperationalData.Runtime.OPModel.DataModel.NonConformanceResource
+
+///This entity represents a Tool instance.
+[@Guid(a6a0a966-ba67-4f9b-9ddb-40fe14e60922)]
+[@GuidRef(dbe8a63f-bfb7-4ace-8028-22723b5552ea, 47e620a7-7eed-4fff-b0e1-7b7362d0d0b5)]
+ENTITYLINK Tool TO Siemens.SimaticIT.U4DM.OperationalData.Runtime.OPModel.DataModel.Tool
+
+///This entity represents an activity (usually the execution of a BOP Operation) required to manufacture an intermediate part or a finished product. It has a set of associated resources, such as the Equipment/Materials/Tools to be used, as well as those that were actually used.
+[@Guid(32c59ed2-384c-42e2-8bc0-e30e6c45cba7)]
+[@GuidRef(dbe8a63f-bfb7-4ace-8028-22723b5552ea, c81cb946-941c-42ad-b4cb-38a9736427fd)]
+ENTITYLINK WorkOrderOperation TO Siemens.SimaticIT.U4DM.OperationalData.Runtime.OPModel.DataModel.WorkOrderOperation
+
+///This entity represents the production order (that is, the instantiation of the Process). It describes the process that must be followed in order to produce a semi-finished or finished product with actual resources. It is made up of Work Order Operations (that is, activities to be performed at the manufacturing level with actual associated resources).
+[@Guid(2de36125-efe9-48d6-82de-6a75cefd02de)]
+[@GuidRef(dbe8a63f-bfb7-4ace-8028-22723b5552ea, dd03eee0-9727-40ce-9aad-cda1ca886b00)]
+ENTITYLINK WorkOrder TO Siemens.SimaticIT.U4DM.OperationalData.Runtime.OPModel.DataModel.WorkOrder
+
+///Defines  a Material Tracking Unit Aggregate.
+[@Guid(a5b035d7-e266-42ea-95dd-cf8bc792a0c0)]
+[@GuidRef(60ed4660-135d-4f02-a038-e985798d4e5a, eb84c168-2883-48b7-a1b3-6c9e72aa8a8c)]
+ENTITYLINK MaterialTrackingUnitAggregate TO Siemens.SimaticIT.OperationalData.MAT_OP.OPModel.DataModel.MaterialTrackingUnitAggregate
+
+///Defines  a Material Tracking Unit.
+[@Guid(1092ecd9-c571-4aa6-ad1b-82253797bf7d)]
+[@GuidRef(60ed4660-135d-4f02-a038-e985798d4e5a, f3ab2dc6-057b-4a55-a5e4-36d751d0cbe5)]
+ENTITYLINK MaterialTrackingUnit TO Siemens.SimaticIT.OperationalData.MAT_OP.OPModel.DataModel.MaterialTrackingUnit
+
+///This entity represents the type of production.
+[@Guid(66da125e-3f85-4ce4-93a8-ce5082456868)]
+[@GuidRef(dbe8a63f-bfb7-4ace-8028-22723b5552ea, 4d5afabd-d0e5-421c-9401-d336c63fd1df)]
+ENTITYLINK ProductionType TO Siemens.SimaticIT.U4DM.OperationalData.Runtime.OPModel.DataModel.ProductionType
+
+///This entity represents the classification of Defects according to their type. The following Defect Groups are supported by default: 
+///- Product: Represents defects found in the product that is being manufactured.
+///- Component: Represents defects found in components used as material to be consumed to manufacture the final product.
+///- Instructions: Represents defects found in the Work Instructions or Documents used to define the end-to-end manufacturing of the product.
+///- Tooling: Represents defects found in the Tools used to manufacture the product.
+[@Guid(0c3d044b-0eff-4e80-a68e-5366e97cdc9d)]
+[@GuidRef(ead9ee2a-a368-44a0-acc0-b189698b2dd1, 2490dd3b-b542-494c-ae28-7e1da993aad7)]
+ENTITYLINK DefectGroup TO Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.DefectGroup
+
+[@Guid(840e17a7-65a0-453f-9976-108ad2b83102)]
+[@GuidRef(990644b0-35d5-4946-81dd-381da4f0b7e3, eefbbd7a-4cb2-4018-ade7-ed74fb47e6e3)]
+ENTITYLINK WorkInstructionHistory TO NSOFT.OperationalData.WIHistoryOP.OPModel.DataModel.WorkInstructionHistory
+
+[@Guid(96e95c65-67a3-48c1-9efb-654001465562)]
+[@GuidRef(979a5881-8e44-4aac-a63a-9d7e25dbca18, 1860c0a6-a804-4567-8e0f-a855607241d6)]
+ENTITYLINK Interface_View TO NSOFT.Interface.InterfaceViewModel.DSModel.DataModel.Interface_View
+

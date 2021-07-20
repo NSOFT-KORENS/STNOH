@@ -1,0 +1,87 @@
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>37d0eaf0-9226-4bb9-a9d8-e3792a6b6d25</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NSOFT.STNOH.Installer</RootNamespace>
+    <AssemblyName>NSOFT.STNOH.Installer</AssemblyName>
+    <Name>STNOH.Installer</Name>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FunctionalBlockType>Project</FunctionalBlockType>
+    <FunctionalBlockVersion>01.00.00</FunctionalBlockVersion>
+    <FunctionalBlockName>STNOH</FunctionalBlockName>
+    <FunctionalBlockPrefix>NSOFT</FunctionalBlockPrefix>
+    <FunctionalBlockModels>NSOFT.STNOH.STNOH.DSPOMModel</FunctionalBlockModels>
+    <FunctionalBlockDescription>
+    </FunctionalBlockDescription>
+    <SitPlatformVersion>4.1</SitPlatformVersion>
+    <AutoDeployPackage>True</AutoDeployPackage>
+    <CanBeExtended>False</CanBeExtended>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU'  ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+    <Folder Include="ExternalDependencies" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\NSOFT.STNOH.Dbinit.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\NSOFT.STNOH.References.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\NSOFT.STNOH.ApplicationLog.en-US.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\STNOH.CommandHandler\STNOH.CommandHandler.csproj">
+      <Name>STNOH.CommandHandler</Name>
+      <Project>{b470aeb5-67bc-46be-8365-723cdbde5a6e}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\STNOH.DSPOMModel\STNOH.DSPOMModel.pmproj">
+      <Name>STNOH.DSPOMModel</Name>
+      <Project>{9fc30b95-577b-48d6-8567-d96d9f9e8225}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\STNOH.EventHandler\STNOH.EventHandler.csproj">
+      <Name>STNOH.EventHandler</Name>
+      <Project>{c8d8b182-af77-4e89-928a-eabc6be5fa2a}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\STNOH.ReadingFunctionHandler\STNOH.ReadingFunctionHandler.csproj">
+      <Name>STNOH.ReadingFunctionHandler</Name>
+      <Project>{701d1596-b7d7-41b0-a01f-036e867bd469}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\STNOH.UserInterface\STNOH.UserInterface.csproj">
+      <Name>STNOH.UserInterface</Name>
+      <Project>{cf08031e-e4b8-4346-b350-9cc86ac198a6}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(SITUnifiedVSToolingPlatformBin)\Siemens.SimaticIt.Build.Installer.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

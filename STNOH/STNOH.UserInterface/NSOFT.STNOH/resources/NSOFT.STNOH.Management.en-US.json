@@ -1,0 +1,17 @@
+{
+  "NSOFT_STNOH_MailManagement": {
+    "MasterTitle": "Mail Management",
+    "Content": "Content",
+    "MailType": "Mail Type",
+    "IsActive": "Is Active",
+    "Title": "Title",
+    "addTitle": "Add Content",
+    "editTitle": "Edit Content",
+    "DeleteConfirmMessage01": "Are you sure you want to delete it?",
+    "DetailTitle": "Overview",
+    "User": "Users",
+    "Associate": "Associate",
+    "UnAssociate": "UnAssociate",
+    "AddUser": "Add Users"
+  }
+}

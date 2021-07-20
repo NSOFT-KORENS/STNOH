@@ -1,0 +1,19 @@
+{
+  "name": "NSOFT.STNOH.LaborTrainingUserMgt",
+  "type": "standard",
+  "title": "LaborTrainingUserMgt",
+  "header": "",
+  "icon": "fa-folder",
+  "functionalBlock": "NSOFT.STNOH",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.NSOFT_STNOH_LaborTrainingUserMgt_LaborTrainingUserMgt",
+      "title": "LaborTrainingUserMgt",
+      "header": "",
+      "securable": true,
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

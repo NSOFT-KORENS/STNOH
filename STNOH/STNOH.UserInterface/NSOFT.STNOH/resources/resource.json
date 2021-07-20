@@ -1,0 +1,11 @@
+﻿{
+  "NSOFT_STNOH_LaborTraining": "NSOFT.STNOH.LaborTraining",
+  "NSOFT_STNOH_LinkManagement": "NSOFT.STNOH.LinkManagement",
+  "NSOFT_STNOH_LinkSearch": "NSOFT.STNOH.LinkSearch",
+  "NSOFT.STNOH_ProductionResult": "NSOFT.STNOH.ProductionResult",
+  "NSOFT_STNOH_FirstArticleInspectionManagement": "NSOFT.STNOH.FirstArticleInspectionManagement",
+  "NSOFT_STNOH_MailManagement": "NSOFT.STNOH.Management",
+  "Andon": "NSOFT.STNOH.AndonOccurrenStatusandMeasures",
+  "ByPassProcessList": "NSOFT.STNOH.ByPassProcessList",
+  "ByPassProcessStatus": "NSOFT.STNOH.ByPassProcessStatus"
+}

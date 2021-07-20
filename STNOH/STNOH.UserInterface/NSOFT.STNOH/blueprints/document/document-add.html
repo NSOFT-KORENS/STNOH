@@ -1,0 +1,30 @@
+﻿<sit-side-panel sit-title="{{vm.sidepanelConfig.title}}"
+                sit-actions="vm.sidepanelConfig.actionButtons"
+                sit-commands="vm.sidepanelConfig.commandButtons"
+                sit-close="vm.sidepanelConfig.closeButton">
+
+    <div id="itemList" class="uadm-side-panel-container" style="height:100%;" ng-show="!vm.editGridVisible">
+        <sit-item-collection-viewer sit-data="vm.documentListData" sit-options="vm.documentListOptions"></sit-item-collection-viewer>
+    </div>
+    <div ng-show="vm.editGridVisible" style="height: 100%;">
+        <sit-property-grid sit-id="edit_form"
+                           sit-layout="Vertical"
+                           sit-type="Fluid"
+                           sit-mode="edit"
+                           sit-columns="1">
+            <!-- TODO: Put here the properties of the entity managed by the service -->
+            <sit-property sit-widget="sit-text"
+                          sit-value="vm.fileData.NId"
+                          sit-validation="vm.fileValidation">{{'NSOFT_NoticeBoard.Identifier' | translate}}</sit-property>
+            <sit-property sit-widget="sit-text"
+                          sit-value="vm.fileData.FileName"
+                          sit-read-only="true">{{'NSOFT_NoticeBoard.FileName' | translate}}</sit-property>
+            <sit-property sit-widget="sit-text"
+                          sit-value="vm.fileData.Type"
+                          sit-read-only="true">{{'NSOFT_NoticeBoard.MIMEType' | translate}}</sit-property>
+            <sit-property sit-widget="sit-text"
+                          sit-value="vm.fileData.Size"
+                          sit-read-only="true">{{'NSOFT_NoticeBoard.FileSize' | translate}}</sit-property>
+        </sit-property-grid>
+    </div>
+</sit-side-panel>

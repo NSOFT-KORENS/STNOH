@@ -1,0 +1,15 @@
+﻿<sit-side-panel sit-title="{{vm.sidepanelConfig.title}}" sit-messages="vm.sidepanelConfig.messages" sit-actions="vm.sidepanelConfig.actionButtons"
+                sit-close="vm.sidepanelConfig.closeButton">
+    <!-- <button ng-click="vm.cancel()" class="btn side-panel-button">Cancel</button>
+    <button ng-click="vm.save()" class="btn side-panel-button" ng-show="vm.validInputs">Save</button> -->
+    </div>
+    <div data-internal-id="material-item-add-property-grid">
+        <sit-property-grid sit-id="materialItemAdd"
+                           sit-data="vm.propertyGrid.data"
+                           sit-layout="{{vm.propertyGrid.layout}}"
+                           sit-type="{{vm.propertyGrid.type}}"
+                           sit-mode="{{vm.propertyGrid.mode}}"
+                           sit-columns="vm.propertyGrid.columns">
+        </sit-property-grid>
+    </div>
+</sit-side-panel>

@@ -1,0 +1,2580 @@
+{
+  "name": "NSOFT.STNOH.LaborTraining",
+  "type": "model-driven",
+  "manifestVersion": "02.01.00",
+  "title": "Labor Training",
+  "header": "NSOFT_STNOH_LaborTraining.Title",
+  "icon": "svg cmdTraining24",
+  "functionalBlock": "NSOFT.STNOH",
+  "dependencies": [],
+  "states": [
+    {
+      "appName": "STNOH",
+      "appPrefix": "NSOFT.",
+      "urlPrefix": "LaborTraining",
+      "id": "home.NSOFT_STNOH_LaborTraining_LaborTraining",
+      "title": "Labor Training",
+      "header": "NSOFT_STNOH_LaborTraining.Title",
+      "activeContent": "LaborTrainingContent",
+      "layoutTemplate": "singleEntity",
+      "icon": "svg cmdTraining24",
+      "securable": true,
+      "params": [],
+      "contents": {
+        "LaborTrainingContent": {
+          "id": "LaborTrainingContent",
+          "title": "NSOFT_STNOH_LaborTraining.Title",
+          "query": "",
+          "multiplicity": "many",
+          "master": true,
+          "enableMultiSelection": false,
+          "properties": [
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "NId"
+              },
+              "name": "NId",
+              "label": "sit.u4dm.nid",
+              "type": "String",
+              "sortable": true,
+              "searchable": true
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Name"
+              },
+              "name": "Name",
+              "label": "sit.u4dm.name",
+              "type": "String",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Description"
+              },
+              "name": "Description",
+              "label": "NSOFT_STNOH_LaborTraining.description",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "TrainingType"
+              },
+              "name": "TrainingType",
+              "label": "NSOFT_STNOH_LaborTraining.TrainingType",
+              "type": "String",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "FromTrainingDate"
+              },
+              "name": "FromTrainingDate",
+              "label": "NSOFT_STNOH_LaborTraining.FromTrainingDate",
+              "type": "DateTimeOffset",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "ToTrainingDate"
+              },
+              "name": "ToTrainingDate",
+              "label": "NSOFT_STNOH_LaborTraining.ToTrainingDate",
+              "type": "DateTimeOffset",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "ExpirationDate"
+              },
+              "name": "ExpirationDate",
+              "label": "NSOFT_STNOH_LaborTraining.ExpirationDate",
+              "type": "DateTimeOffset",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Certificate"
+              },
+              "name": "Certificate",
+              "label": "NSOFT_STNOH_LaborTraining.Certificate",
+              "type": "String",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "CertificateLevel"
+              },
+              "name": "CertificateLevel",
+              "label": "NSOFT_STNOH_LaborTraining.CertificateLevel",
+              "type": "String",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Status.StateMachineNId"
+              },
+              "name": "Status.StateMachineNId",
+              "label": "Status_StateMachineNId",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Status.StatusNId"
+              },
+              "name": "Status.StatusNId",
+              "label": "NSOFT_STNOH_LaborTraining.Status",
+              "type": "String",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Id"
+              },
+              "name": "Id",
+              "label": "Id",
+              "type": "Guid",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "IsFrozen"
+              },
+              "name": "IsFrozen",
+              "label": "IsFrozen",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "CreatedOn"
+              },
+              "name": "CreatedOn",
+              "label": "CreatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "LastUpdatedOn"
+              },
+              "name": "LastUpdatedOn",
+              "label": "LastUpdatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "ToBeCleaned"
+              },
+              "name": "ToBeCleaned",
+              "label": "ToBeCleaned",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            }
+          ],
+          "blueprintSettings": {
+            "viewOptions": "g",
+            "viewMode": "g",
+            "tileConfig": {
+              "commands": [
+                {
+                  "img": "svg cmdOpen24",
+                  "visible": {
+                    "expression": ""
+                  },
+                  "tooltip": "sit.u4dm.open",
+                  "destination": "NSOFT_STNOH_LaborTraining_LaborTrainingDetail",
+                  "drillDownParams": {
+                    "Id": "contents.LaborTrainingContent.selectedItem.Id"
+                  },
+                  "type": "drill-down"
+                }
+              ],
+              "titleField": "",
+              "descriptionField": "",
+              "icon": "",
+              "isCell": false,
+              "propertyFields": [],
+              "indicators": [],
+              "titleFieldSource": "",
+              "descriptionFieldSource": ""
+            },
+            "gridConfig": {
+              "columnDefs": [
+                {
+                  "field": "NId",
+                  "displayName": "sit.u4dm.nid",
+                  "type": "String",
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "Name",
+                  "displayName": "sit.u4dm.name",
+                  "type": "String",
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "Description",
+                  "displayName": "NSOFT_STNOH_LaborTraining.description",
+                  "type": "String",
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "ExpirationDate",
+                  "displayName": "NSOFT_STNOH_LaborTraining.ExpirationDate",
+                  "type": "DateTimeOffset",
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "FromTrainingDate",
+                  "displayName": "NSOFT_STNOH_LaborTraining.FromTrainingDate",
+                  "type": "DateTimeOffset",
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "ToTrainingDate",
+                  "displayName": "NSOFT_STNOH_LaborTraining.ToTrainingDate",
+                  "type": "DateTimeOffset",
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "TrainingType",
+                  "displayName": "NSOFT_STNOH_LaborTraining.TrainingType",
+                  "type": "String",
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "Certificate",
+                  "displayName": "NSOFT_STNOH_LaborTraining.Certificate",
+                  "type": "String",
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "Status.StatusNId",
+                  "displayName": "NSOFT_STNOH_LaborTraining.Status",
+                  "type": "String",
+                  "visible": {
+                    "expression": ""
+                  }
+                }
+              ],
+              "commands": [
+                {
+                  "img": "svg cmdOpen24",
+                  "visible": {
+                    "expression": ""
+                  },
+                  "tooltip": "sit.u4dm.open",
+                  "destination": "NSOFT_STNOH_LaborTraining_LaborTrainingDetail",
+                  "drillDownParams": {
+                    "Id": "contents.LaborTrainingContent.selectedItem.Id"
+                  },
+                  "type": "drill-down"
+                }
+              ],
+              "showSelectionCheckbox": false
+            },
+            "tagField": "",
+            "pagingOptions": {
+              "pageSizes": [
+                5,
+                10,
+                25,
+                100,
+                250,
+                500
+              ],
+              "pageSize": 10,
+              "currentPage": 1
+            },
+            "downloadOptions": {
+              "enabled": false,
+              "fileName": "",
+              "separator": ""
+            },
+            "sortingDirection": "asc",
+            "isFilterPanel": false,
+            "filterOptions": {
+              "showDefaultClause": false,
+              "showMatchCase": true,
+              "allowedOperators": "",
+              "groupEnabled": true
+            },
+            "filterEnabled": true,
+            "exportManager": false,
+            "tagsManager": true,
+            "breadcrumbTitle": "",
+            "useScreenTitleInBreadcrumb": true,
+            "serverSidePagination": false,
+            "enablePaging": true,
+            "filterBarOptions": "sqgf",
+            "filterFields": [
+              {
+                "field": "Certificate",
+                "displayName": "NSOFT_STNOH_LaborTraining.Certificate",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [
+                  ""
+                ],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "CertificateLevel",
+                "displayName": "NSOFT_STNOH_LaborTraining.CertificateLevel",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "Description",
+                "displayName": "NSOFT_STNOH_LaborTraining.description",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "ExpirationDate",
+                "displayName": "NSOFT_STNOH_LaborTraining.ExpirationDate",
+                "type": "DateTimeOffset",
+                "default": false,
+                "widget": "sit-date-time-picker",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [
+                  ""
+                ],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "FromTrainingDate",
+                "displayName": "NSOFT_STNOH_LaborTraining.FromTrainingDate",
+                "type": "DateTimeOffset",
+                "default": false,
+                "widget": "sit-date-time-picker",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "Name",
+                "displayName": "sit.u4dm.name",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "NId",
+                "displayName": "sit.u4dm.nid",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "ToTrainingDate",
+                "displayName": "NSOFT_STNOH_LaborTraining.ToTrainingDate",
+                "type": "DateTimeOffset",
+                "default": false,
+                "widget": "sit-date-time-picker",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "TrainingType",
+                "displayName": "NSOFT_STNOH_LaborTraining.TrainingType",
+                "type": "string",
+                "default": false,
+                "values": [
+                  "정기 교육",
+                  "기타 교육"
+                ],
+                "widget": "sit-select",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [
+                  ""
+                ],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              }
+            ]
+          },
+          "actions": [
+            {
+              "id": "CreateLaborTraining",
+              "title": "NSOFT_STNOH_LaborTraining.CreateLaborTraining",
+              "tooltip": "NSOFT_STNOH_LaborTraining.CreateLaborTraining",
+              "icon": "svg cmdAdd24",
+              "main": true,
+              "params": {},
+              "behavior": {
+                "type": "command",
+                "blueprint": {
+                  "controller": "mdui_LaborTrainingMgt_Add_Ctrl",
+                  "url": "NSOFT.STNOH/blueprints/laborTraining/laborTraining-add.html"
+                },
+                "displayMode": "sidePanel",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "LaborTrainingContent",
+                      "key": "Id"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "UpdateLaborTraining",
+              "title": "NSOFT_STNOH_LaborTraining.UpdateLaborTraining",
+              "tooltip": "NSOFT_STNOH_LaborTraining.UpdateLaborTraining",
+              "icon": "svg cmdEdit24",
+              "main": true,
+              "params": {
+                "selectedItem": "contents.LaborTrainingContent.selectedItem"
+              },
+              "behavior": {
+                "type": "command",
+                "blueprint": {
+                  "url": "NSOFT.STNOH/blueprints/laborTraining/laborTraining-add.html",
+                  "controller": "mdui_LaborTrainingMgt_Add_Ctrl"
+                },
+                "displayMode": "sidePanel",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "LaborTrainingContent",
+                      "key": "Id"
+                    }
+                  ]
+                }
+              },
+              "show": {
+                "expression": "contents.LaborTrainingContent.selectedItem && contents.LaborTrainingContent.selectedItem.Status.StatusNId =='Created'"
+              }
+            },
+            {
+              "id": "DeleteLaborTraining",
+              "title": "NSOFT_STNOH_LaborTraining.DeleteLaborTraining",
+              "tooltip": "NSOFT_STNOH_LaborTraining.DeleteLaborTraining",
+              "icon": "svg cmdTrash24",
+              "main": true,
+              "params": {},
+              "behavior": {
+                "type": "confirm",
+                "commandRef": {
+                  "app": "STNOH",
+                  "command": "DeleteLaborTraining",
+                  "fullName": "NSOFT.STNOH.STNOH.DSPOMModel.Commands.Published.DeleteLaborTraining"
+                },
+                "displayMode": "sidePanel",
+                "panelTitle": "",
+                "panelTitleField": "",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "LaborTrainingContent",
+                      "key": "Id"
+                    }
+                  ]
+                },
+                "fields": [
+                  {
+                    "name": "Id",
+                    "label": "Id",
+                    "type": "Guid",
+                    "parameterRef": {
+                      "app": "STNOH",
+                      "command": "DeleteLaborTraining",
+                      "parameter": "Id"
+                    },
+                    "values": [],
+                    "value": {
+                      "body": "return contents.LaborTrainingContent.selectedItem.Id"
+                    },
+                    "hidden": false,
+                    "readOnly": false,
+                    "inputMode": "queryResult",
+                    "validation": {
+                      "required": false
+                    },
+                    "enableMultiSelection": false,
+                    "useEntityPicker": false
+                  }
+                ],
+                "confirm": "NSOFT_STNOH_LaborTraining.DeleteConfirmMsg01"
+              },
+              "show": {
+                "expression": "contents.LaborTrainingContent.selectedItem && contents.LaborTrainingContent.selectedItem.Status.StatusNId =='Created'"
+              }
+            }
+          ],
+          "rootEntity": {
+            "name": ""
+          },
+          "entityRef": {
+            "entity": "LaborTraining",
+            "app": "STNOH"
+          },
+          "fieldSources": []
+        }
+      },
+      "autoGenerate": true,
+      "help": ""
+    },
+    {
+      "appName": "STNOH",
+      "appPrefix": "NSOFT.",
+      "urlPrefix": "LaborTrainingDetail",
+      "id": "home.NSOFT_STNOH_LaborTraining_LaborTrainingDetail",
+      "title": "",
+      "header": "",
+      "activeContent": "",
+      "layoutTemplate": "masterDetails",
+      "icon": "",
+      "securable": true,
+      "params": [],
+      "contents": {
+        "LaborTrainingDetailContent": {
+          "id": "LaborTrainingDetailContent",
+          "title": "NSOFT_STNOH_LaborTraining.detailTitle",
+          "query": "$filter=Id eq {{contents.LaborTrainingMasterSelect.selectedItem.Id}}",
+          "multiplicity": "one",
+          "master": false,
+          "enableMultiSelection": false,
+          "properties": [
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "NId"
+              },
+              "name": "NId",
+              "label": "sit.u4dm.nid",
+              "type": "String",
+              "sortable": true,
+              "searchable": true
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Name"
+              },
+              "name": "Name",
+              "label": "sit.u4dm.name",
+              "type": "String",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Description"
+              },
+              "name": "Description",
+              "label": "NSOFT_STNOH_LaborTraining.description",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "ExpirationDate"
+              },
+              "name": "ExpirationDate",
+              "label": "NSOFT_STNOH_LaborTraining.ExpirationDate",
+              "type": "DateTimeOffset",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "FromTrainingDate"
+              },
+              "name": "FromTrainingDate",
+              "label": "NSOFT_STNOH_LaborTraining.FromTrainingDate",
+              "type": "DateTimeOffset",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "ToTrainingDate"
+              },
+              "name": "ToTrainingDate",
+              "label": "NSOFT_STNOH_LaborTraining.ToTrainingDate",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "TrainingType"
+              },
+              "name": "TrainingType",
+              "label": "NSOFT_STNOH_LaborTraining.TrainingType",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Certificate"
+              },
+              "name": "Certificate",
+              "label": "NSOFT_STNOH_LaborTraining.Certificate",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "CertificateLevel"
+              },
+              "name": "CertificateLevel",
+              "label": "NSOFT_STNOH_LaborTraining.CertificateLevel",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Status.StateMachineNId"
+              },
+              "name": "Status.StateMachineNId",
+              "label": "Status_StateMachineNId",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Status.StatusNId"
+              },
+              "name": "Status.StatusNId",
+              "label": "NSOFT_STNOH_LaborTraining.Status",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Id"
+              },
+              "name": "Id",
+              "label": "Id",
+              "type": "Guid",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "IsFrozen"
+              },
+              "name": "IsFrozen",
+              "label": "IsFrozen",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "CreatedOn"
+              },
+              "name": "CreatedOn",
+              "label": "CreatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "LastUpdatedOn"
+              },
+              "name": "LastUpdatedOn",
+              "label": "LastUpdatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "ToBeCleaned"
+              },
+              "name": "ToBeCleaned",
+              "label": "ToBeCleaned",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            }
+          ],
+          "blueprintSettings": {
+            "gridConfig": {
+              "columnDefs": [
+                {
+                  "field": "NId",
+                  "displayName": "sit.u4dm.nid",
+                  "type": "String",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "Name",
+                  "displayName": "sit.u4dm.name",
+                  "type": "String",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "Description",
+                  "displayName": "NSOFT_STNOH_LaborTraining.description",
+                  "type": "String",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "FromTrainingDate",
+                  "displayName": "NSOFT_STNOH_LaborTraining.FromTrainingDate",
+                  "type": "DateTimeOffset",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "ToTrainingDate",
+                  "displayName": "NSOFT_STNOH_LaborTraining.ToTrainingDate",
+                  "type": "DateTimeOffset",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "ExpirationDate",
+                  "displayName": "NSOFT_STNOH_LaborTraining.ExpirationDate",
+                  "type": "DateTimeOffset",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "Certificate",
+                  "displayName": "NSOFT_STNOH_LaborTraining.Certificate",
+                  "type": "String",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "CertificateLevel",
+                  "displayName": "NSOFT_STNOH_LaborTraining.CertificateLevel",
+                  "type": "String",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "TrainingType",
+                  "displayName": "NSOFT_STNOH_LaborTraining.TrainingType",
+                  "type": "String",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "Status.StatusNId",
+                  "displayName": "NSOFT_STNOH_LaborTraining.Status",
+                  "type": "String",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "IsFrozen",
+                  "displayName": "IsFrozen",
+                  "type": "Boolean",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "CreatedOn",
+                  "displayName": "CreatedOn",
+                  "type": "DateTimeOffset",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "LastUpdatedOn",
+                  "displayName": "LastUpdatedOn",
+                  "type": "DateTimeOffset",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                },
+                {
+                  "field": "ToBeCleaned",
+                  "displayName": "ToBeCleaned",
+                  "type": "Boolean",
+                  "isIndicatorIcon": false,
+                  "visible": {
+                    "expression": ""
+                  }
+                }
+              ],
+              "commands": [],
+              "showSelectionCheckbox": false
+            },
+            "layoutSettings": {
+              "layout": "Horizontal",
+              "columns": 1,
+              "type": "Fixed"
+            }
+          },
+          "actions": [
+            {
+              "id": "SetLaborTrainingStatus",
+              "title": "NSOFT_STNOH_LaborTraining.SetLaborTrainingStatus",
+              "tooltip": "",
+              "icon": "svg cmdChangeCategory24",
+              "main": true,
+              "params": {
+                "selectedItem": "contents.LaborTrainingMasterSelect.selectedItem"
+              },
+              "behavior": {
+                "type": "command",
+                "blueprint": {
+                  "controller": "mdui_LaborTrainingMgt_Add_Ctrl",
+                  "url": "NSOFT.STNOH/blueprints/laborTraining/laborTraining-add.html"
+                },
+                "displayMode": "sidePanel",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "LaborTrainingDetailContent",
+                      "key": "Id"
+                    }
+                  ]
+                }
+              },
+              "show": {
+                "expression": "contents.LaborTrainingMasterSelect.selectedItem && contents.LaborTrainingMasterSelect.selectedItem.Status.StatusNId != 'Completed' && contents.LaborTrainingMasterSelect.selectedItem.Status.StatusNId != 'Aborted' && activeContent == 'LaborTrainingDetailContent'"
+              }
+            }
+          ],
+          "rootEntity": {
+            "name": ""
+          },
+          "entityRef": {
+            "entity": "LaborTraining",
+            "app": "STNOH"
+          },
+          "fieldSources": []
+        },
+        "LaborTrainingMasterSelect": {
+          "id": "LaborTrainingMasterSelect",
+          "title": "NSOFT_STNOH_LaborTraining.detailTitle",
+          "query": "",
+          "multiplicity": "many",
+          "master": true,
+          "enableMultiSelection": false,
+          "properties": [
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "NId"
+              },
+              "name": "NId",
+              "label": "sit.u4dm.nid",
+              "type": "String",
+              "sortable": true,
+              "searchable": true
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Name"
+              },
+              "name": "Name",
+              "label": "sit.u4dm.name",
+              "type": "String",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Description"
+              },
+              "name": "Description",
+              "label": "NSOFT_STNOH_LaborTraining.description",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "TrainingType"
+              },
+              "name": "TrainingType",
+              "label": "TrainingType",
+              "type": "String",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "NSOFT_STNOH_LaborTraining.FromTrainingDate"
+              },
+              "name": "FromTrainingDate",
+              "label": "NSOFT_STNOH_LaborTraining.FromTrainingDate",
+              "type": "DateTimeOffset",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "ToTrainingDate"
+              },
+              "name": "ToTrainingDate",
+              "label": "ToTrainingDate",
+              "type": "DateTimeOffset",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "NSOFT_STNOH_LaborTraining.ExpirationDate"
+              },
+              "name": "ExpirationDate",
+              "label": "ExpirationDate",
+              "type": "DateTimeOffset",
+              "sortable": true,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Certificate"
+              },
+              "name": "Certificate",
+              "label": "Certificate",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "CertificateLevel"
+              },
+              "name": "CertificateLevel",
+              "label": "NSOFT_STNOH_LaborTraining.CertificateLevel",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Status.StateMachineNId"
+              },
+              "name": "Status.StateMachineNId",
+              "label": "Status_StateMachineNId",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Status.StatusNId"
+              },
+              "name": "Status.StatusNId",
+              "label": "Status_StatusNId",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "Id"
+              },
+              "name": "Id",
+              "label": "Id",
+              "type": "Guid",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "IsFrozen"
+              },
+              "name": "IsFrozen",
+              "label": "IsFrozen",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "CreatedOn"
+              },
+              "name": "CreatedOn",
+              "label": "CreatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "LastUpdatedOn"
+              },
+              "name": "LastUpdatedOn",
+              "label": "LastUpdatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTraining",
+                "app": "NSOFT.STNOH",
+                "property": "ToBeCleaned"
+              },
+              "name": "ToBeCleaned",
+              "label": "ToBeCleaned",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            }
+          ],
+          "blueprintSettings": {
+            "viewOptions": "c",
+            "viewMode": "c",
+            "tileConfig": {
+              "commands": [],
+              "titleField": "NId",
+              "descriptionField": "Description",
+              "icon": "sit sit-certification",
+              "isCell": false,
+              "propertyFields": [
+                {
+                  "field": "Name",
+                  "displayName": "sit.u4dm.name",
+                  "visible": {
+                    "expression": ""
+                  },
+                  "fieldSource": ""
+                },
+                {
+                  "field": "TrainingType",
+                  "displayName": "NSOFT_STNOH_LaborTraining.TrainingType",
+                  "visible": {
+                    "expression": ""
+                  },
+                  "fieldSource": ""
+                }
+              ],
+              "indicators": [],
+              "titleFieldSource": "",
+              "descriptionFieldSource": ""
+            },
+            "gridConfig": {
+              "columnDefs": [
+                {
+                  "field": "Certificate",
+                  "displayName": "Certificate",
+                  "visible": true,
+                  "type": "String"
+                },
+                {
+                  "field": "CertificateLevel",
+                  "displayName": "CertificateLevel",
+                  "visible": true,
+                  "type": "String"
+                },
+                {
+                  "field": "Description",
+                  "displayName": "Description",
+                  "visible": true,
+                  "type": "String"
+                },
+                {
+                  "field": "ExpirationDate",
+                  "displayName": "ExpirationDate",
+                  "visible": true,
+                  "type": "DateTimeOffset"
+                },
+                {
+                  "field": "FromTrainingDate",
+                  "displayName": "FromTrainingDate",
+                  "visible": true,
+                  "type": "DateTimeOffset"
+                },
+                {
+                  "field": "Name",
+                  "displayName": "Name",
+                  "visible": true,
+                  "type": "String"
+                },
+                {
+                  "field": "NId",
+                  "displayName": "NId",
+                  "visible": true,
+                  "type": "String"
+                },
+                {
+                  "field": "ToTrainingDate",
+                  "displayName": "ToTrainingDate",
+                  "visible": true,
+                  "type": "DateTimeOffset"
+                },
+                {
+                  "field": "TrainingType",
+                  "displayName": "TrainingType",
+                  "visible": true,
+                  "type": "String"
+                },
+                {
+                  "field": "Status.StateMachineNId",
+                  "displayName": "Status_StateMachineNId",
+                  "visible": true,
+                  "type": "String"
+                },
+                {
+                  "field": "Status.StatusNId",
+                  "displayName": "Status_StatusNId",
+                  "visible": true,
+                  "type": "String"
+                },
+                {
+                  "field": "Id",
+                  "displayName": "Id",
+                  "visible": true,
+                  "type": "Guid"
+                },
+                {
+                  "field": "IsFrozen",
+                  "displayName": "IsFrozen",
+                  "visible": true,
+                  "type": "Boolean"
+                },
+                {
+                  "field": "CreatedOn",
+                  "displayName": "CreatedOn",
+                  "visible": true,
+                  "type": "DateTimeOffset"
+                },
+                {
+                  "field": "LastUpdatedOn",
+                  "displayName": "LastUpdatedOn",
+                  "visible": true,
+                  "type": "DateTimeOffset"
+                },
+                {
+                  "field": "ToBeCleaned",
+                  "displayName": "ToBeCleaned",
+                  "visible": true,
+                  "type": "Boolean"
+                }
+              ],
+              "commands": [],
+              "showSelectionCheckbox": false
+            },
+            "tagField": "",
+            "image": "sit sit-certification",
+            "sortingDirection": "asc",
+            "isFilterPanel": false,
+            "filterOptions": {
+              "showDefaultClause": false,
+              "showMatchCase": true,
+              "allowedOperators": "",
+              "groupEnabled": true
+            },
+            "filterEnabled": true,
+            "exportManager": false,
+            "tagsManager": true,
+            "breadcrumbTitle": "NId",
+            "useScreenTitleInBreadcrumb": true,
+            "serverSidePagination": false,
+            "enablePaging": true,
+            "filterBarOptions": "sqgf",
+            "filterFields": [
+              {
+                "field": "Certificate",
+                "displayName": "NSOFT_STNOH_LaborTraining.Certificate",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [
+                  ""
+                ],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              }
+            ]
+          },
+          "actions": [],
+          "rootEntity": {
+            "name": ""
+          },
+          "entityRef": {
+            "entity": "LaborTraining",
+            "app": "STNOH"
+          },
+          "fieldSources": []
+        },
+        "LaborTrainingPlanDocument": {
+          "id": "LaborTrainingPlanDocument",
+          "title": "NSOFT_STNOH_LaborTraining.PlanTitle",
+          "query": "$filter=LaborTraining_Id eq {{contents.LaborTrainingMasterSelect.selectedItem.Id}}&$expand=Document",
+          "multiplicity": "many",
+          "master": false,
+          "enableMultiSelection": false,
+          "properties": [
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingPlanDocument",
+                "app": "NSOFT.STNOH",
+                "property": "LaborTraining"
+              },
+              "name": "LaborTraining",
+              "label": "LaborTraining",
+              "type": {},
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingPlanDocument",
+                "app": "NSOFT.STNOH",
+                "property": "Document"
+              },
+              "name": "Document",
+              "label": "Document",
+              "type": {},
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingPlanDocument",
+                "app": "NSOFT.STNOH",
+                "property": "Id"
+              },
+              "name": "Id",
+              "label": "Id",
+              "type": "Guid",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingPlanDocument",
+                "app": "NSOFT.STNOH",
+                "property": "IsFrozen"
+              },
+              "name": "IsFrozen",
+              "label": "IsFrozen",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingPlanDocument",
+                "app": "NSOFT.STNOH",
+                "property": "CreatedOn"
+              },
+              "name": "CreatedOn",
+              "label": "CreatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingPlanDocument",
+                "app": "NSOFT.STNOH",
+                "property": "LastUpdatedOn"
+              },
+              "name": "LastUpdatedOn",
+              "label": "LastUpdatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingPlanDocument",
+                "app": "NSOFT.STNOH",
+                "property": "ToBeCleaned"
+              },
+              "name": "ToBeCleaned",
+              "label": "ToBeCleaned",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            }
+          ],
+          "blueprintSettings": {
+            "viewOptions": "c",
+            "viewMode": "mc",
+            "tileConfig": {
+              "commands": [],
+              "titleField": "Document.NId",
+              "descriptionField": "Document.FileName",
+              "icon": "svg typeFile48",
+              "isCell": false,
+              "propertyFields": [
+                {
+                  "field": "Document.MIMEType",
+                  "displayName": "NSOFT_NoticeBoard.MIMEType"
+                },
+                {
+                  "field": "Document.Type",
+                  "displayName": "NSOFT_NoticeBoard.Type"
+                }
+              ],
+              "indicators": [],
+              "titleFieldSource": "",
+              "descriptionFieldSource": ""
+            },
+            "gridConfig": {
+              "columnDefs": [
+                {
+                  "field": "LaborTraining",
+                  "displayName": "LaborTraining",
+                  "visible": true,
+                  "type": "Object"
+                },
+                {
+                  "field": "Document",
+                  "displayName": "Document",
+                  "visible": true,
+                  "type": "Object"
+                },
+                {
+                  "field": "Id",
+                  "displayName": "Id",
+                  "visible": true,
+                  "type": "Guid"
+                },
+                {
+                  "field": "IsFrozen",
+                  "displayName": "IsFrozen",
+                  "visible": true,
+                  "type": "Boolean"
+                },
+                {
+                  "field": "CreatedOn",
+                  "displayName": "CreatedOn",
+                  "visible": true,
+                  "type": "DateTimeOffset"
+                },
+                {
+                  "field": "LastUpdatedOn",
+                  "displayName": "LastUpdatedOn",
+                  "visible": true,
+                  "type": "DateTimeOffset"
+                },
+                {
+                  "field": "ToBeCleaned",
+                  "displayName": "ToBeCleaned",
+                  "visible": true,
+                  "type": "Boolean"
+                }
+              ],
+              "commands": [],
+              "showSelectionCheckbox": false
+            },
+            "tagField": "",
+            "pagingOptions": {
+              "pageSizes": [
+                5,
+                10,
+                25,
+                100,
+                250,
+                500
+              ],
+              "pageSize": 10,
+              "currentPage": 1
+            },
+            "downloadOptions": {
+              "enabled": true,
+              "fileName": "",
+              "separator": ""
+            },
+            "sortingDirection": "asc",
+            "isFilterPanel": false,
+            "filterOptions": {
+              "showDefaultClause": true,
+              "showMatchCase": true,
+              "allowedOperators": "",
+              "groupEnabled": true
+            },
+            "filterEnabled": true,
+            "exportManager": false,
+            "tagsManager": true,
+            "serverSidePagination": false,
+            "enablePaging": true,
+            "filterBarOptions": "sqgf",
+            "filterFields": [
+              {
+                "field": "Document.NId",
+                "displayName": "NSOFT_NoticeBoard.Identifier",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [
+                  "=",
+                  "in",
+                  "contains"
+                ],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "Document.FileName",
+                "displayName": "NSOFT_NoticeBoard.Name",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [
+                  "=",
+                  "in",
+                  "contains"
+                ],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "Document.MIMEType",
+                "displayName": "NSOFT_NoticeBoard.MIMEType",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [
+                  "=",
+                  "in",
+                  "contains"
+                ],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              }
+            ],
+            "image": "svg typeFile48"
+          },
+          "actions": [
+            {
+              "id": "LinkDocument",
+              "title": "NSOFT_STNOH_LaborTraining.LinkDocument",
+              "tooltip": "NSOFT_STNOH_LaborTraining.LinkDocument",
+              "icon": "svg cmdLink24",
+              "main": true,
+              "params": {
+                "contentName": "activeContent",
+                "Id": "contents.LaborTrainingMasterSelect.selectedItem.Id"
+              },
+              "behavior": {
+                "type": "command",
+                "blueprint": {
+                  "controller": "mdui_LaborTrainingMgt_Document_Ctrl",
+                  "url": "NSOFT.STNOH/blueprints/document/document-add.html"
+                },
+                "displayMode": "sidePanel",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "LaborTrainingPlanDocument",
+                      "key": "Id"
+                    }
+                  ]
+                }
+              },
+              "show": {
+                "expression": "contents.LaborTrainingMasterSelect.selectedItem && activeContent=='LaborTrainingPlanDocument'"
+              }
+            },
+            {
+              "id": "UnLinkDocument",
+              "title": "NSOFT_STNOH_LaborTraining.UnLinkDocument",
+              "tooltip": "NSOFT_STNOH_LaborTraining.UnLinkDocument",
+              "icon": "svg cmdUnlink24",
+              "main": true,
+              "params": {
+                "DocumentId": "contents.LaborTrainingPlanDocument.selectedItem.Document.Id",
+                "LaborTrainingId": "contents.LaborTrainingMasterSelect.selectedItem.Id"
+              },
+              "behavior": {
+                "type": "confirm",
+                "commandRef": {
+                  "app": "STNOH",
+                  "command": "DeleteLaborTrainingPlanDocument",
+                  "fullName": "NSOFT.STNOH.STNOH.DSPOMModel.Commands.Published.DeleteLaborTrainingPlanDocument"
+                },
+                "displayMode": "sidePanel",
+                "panelTitle": "",
+                "panelTitleField": "",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "LaborTrainingPlanDocument",
+                      "key": "Id"
+                    }
+                  ]
+                },
+                "fields": [
+                  {
+                    "name": "LaborTrainingId",
+                    "label": "LaborTrainingId",
+                    "type": "Guid",
+                    "parameterRef": {
+                      "app": "STNOH",
+                      "command": "DeleteLaborTrainingPlanDocument",
+                      "parameter": "LaborTrainingId"
+                    },
+                    "values": [],
+                    "hidden": false,
+                    "readOnly": false,
+                    "value": {
+                      "body": "return contents.LaborTrainingMasterSelect.selectedItem.Id"
+                    },
+                    "inputMode": "queryResult",
+                    "validation": {
+                      "required": false
+                    },
+                    "enableMultiSelection": false,
+                    "useEntityPicker": false
+                  },
+                  {
+                    "name": "DocumentId",
+                    "label": "DocumentId",
+                    "type": "Guid",
+                    "parameterRef": {
+                      "app": "STNOH",
+                      "command": "DeleteLaborTrainingPlanDocument",
+                      "parameter": "DocumentId"
+                    },
+                    "values": [],
+                    "hidden": false,
+                    "readOnly": false,
+                    "value": {
+                      "body": "return contents.LaborTrainingPlanDocument.selectedItem.Document.Id"
+                    },
+                    "inputMode": "queryResult",
+                    "validation": {
+                      "required": false
+                    },
+                    "enableMultiSelection": false,
+                    "useEntityPicker": false
+                  }
+                ],
+                "confirm": "NSOFT_STNOH_LaborTraining.DeleteConfirmMsg01"
+              },
+              "show": {
+                "expression": "contents.LaborTrainingMasterSelect.selectedItem && contents.LaborTrainingPlanDocument.selectedItem && activeContent=='LaborTrainingPlanDocument'"
+              }
+            },
+            {
+              "id": "LinkDownload",
+              "title": "NSOFT_STNOH_LaborTraining.Download",
+              "tooltip": "NSOFT_STNOH_LaborTraining.Download",
+              "icon": "svg cmdDownload24",
+              "main": true,
+              "params": {
+                "alreadyAttachedDocument": "contents.LaborTrainingPlanDocument.selectedItem.Document"
+              },
+              "behavior": {
+                "type": "command",
+                "blueprint": {
+                  "controller": "document_download_Training_Ctrl",
+                  "url": "NSOFT.STNOH/blueprints/document/document-download.html"
+                },
+                "displayMode": "sidePanel",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "LaborTrainingPlanDocument",
+                      "key": "Id"
+                    }
+                  ]
+                }
+              },
+              "show": {
+                "expression": "contents.LaborTrainingMasterSelect.selectedItem && contents.LaborTrainingPlanDocument.selectedItem && activeContent=='LaborTrainingPlanDocument'"
+              }
+            }
+          ],
+          "rootEntity": {
+            "name": ""
+          },
+          "entityRef": {
+            "entity": "LaborTrainingPlanDocument",
+            "app": "STNOH"
+          },
+          "fieldSources": []
+        },
+        "LaborTrainingResultDocument": {
+          "id": "LaborTrainingResultDocument",
+          "title": "NSOFT_STNOH_LaborTraining.ResultTitle",
+          "query": "$filter=LaborTraining_Id eq {{contents.LaborTrainingMasterSelect.selectedItem.Id}}&$expand=Document",
+          "multiplicity": "many",
+          "master": false,
+          "enableMultiSelection": false,
+          "properties": [
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingResultDocument",
+                "app": "NSOFT.STNOH",
+                "property": "Document"
+              },
+              "name": "Document",
+              "label": "Document",
+              "type": {},
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingResultDocument",
+                "app": "NSOFT.STNOH",
+                "property": "LaborTraining"
+              },
+              "name": "LaborTraining",
+              "label": "LaborTraining",
+              "type": {},
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingResultDocument",
+                "app": "NSOFT.STNOH",
+                "property": "Id"
+              },
+              "name": "Id",
+              "label": "Id",
+              "type": "Guid",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingResultDocument",
+                "app": "NSOFT.STNOH",
+                "property": "IsFrozen"
+              },
+              "name": "IsFrozen",
+              "label": "IsFrozen",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingResultDocument",
+                "app": "NSOFT.STNOH",
+                "property": "CreatedOn"
+              },
+              "name": "CreatedOn",
+              "label": "CreatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingResultDocument",
+                "app": "NSOFT.STNOH",
+                "property": "LastUpdatedOn"
+              },
+              "name": "LastUpdatedOn",
+              "label": "LastUpdatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "LaborTrainingResultDocument",
+                "app": "NSOFT.STNOH",
+                "property": "ToBeCleaned"
+              },
+              "name": "ToBeCleaned",
+              "label": "ToBeCleaned",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            }
+          ],
+          "blueprintSettings": {
+            "viewOptions": "c",
+            "viewMode": "mc",
+            "tileConfig": {
+              "commands": [],
+              "titleField": "Document.NId",
+              "descriptionField": "Document.FileName",
+              "icon": "svg typeFile48",
+              "isCell": false,
+              "propertyFields": [
+                {
+                  "field": "Document.MIMEType",
+                  "displayName": "NSOFT_NoticeBoard.MIMEType"
+                },
+                {
+                  "field": "Document.Type",
+                  "displayName": "NSOFT_NoticeBoard.Type"
+                }
+              ],
+              "indicators": [],
+              "titleFieldSource": "",
+              "descriptionFieldSource": ""
+            },
+            "gridConfig": {
+              "columnDefs": [
+                {
+                  "field": "Document",
+                  "displayName": "Document",
+                  "visible": true,
+                  "type": "Object"
+                },
+                {
+                  "field": "LaborTraining",
+                  "displayName": "LaborTraining",
+                  "visible": true,
+                  "type": "Object"
+                },
+                {
+                  "field": "Id",
+                  "displayName": "Id",
+                  "visible": true,
+                  "type": "Guid"
+                },
+                {
+                  "field": "IsFrozen",
+                  "displayName": "IsFrozen",
+                  "visible": true,
+                  "type": "Boolean"
+                },
+                {
+                  "field": "CreatedOn",
+                  "displayName": "CreatedOn",
+                  "visible": true,
+                  "type": "DateTimeOffset"
+                },
+                {
+                  "field": "LastUpdatedOn",
+                  "displayName": "LastUpdatedOn",
+                  "visible": true,
+                  "type": "DateTimeOffset"
+                },
+                {
+                  "field": "ToBeCleaned",
+                  "displayName": "ToBeCleaned",
+                  "visible": true,
+                  "type": "Boolean"
+                }
+              ],
+              "commands": [],
+              "showSelectionCheckbox": false
+            },
+            "tagField": "",
+            "pagingOptions": {
+              "pageSizes": [
+                5,
+                10,
+                25,
+                100,
+                250,
+                500
+              ],
+              "pageSize": 10,
+              "currentPage": 1
+            },
+            "downloadOptions": {
+              "enabled": true,
+              "fileName": "",
+              "separator": ""
+            },
+            "sortingDirection": "asc",
+            "isFilterPanel": false,
+            "filterOptions": {
+              "showDefaultClause": true,
+              "showMatchCase": true,
+              "allowedOperators": "",
+              "groupEnabled": true
+            },
+            "filterEnabled": true,
+            "exportManager": false,
+            "tagsManager": true,
+            "serverSidePagination": false,
+            "enablePaging": true,
+            "filterBarOptions": "sqgf",
+            "filterFields": [
+              {
+                "field": "Document.NId",
+                "displayName": "NSOFT_NoticeBoard.Identifier",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [
+                  "=",
+                  "in",
+                  "contains"
+                ],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "Document.FileName",
+                "displayName": "NSOFT_NoticeBoard.Name",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [
+                  "=",
+                  "in",
+                  "contains"
+                ],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              },
+              {
+                "field": "Document.MIMEType",
+                "displayName": "NSOFT_NoticeBoard.MIMEType",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [
+                  "=",
+                  "in",
+                  "contains"
+                ],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              }
+            ],
+            "image": "svg typeFile48"
+          },
+          "actions": [
+            {
+              "id": "LinkResultDocument",
+              "title": "NSOFT_STNOH_LaborTraining.LinkDocument",
+              "tooltip": "NSOFT_STNOH_LaborTraining.LinkDocument",
+              "icon": "svg cmdLink24",
+              "main": true,
+              "params": {
+                "contentName": "activeContent",
+                "Id": "contents.LaborTrainingMasterSelect.selectedItem.Id"
+              },
+              "behavior": {
+                "type": "command",
+                "blueprint": {
+                  "controller": "mdui_LaborTrainingMgt_Document_Ctrl",
+                  "url": "NSOFT.STNOH/blueprints/document/document-add.html"
+                },
+                "displayMode": "sidePanel",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "LaborTrainingResultDocument",
+                      "key": "Id"
+                    }
+                  ]
+                }
+              },
+              "show": {
+                "expression": "contents.LaborTrainingMasterSelect.selectedItem && activeContent=='LaborTrainingResultDocument'"
+              }
+            },
+            {
+              "id": "UnLinkResultDocument",
+              "title": "NSOFT_STNOH_LaborTraining.UnLinkDocument",
+              "tooltip": "NSOFT_STNOH_LaborTraining.UnLinkDocument",
+              "icon": "svg cmdUnlink24",
+              "main": true,
+              "params": {
+                "DocumentId": "contents.LaborTrainingResultDocument.selectedItem.Document.Id",
+                "LaborTrainingId": "contents.LaborTrainingMasterSelect.selectedItem.Id"
+              },
+              "behavior": {
+                "type": "confirm",
+                "commandRef": {
+                  "app": "STNOH",
+                  "command": "DeleteLaborTrainingResultDocument",
+                  "fullName": "NSOFT.STNOH.STNOH.DSPOMModel.Commands.Published.DeleteLaborTrainingResultDocument"
+                },
+                "displayMode": "sidePanel",
+                "panelTitle": "",
+                "panelTitleField": "",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "LaborTrainingResultDocument",
+                      "key": "Id"
+                    }
+                  ]
+                },
+                "fields": [
+                  {
+                    "name": "LaborTrainingId",
+                    "label": "LaborTrainingId",
+                    "type": "Guid",
+                    "parameterRef": {
+                      "app": "STNOH",
+                      "command": "DeleteLaborTrainingResultDocument",
+                      "parameter": "LaborTrainingId"
+                    },
+                    "values": [],
+                    "value": {
+                      "body": "return contents.LaborTrainingMasterSelect.selectedItem.Id"
+                    },
+                    "hidden": false,
+                    "readOnly": false,
+                    "inputMode": "queryResult",
+                    "validation": {
+                      "required": false
+                    },
+                    "enableMultiSelection": false,
+                    "useEntityPicker": false
+                  },
+                  {
+                    "name": "DocumentId",
+                    "label": "DocumentId",
+                    "type": "Guid",
+                    "parameterRef": {
+                      "app": "STNOH",
+                      "command": "DeleteLaborTrainingResultDocument",
+                      "parameter": "DocumentId"
+                    },
+                    "values": [],
+                    "value": {
+                      "body": "return contents.LaborTrainingResultDocument.selectedItem.Document.Id"
+                    },
+                    "hidden": false,
+                    "readOnly": false,
+                    "inputMode": "queryResult",
+                    "validation": {
+                      "required": false
+                    },
+                    "enableMultiSelection": false,
+                    "useEntityPicker": false
+                  }
+                ],
+                "confirm": "NSOFT_STNOH_LaborTraining.DeleteConfirmMsg01"
+              },
+              "show": {
+                "expression": "contents.LaborTrainingMasterSelect.selectedItem && contents.LaborTrainingResultDocument.selectedItem && activeContent=='LaborTrainingResultDocument'"
+              }
+            },
+            {
+              "id": "LinkResultDownload",
+              "title": "NSOFT_STNOH_LaborTraining.Download",
+              "tooltip": "NSOFT_STNOH_LaborTraining.Download",
+              "icon": "svg cmdDownload24",
+              "main": true,
+              "params": {
+                "alreadyAttachedDocument": "contents.LaborTrainingResultDocument.selectedItem.Document"
+              },
+              "behavior": {
+                "type": "command",
+                "blueprint": {
+                  "controller": "document_download_Training_Ctrl",
+                  "url": "NSOFT.STNOH/blueprints/document/document-download.html"
+                },
+                "displayMode": "sidePanel",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "LaborTrainingResultDocument",
+                      "key": "Id"
+                    }
+                  ]
+                }
+              },
+              "show": {
+                "expression": "contents.LaborTrainingMasterSelect.selectedItem && contents.LaborTrainingResultDocument.selectedItem && activeContent=='LaborTrainingResultDocument'"
+              }
+            }
+          ],
+          "rootEntity": {
+            "name": ""
+          },
+          "entityRef": {
+            "entity": "LaborTrainingResultDocument",
+            "app": "STNOH"
+          },
+          "fieldSources": []
+        },
+        "Users": {
+          "id": "Users",
+          "title": "NSOFT_STNOH_LaborTraining.Users",
+          "query": "$expand=LaborTraining&$filter=LaborTraining/Id eq {{contents.LaborTrainingMasterSelect.selectedItem.Id}}",
+          "multiplicity": "many",
+          "master": false,
+          "enableMultiSelection": false,
+          "properties": [
+            {
+              "propertyRef": {
+                "entity": "UserLaborTrainingAssociation",
+                "app": "NSOFT.STNOH",
+                "property": "UserId"
+              },
+              "name": "UserId",
+              "label": "UserId",
+              "type": "String",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "UserLaborTrainingAssociation",
+                "app": "NSOFT.STNOH",
+                "property": "LaborTraining"
+              },
+              "name": "LaborTraining",
+              "label": "LaborTraining",
+              "type": {},
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "UserLaborTrainingAssociation",
+                "app": "NSOFT.STNOH",
+                "property": "Id"
+              },
+              "name": "Id",
+              "label": "Id",
+              "type": "Guid",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "UserLaborTrainingAssociation",
+                "app": "NSOFT.STNOH",
+                "property": "IsFrozen"
+              },
+              "name": "IsFrozen",
+              "label": "IsFrozen",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "UserLaborTrainingAssociation",
+                "app": "NSOFT.STNOH",
+                "property": "CreatedOn"
+              },
+              "name": "CreatedOn",
+              "label": "CreatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "UserLaborTrainingAssociation",
+                "app": "NSOFT.STNOH",
+                "property": "LastUpdatedOn"
+              },
+              "name": "LastUpdatedOn",
+              "label": "LastUpdatedOn",
+              "type": "DateTimeOffset",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "UserLaborTrainingAssociation",
+                "app": "NSOFT.STNOH",
+                "property": "ToBeCleaned"
+              },
+              "name": "ToBeCleaned",
+              "label": "ToBeCleaned",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false
+            },
+            {
+              "propertyRef": {
+                "entity": "UserLaborTrainingAssociation",
+                "app": "NSOFT.STNOH",
+                "property": "Pass"
+              },
+              "name": "Pass",
+              "label": "Pass",
+              "type": "Boolean",
+              "sortable": false,
+              "searchable": false,
+              "fieldSource": "",
+              "facetName": ""
+            }
+          ],
+          "blueprintSettings": {
+            "viewOptions": "gc",
+            "viewMode": "mc",
+            "tileConfig": {
+              "commands": [],
+              "titleField": "UserId",
+              "descriptionField": "",
+              "icon": "svg typePerson48",
+              "isCell": true,
+              "propertyFields": [],
+              "indicators": [
+                {
+                  "svgIcon": "svg indicatorInformationSuccess16",
+                  "visible": {
+                    "expression": "tileContent.Pass === true"
+                  }
+                },
+                {
+                  "svgIcon": "svg IndicatorRemoved16",
+                  "visible": {
+                    "expression": "tileContent.Pass === false"
+                  },
+                  "tooltip": ""
+                }
+              ],
+              "titleFieldSource": "",
+              "descriptionFieldSource": ""
+            },
+            "gridConfig": {
+              "columnDefs": [
+                {
+                  "field": "UserId",
+                  "displayName": "User Id",
+                  "visible": true,
+                  "type": "String"
+                },
+                {
+                  "field": "Pass",
+                  "displayName": "NSOFT_STNOH_LaborTraining.PassYN",
+                  "visible": true,
+                  "type": "Boolean"
+                }
+              ],
+              "commands": [],
+              "showSelectionCheckbox": false
+            },
+            "tagField": "",
+            "pagingOptions": {
+              "pageSizes": [
+                5,
+                10,
+                25,
+                100,
+                250,
+                500
+              ],
+              "pageSize": 10,
+              "currentPage": 1
+            },
+            "sortingDirection": "asc",
+            "isFilterPanel": false,
+            "filterOptions": {
+              "showDefaultClause": false,
+              "showMatchCase": false,
+              "allowedOperators": "",
+              "groupEnabled": false
+            },
+            "filterEnabled": true,
+            "exportManager": false,
+            "tagsManager": true,
+            "serverSidePagination": false,
+            "enablePaging": true,
+            "filterBarOptions": "sqgf",
+            "filterFields": [
+              {
+                "field": "UserId",
+                "displayName": "UserId",
+                "type": "string",
+                "default": false,
+                "values": "",
+                "widget": "sit-text",
+                "entityPickerTitle": "",
+                "allowedCompareOperators": [
+                  "=",
+                  "in",
+                  "contains"
+                ],
+                "validation": {},
+                "dataSource": {},
+                "useEntityPicker": false,
+                "entityPickerConfig": {},
+                "pagingMode": "client",
+                "fieldSource": ""
+              }
+            ],
+            "image": "svg typePerson48",
+            "downloadOptions": {
+              "enabled": true,
+              "fileName": "",
+              "separator": ""
+            }
+          },
+          "actions": [
+            {
+              "id": "UserAssociate",
+              "title": "NSOFT_STNOH_LaborTraining.Associate",
+              "tooltip": "NSOFT_STNOH_LaborTraining.Associate",
+              "icon": "svg cmdLink24",
+              "main": true,
+              "params": {
+                "LaborTrainingId": "contents.LaborTrainingMasterSelect.selectedItem.Id"
+              },
+              "behavior": {
+                "type": "command",
+                "blueprint": {
+                  "controller": "mdui_LaborTrainingUserMgt_selectUsersAdd_Ctrl",
+                  "url": "NSOFT.STNOH/modules/LaborTrainingUserMgt/LaborTrainingUserMgt-add.html"
+                },
+                "displayMode": "sidePanel",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "Users",
+                      "key": "Id"
+                    }
+                  ]
+                }
+              },
+              "show": {
+                "expression": "activeContent == 'Users' && contents.LaborTrainingMasterSelect.selectedItem"
+              }
+            },
+            {
+              "id": "UnAssociateUser",
+              "title": "NSOFT_STNOH_LaborTraining.UnAssociate",
+              "tooltip": "NSOFT_STNOH_LaborTraining.UnAssociate",
+              "icon": "svg cmdUnlink24",
+              "main": true,
+              "params": {
+                "LaborTrainingId": "contents.LaborTrainingMasterSelect.selectedItem.Id",
+                "UserId": "contents.Users.selectedItem.UserId"
+              },
+              "behavior": {
+                "type": "confirm",
+                "commandRef": {
+                  "command": "DeleteUserLaborTrainingAssociation",
+                  "app": "STNOH",
+                  "fullName": "NSOFT.STNOH.STNOH.DSPOMModel.Commands.Published.DeleteUserLaborTrainingAssociation"
+                },
+                "fields": [
+                  {
+                    "name": "UserId",
+                    "label": "UserId",
+                    "type": "String",
+                    "parameterRef": {
+                      "app": "STNOH",
+                      "command": "DeleteUserLaborTrainingAssociation",
+                      "parameter": "UserId"
+                    },
+                    "values": [],
+                    "hidden": false,
+                    "readOnly": false,
+                    "inputMode": "queryResult",
+                    "value": {
+                      "body": "return contents.Users.selectedItem.UserId"
+                    },
+                    "validation": {
+                      "required": false
+                    },
+                    "enableMultiSelection": false,
+                    "useEntityPicker": false
+                  },
+                  {
+                    "name": "LaborTrainingId",
+                    "label": "LaborTrainingId",
+                    "type": "Guid",
+                    "parameterRef": {
+                      "app": "STNOH",
+                      "command": "DeleteUserLaborTrainingAssociation",
+                      "parameter": "LaborTrainingId"
+                    },
+                    "value": {
+                      "body": "return contents.LaborTrainingMasterSelect.selectedItem.Id"
+                    },
+                    "values": [],
+                    "hidden": false,
+                    "readOnly": false,
+                    "inputMode": "queryResult",
+                    "validation": {
+                      "required": false
+                    },
+                    "enableMultiSelection": false,
+                    "useEntityPicker": false
+                  }
+                ],
+                "confirm": "NSOFT_STNOH_LaborTraining.DeleteConfirmMsg02",
+                "onExit": {
+                  "refreshAndSelectContents": [
+                    {
+                      "content": "Users",
+                      "key": "Id"
+                    }
+                  ]
+                }
+              },
+              "show": {
+                "expression": "activeContent == 'Users' && contents.LaborTrainingMasterSelect.selectedItem && contents.Users.selectedItem"
+              }
+            }
+          ],
+          "rootEntity": {
+            "name": ""
+          },
+          "entityRef": {
+            "entity": "UserLaborTrainingAssociation",
+            "app": "STNOH"
+          },
+          "fieldSources": []
+        }
+      },
+      "autoGenerate": true,
+      "help": ""
+    }
+  ]
+}

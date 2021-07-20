@@ -1,0 +1,12 @@
+{
+  "NSOFT_STNOH_ProductionResult": {
+    "Title": "Interface Tracking View",
+    "Id": "Identifier",
+    "InterfaceType": "Interface Type",
+    "InterfaceStatus": "Interface Status",
+    "Direction": "Direction",
+    "CompletedTxnData": "Completed Date",
+    "ResponseMsg": "Response Msg",
+    "ErrorMsg": "Error Msg"
+  }
+}

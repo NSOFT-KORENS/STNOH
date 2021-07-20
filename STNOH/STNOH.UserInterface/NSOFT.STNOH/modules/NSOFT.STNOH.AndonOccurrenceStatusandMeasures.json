@@ -1,0 +1,20 @@
+{
+  "name": "NSOFT.STNOH.AndonOccurrenceStatusandMeasures",
+  "type": "standard",
+  "title": "AndonOccurrenceStatusandMeasures",
+  "header": "",
+  "icon": "fa-folder",
+  "functionalBlock": "NSOFT.STNOH",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.NSOFT_STNOH_AndonOccurrenceStatusandMeasures_AndonOccurrenceStatusandMeasures",
+      "title": "Andon Occurren Status and Measures",
+      "header": "NSOFT_STNOH_AndonOccurrenStatusandMeasures.Title",
+      "icon": "svg typeChecklistMfg48",
+      "securable": true,
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

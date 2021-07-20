@@ -1,0 +1,23 @@
+﻿<sit-command-bar sit-type="action" sit-layout="vertical" style="float:right; height: 100%">
+    <sit-command svg-icon="cmdTrash24"
+                 sit-name="com.siemens.customcommand.delete"
+                 sit-tooltip="Delete"
+                 ng-click="vm.deleteButtonHandler"
+                 sit-label="Delete"
+                 ng-show="vm.isButtonVisible"></sit-command>
+    <sit-command svg-icon="cmdEdit24"
+                 sit-name="com.siemens.customcommand.edit"
+                 sit-tooltip="Edit"
+                 ng-click="vm.editButtonHandler"
+                 sit-label="Edit"
+                 ng-show="vm.isButtonVisible"></sit-command>
+    <sit-command svg-icon="cmdAdd24"
+                 sit-name="com.siemens.customcommand.add"
+                 sit-tooltip="Add"
+                 ng-click="vm.addButtonHandler"
+                 sit-label="Add"></sit-command>
+</sit-command-bar>
+
+<div id="itemlist" class="content-area content-area-relative" style="padding:16px; height: calc(100% - 30px) !important;">
+    <sit-item-collection-viewer sit-data="vm.viewerData" sit-options="vm.viewerOptions"></sit-item-collection-viewer>
+</div>

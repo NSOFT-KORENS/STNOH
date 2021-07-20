@@ -1,0 +1,19 @@
+{
+  "NSOFT_SNTOH_LinkManagement": {
+    "Title": "Link Management",
+    "save": "Save",
+    "cancel": "Cancel",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "delete",
+    "deleteConfirmMessage": "Are you sure you want to delete your selection?",
+    "addParameters": "Add Parameters",
+    "parameter": "Parameter",
+    "LinkManage": "Link Manage",
+    "LinkName": "Link Name",
+    "LinkUrl": "Link Url",
+    "LinkParameter": "Link Parameter",
+    "LinkParam": "Link Param",
+    "LinkValue": "Link Value"
+  }
+}

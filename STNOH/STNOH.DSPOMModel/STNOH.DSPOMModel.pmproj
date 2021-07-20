@@ -1,0 +1,368 @@
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>9fc30b95-577b-48d6-8567-d96d9f9e8225</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NSOFT.STNOH.STNOH.DSPOMModel</RootNamespace>
+    <AssemblyName>NSOFT.STNOH.STNOH.DSPOMModel</AssemblyName>
+    <Name>STNOH.DSPOMModel</Name>
+    <FunctionalBlockType>Project</FunctionalBlockType>
+    <FunctionalBlockVersion>01.00.00</FunctionalBlockVersion>
+    <FunctionalBlockName>STNOH</FunctionalBlockName>
+    <FunctionalBlockDomain>STNOH</FunctionalBlockDomain>
+    <FunctionalBlockPrefix>NSOFT</FunctionalBlockPrefix>
+    <SitPlatformVersion>4.1</SitPlatformVersion>
+    <DocumentationFolder>
+    </DocumentationFolder>
+    <DocumentationCompilerOption>True</DocumentationCompilerOption>
+    <ParallelCompilerOption>False</ParallelCompilerOption>
+    <FunctionalBlockDomainPrefix>DS</FunctionalBlockDomainPrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU'  ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Diagrams\" />
+    <Folder Include="Properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\Project.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\DataSource.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\Command" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\Command\Command.ul" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\DataModel" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\DataModel\DataModel.ul" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\Event" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\Event\Event.ul" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\ReadingFunction" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\ReadingFunction\ReadingFunction.ul" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\Security\Security.ul" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\Alias" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\Alias\Alias.ul" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\Type" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\Type\Type.ul" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Diagrams\NSOFT_DS_STNOH.dm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="NSOFT_DS_InterfaceViewModel.um">
+      <Name>NSOFT_DS_InterfaceViewModel.um</Name>
+      <FileModelName>NSOFT_DS_InterfaceViewModel.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\NSOFT.InterfaceViewModel_01.00.00\model\manufacturingModel\NSOFT_DS_InterfaceViewModel.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NSOFT_MS_Document_MS.um">
+      <Name>NSOFT_MS_Document_MS.um</Name>
+      <FileModelName>NSOFT_MS_Document_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\NSOFT.Document_MS_01.00.00\model\manufacturingModel\NSOFT_MS_Document_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NSOFT_MS_Labor_MS.um">
+      <Name>NSOFT_MS_Labor_MS.um</Name>
+      <FileModelName>NSOFT_MS_Labor_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\NSOFT.Labor_MS_01.00.00\model\manufacturingModel\NSOFT_MS_Labor_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NSOFT_MS_LinkFB.um">
+      <Name>NSOFT_MS_LinkFB.um</Name>
+      <FileModelName>NSOFT_MS_LinkFB.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\NSOFT.LinkFB_01.00.00\model\manufacturingModel\NSOFT_MS_LinkFB.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NSOFT_MS_Mail_MS.um">
+      <Name>NSOFT_MS_Mail_MS.um</Name>
+      <FileModelName>NSOFT_MS_Mail_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\NSOFT.Mail_MS_01.00.00\model\manufacturingModel\NSOFT_MS_Mail_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NSOFT_MS_WIDefinitionGroup_MS.um">
+      <Name>NSOFT_MS_WIDefinitionGroup_MS.um</Name>
+      <FileModelName>NSOFT_MS_WIDefinitionGroup_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\NSOFT.WIDefinitionGroup_MS_01.00.00\model\manufacturingModel\NSOFT_MS_WIDefinitionGroup_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NSOFT_OP_FAIOP.um">
+      <Name>NSOFT_OP_FAIOP.um</Name>
+      <FileModelName>NSOFT_OP_FAIOP.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\NSOFT.FAIOP_01.00.00\model\manufacturingModel\NSOFT_OP_FAIOP.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NSOFT_OP_InterlockingCheck_OP.um">
+      <Name>NSOFT_OP_InterlockingCheck_OP.um</Name>
+      <FileModelName>NSOFT_OP_InterlockingCheck_OP.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\NSOFT.InterlockingCheck_OP_01.00.00\model\manufacturingModel\NSOFT_OP_InterlockingCheck_OP.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NSOFT_OP_WIHistoryOP.um">
+      <Name>NSOFT_OP_WIHistoryOP.um</Name>
+      <FileModelName>NSOFT_OP_WIHistoryOP.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\NSOFT.WIHistoryOP_01.00.00\model\manufacturingModel\NSOFT_OP_WIHistoryOP.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NSOFT_RF_CodeFB_RF.um">
+      <Name>NSOFT_RF_CodeFB_RF.um</Name>
+      <FileModelName>NSOFT_RF_CodeFB_RF.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\NSOFT.CodeFB_RF_01.00.00\model\manufacturingModel\NSOFT_RF_CodeFB_RF.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_OpcenterEX_FN_MS_DEF_MS.um">
+      <Name>Siemens_OpcenterEX_FN_MS_DEF_MS.um</Name>
+      <FileModelName>Siemens_OpcenterEX_FN_MS_DEF_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.OpcenterEX.FN.DEF_MS_02.01.00\model\manufacturingModel\Siemens_OpcenterEX_FN_MS_DEF_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_MS_ATN_MS.um">
+      <Name>Siemens_SimaticIT_MS_ATN_MS.um</Name>
+      <FileModelName>Siemens_SimaticIT_MS_ATN_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.ATN_MS_03.01.00\model\manufacturingModel\Siemens_SimaticIT_MS_ATN_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_MS_BPF_MS.um">
+      <Name>Siemens_SimaticIT_MS_BPF_MS.um</Name>
+      <FileModelName>Siemens_SimaticIT_MS_BPF_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.BPF_MS_04.01.00\model\manufacturingModel\Siemens_SimaticIT_MS_BPF_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_MS_CHR_MS.um">
+      <Name>Siemens_SimaticIT_MS_CHR_MS.um</Name>
+      <FileModelName>Siemens_SimaticIT_MS_CHR_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.CHR_MS_04.00.00\model\manufacturingModel\Siemens_SimaticIT_MS_CHR_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_MS_EQU_MS.um">
+      <Name>Siemens_SimaticIT_MS_EQU_MS.um</Name>
+      <FileModelName>Siemens_SimaticIT_MS_EQU_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.EQU_MS_06.01.00\model\manufacturingModel\Siemens_SimaticIT_MS_EQU_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_MS_ES_MS.um">
+      <Name>Siemens_SimaticIT_MS_ES_MS.um</Name>
+      <FileModelName>Siemens_SimaticIT_MS_ES_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.ES_MS_03.01.00\model\manufacturingModel\Siemens_SimaticIT_MS_ES_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_MS_MatTool.um">
+      <Name>Siemens_SimaticIT_MS_MatTool.um</Name>
+      <FileModelName>Siemens_SimaticIT_MS_MatTool.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.MatTool_41.00.00\model\manufacturingModel\Siemens_SimaticIT_MS_MatTool.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_MS_MAT_MS.um">
+      <Name>Siemens_SimaticIT_MS_MAT_MS.um</Name>
+      <FileModelName>Siemens_SimaticIT_MS_MAT_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.MAT_MS_03.01.00\model\manufacturingModel\Siemens_SimaticIT_MS_MAT_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_MS_OPCUAConnect_MS.um">
+      <Name>Siemens_SimaticIT_MS_OPCUAConnect_MS.um</Name>
+      <FileModelName>Siemens_SimaticIT_MS_OPCUAConnect_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.OPCUAConnect_MS_02.01.00\model\manufacturingModel\Siemens_SimaticIT_MS_OPCUAConnect_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_MS_PRM_MS.um">
+      <Name>Siemens_SimaticIT_MS_PRM_MS.um</Name>
+      <FileModelName>Siemens_SimaticIT_MS_PRM_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.PRM_MS_02.02.00\model\manufacturingModel\Siemens_SimaticIT_MS_PRM_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_MS_TSK_MS.um">
+      <Name>Siemens_SimaticIT_MS_TSK_MS.um</Name>
+      <FileModelName>Siemens_SimaticIT_MS_TSK_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.TSK_MS_07.01.00\model\manufacturingModel\Siemens_SimaticIT_MS_TSK_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_MS_WI_MS.um">
+      <Name>Siemens_SimaticIT_MS_WI_MS.um</Name>
+      <FileModelName>Siemens_SimaticIT_MS_WI_MS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.WI_MS_03.01.00\model\manufacturingModel\Siemens_SimaticIT_MS_WI_MS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_OP_CHR_OP.um">
+      <Name>Siemens_SimaticIT_OP_CHR_OP.um</Name>
+      <FileModelName>Siemens_SimaticIT_OP_CHR_OP.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.CHR_OP_05.00.00\model\manufacturingModel\Siemens_SimaticIT_OP_CHR_OP.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_OP_EQU_OP.um">
+      <Name>Siemens_SimaticIT_OP_EQU_OP.um</Name>
+      <FileModelName>Siemens_SimaticIT_OP_EQU_OP.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.EQU_OP_06.01.00\model\manufacturingModel\Siemens_SimaticIT_OP_EQU_OP.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_OP_MAT_OP.um">
+      <Name>Siemens_SimaticIT_OP_MAT_OP.um</Name>
+      <FileModelName>Siemens_SimaticIT_OP_MAT_OP.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.MAT_OP_04.01.00\model\manufacturingModel\Siemens_SimaticIT_OP_MAT_OP.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_OP_WI_OP.um">
+      <Name>Siemens_SimaticIT_OP_WI_OP.um</Name>
+      <FileModelName>Siemens_SimaticIT_OP_WI_OP.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.WI_OP_03.01.00\model\manufacturingModel\Siemens_SimaticIT_OP_WI_OP.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_RF_UDM_RF.um">
+      <Name>Siemens_SimaticIT_RF_UDM_RF.um</Name>
+      <FileModelName>Siemens_SimaticIT_RF_UDM_RF.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.UDM_RF_05.01.00\model\manufacturingModel\Siemens_SimaticIT_RF_UDM_RF.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_SD_ES_SD.um">
+      <Name>Siemens_SimaticIT_SD_ES_SD.um</Name>
+      <FileModelName>Siemens_SimaticIT_SD_ES_SD.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.ES_SD_03.01.00\model\manufacturingModel\Siemens_SimaticIT_SD_ES_SD.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_CM_FB_COMMON_BIN.um">
+      <Name>Siemens_SimaticIT_U4DM_CM_FB_COMMON_BIN.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_CM_FB_COMMON_BIN.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.FB_COMMON_BIN_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_CM_FB_COMMON_BIN.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_MS_FB_MS_AGWInt.um">
+      <Name>Siemens_SimaticIT_U4DM_MS_FB_MS_AGWInt.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_MS_FB_MS_AGWInt.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.FB_MS_AGWInt_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_MS_FB_MS_AGWInt.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_MS_FB_MS_AMMS.um">
+      <Name>Siemens_SimaticIT_U4DM_MS_FB_MS_AMMS.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_MS_FB_MS_AMMS.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.FB_MS_AMMS_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_MS_FB_MS_AMMS.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_MS_FB_MS_BOP.um">
+      <Name>Siemens_SimaticIT_U4DM_MS_FB_MS_BOP.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_MS_FB_MS_BOP.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.FB_MS_BOP_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_MS_FB_MS_BOP.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_MS_FB_MS_CERT.um">
+      <Name>Siemens_SimaticIT_U4DM_MS_FB_MS_CERT.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_MS_FB_MS_CERT.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.FB_MS_CERT_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_MS_FB_MS_CERT.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_MS_FB_MS_EQUIPMENT.um">
+      <Name>Siemens_SimaticIT_U4DM_MS_FB_MS_EQUIPMENT.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_MS_FB_MS_EQUIPMENT.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_MS_FB_MS_EQUIPMENT.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_MS_FB_MS_ITLK.um">
+      <Name>Siemens_SimaticIT_U4DM_MS_FB_MS_ITLK.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_MS_FB_MS_ITLK.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.FB_MS_ITLK_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_MS_FB_MS_ITLK.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_OE_T4EAInt.um">
+      <Name>Siemens_SimaticIT_U4DM_OE_T4EAInt.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_OE_T4EAInt.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.T4EAInt_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_OE_T4EAInt.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_OP_FB_OP_ITLK.um">
+      <Name>Siemens_SimaticIT_U4DM_OP_FB_OP_ITLK.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_OP_FB_OP_ITLK.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.FB_OP_ITLK_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_OP_FB_OP_ITLK.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_OP_IdGenerate.um">
+      <Name>Siemens_SimaticIT_U4DM_OP_IdGenerate.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_OP_IdGenerate.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.IdGenerate_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_OP_IdGenerate.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_OP_Runtime.um">
+      <Name>Siemens_SimaticIT_U4DM_OP_Runtime.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_OP_Runtime.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.Runtime_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_OP_Runtime.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_PB_FB_PluginBase.um">
+      <Name>Siemens_SimaticIT_U4DM_PB_FB_PluginBase.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_PB_FB_PluginBase.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.FB_PluginBase_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_PB_FB_PluginBase.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_RD_FB_RF_ConfigKey.um">
+      <Name>Siemens_SimaticIT_U4DM_RD_FB_RF_ConfigKey.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_RD_FB_RF_ConfigKey.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.RD.FB.ConfigKey_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_RD_FB_RF_ConfigKey.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_U4DM_RF_FB_RD_SERV.um">
+      <Name>Siemens_SimaticIT_U4DM_RF_FB_RD_SERV.um</Name>
+      <FileModelName>Siemens_SimaticIT_U4DM_RF_FB_RD_SERV.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.U4DM.FB_RD_SERV_41.00.00\model\manufacturingModel\Siemens_SimaticIT_U4DM_RF_FB_RD_SERV.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_UADM_MS_FB_MS_MAT.um">
+      <Name>Siemens_SimaticIT_UADM_MS_FB_MS_MAT.um</Name>
+      <FileModelName>Siemens_SimaticIT_UADM_MS_FB_MS_MAT.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.UADM.FB_MS_MAT_41.00.00\model\manufacturingModel\Siemens_SimaticIT_UADM_MS_FB_MS_MAT.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Siemens_SimaticIT_UADM_OP_FB_OP_MAT.um">
+      <Name>Siemens_SimaticIT_UADM_OP_FB_OP_MAT.um</Name>
+      <FileModelName>Siemens_SimaticIT_UADM_OP_FB_OP_MAT.um</FileModelName>
+      <HintPath>..\..\SimaticITPackages\Siemens.SimaticIT.UADM.FB_OP_MAT_41.00.00\model\manufacturingModel\Siemens_SimaticIT_UADM_OP_FB_OP_MAT.um</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(SITUnifiedVSToolingPlatformBin)\Siemens.SimaticIt.DSL.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

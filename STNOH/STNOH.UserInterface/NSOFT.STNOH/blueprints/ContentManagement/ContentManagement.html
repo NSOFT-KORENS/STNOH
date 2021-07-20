@@ -1,0 +1,25 @@
+﻿
+<sit-side-panel sit-title="{{vm.sidepanelConfig.title}}" sit-messages="vm.sidepanelConfig.messages" sit-actions="vm.sidepanelConfig.actionButtons"
+                sit-close="vm.sidepanelConfig.closeButton">
+    <!-- <button ng-click="vm.cancel()" class="btn side-panel-button">Cancel</button>
+    <button ng-click="vm.save()" class="btn side-panel-button" ng-show="vm.validInputs">Save</button> -->
+    <div data-internal-id="material-item-add-property-grid">
+        <sit-property-grid sit-id="laborTrainingAdd"
+                           sit-data="vm.propertyGrid.data"
+                           sit-layout="{{vm.propertyGrid.layout}}"
+                           sit-type="{{vm.propertyGrid.type}}"
+                           sit-mode="{{vm.propertyGrid.mode}}"
+                           sit-columns="vm.propertyGrid.columns">
+        </sit-property-grid>
+        <div class="step-text-editor" style="width:100%">
+            <div style="    color: #464646;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 19px;">{{'Siemens.SimaticIT.WorkInstruction.Engineering.tool.step.instructions'|translate}}</div>
+            <div class="step-editor-container" style="height: 400px" ng-if="vm.binding">
+                <ns-text-editor sit-id="mailContent" sit-data="vm.parameters" sit-value="vm.selectedItem.Content" sit-read-only="false">
+                </ns-text-editor>
+            </div>
+        </div>
+    </div>
+</sit-side-panel>

@@ -1,0 +1,20 @@
+{
+  "name": "NSOFT.STNOH.ProductionResult",
+  "type": "standard",
+  "title": "ProductionResult",
+  "header": "",
+  "icon": "fa-folder",
+  "functionalBlock": "NSOFT.STNOH",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.NSOFT_STNOH_ProductionResult_ProductionResult",
+      "title": "Interface Result",
+      "header": "NSOFT_STNOH_ProductionResult.Title",
+      "icon": "svg typeInterfaceType48",
+      "securable": true,
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

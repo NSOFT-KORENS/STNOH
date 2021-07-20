@@ -1,0 +1,20 @@
+{
+  "name": "NSOFT.STNOH.ByPassProcessStatus",
+  "type": "standard",
+  "title": "ByPassProcessStatus",
+  "header": "",
+  "icon": "fa-folder",
+  "functionalBlock": "NSOFT.STNOH",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.NSOFT_STNOH_ByPassProcessStatus_ByPassProcessStatus",
+      "title": "By-Pass Process Status",
+      "header": "NSOFT_STNOH_ByPassProcessStatus.Title",
+      "securable": true,
+      "icon": "svg typeSpecificationStepStatus48",
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

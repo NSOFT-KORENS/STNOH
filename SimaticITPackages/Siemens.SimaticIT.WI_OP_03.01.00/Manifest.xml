@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.WI_OP</name>
+    <shortname>WI_OP</shortname>
+    <description>Work Instruction Operational Data Domain Functional Block</description>
+    <version>03.01.00</version>
+    <companyname>Siemens.SimaticIT</companyname>
+    <author>Siemens.SimaticIT</author>
+    <hash>VqUFGZ10VVF/oh0731ZCGxRY82Iw+W/w9zCqgEjRy1o=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>OperationalData</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UDM_RF</name>
+        <version>05.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.ES_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.ES_SD</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.WI_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.CreateWorkInstruction</name>
+                        <shortname>CreateWorkInstruction</shortname>
+                        <description>Creates a new Work Instruction.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.CreateWorkInstructionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.AcknowledgeWorkInstructionStep</name>
+                        <shortname>AcknowledgeWorkInstructionStep</shortname>
+                        <description>Acknowledges a Work Instruction Step of type Acknowledge.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.AcknowledgeWorkInstructionStepHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.InEditingWorkInstruction</name>
+                        <shortname>InEditingWorkInstruction</shortname>
+                        <description>Sets the status of a Work Instruction to InEditing.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.InEditingWorkInstructionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.CompleteWorkInstruction</name>
+                        <shortname>CompleteWorkInstruction</shortname>
+                        <description>Completes a Work Instruction.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.CompleteWorkInstructionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.ConfirmDataCollectionStep</name>
+                        <shortname>ConfirmDataCollectionStep</shortname>
+                        <description>Confirms form submission of the data collection Work Instruction Step along with validation for the entered values.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.ConfirmDataCollectionStepHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.DeleteWorkInstruction</name>
+                        <shortname>DeleteWorkInstruction</shortname>
+                        <description>Deletes an existing Work Instruction.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.DeleteWorkInstructionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.AbortWorkInstruction</name>
+                        <shortname>AbortWorkInstruction</shortname>
+                        <description>Sets the status of WorkInstruction to Abort.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.AbortWorkInstructionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.AutoSaveWorkInstructionStepItemValue</name>
+                        <shortname>AutoSaveWorkInstructionStepItemValue</shortname>
+                        <description>This command saves the value of the Work Instruction Step Item.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.AutoSaveWorkInstructionStepItemValueHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.SetReEdit</name>
+                        <shortname>SetReEdit</shortname>
+                        <description>This command enables / disables re-editing the Steps in a Work Instruction.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.SetReEditHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.ReEditWorkInstructionStep</name>
+                        <shortname>ReEditWorkInstructionStep</shortname>
+                        <description>Enables re editing an already confirmed Data Collection Work Instruction Step.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.ReEditWorkInstructionStepHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.UpdateStepItemLimits</name>
+                        <shortname>UpdateStepItemLimits</shortname>
+                        <description>Updates the existing Work Instruction Step Item Limits.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.UpdateStepItemLimitsHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.CompleteWIStepOnCompleteScenarioInstance</name>
+                        <shortname>CompleteWIStepOnCompleteScenarioInstance</shortname>
+                        <description>Completes the linked WI Step when Scenario Instance is completed.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.CompleteWIStepOnCompleteScenarioInstanceHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.UpdateWorkInstructionParameterValue</name>
+                        <shortname>UpdateWorkInstructionParameterValue</shortname>
+                        <description>Updates the value of an existing Work Instruction Parameter.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.UpdateWorkInstructionParameterValueHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.AcquireDCValues</name>
+                        <shortname>AcquireDCValues</shortname>
+                        <description>Acquires the value of the Data Collection Items of type Semi-Automatic.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.AcquireDCValuesHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.SetDCItemValues</name>
+                        <shortname>SetDCItemValues</shortname>
+                        <description>Sets the value of the Work Instruction Step Items.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.SetDCItemValuesHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.SetAcquisitionBehavior</name>
+                        <shortname>SetAcquisitionBehavior</shortname>
+                        <description>Sets the value of Acquisition Behavior of the Work Instruction Step Items.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.SetAcquisitionBehaviorHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.RetrieveDCItems</name>
+                        <shortname>RetrieveDCItems</shortname>
+                        <description>Retrieve the values of Section NId, Step NId, Step Item Id, and Step Item NId for the given Work Instruction.</description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.RetrieveDCItemsHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.ValidateBoundParameterValuesForStep</name>
+                        <shortname>ValidateBoundParameterValuesForStep</shortname>
+                        <description></description>
+                        <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.ValidateBoundParameterValuesForStepHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command></commands>
+    <commandActions><commandAction>
+                        <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.ValidateFormatPreCheckHandlerShell</name>
+                        <shortname>ValidateFormatPreCheckHandlerShell</shortname>
+                        <description>Pre Check for Confirm Data Collection Step.</description>
+                        <assembly>Siemens.SimaticIT.WI_OP.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Commands.ConfirmDataCollectionStep</command>
+                        <type>PreCheck</type>
+                        <is_enabled>true</is_enabled>
+                        <alias>ValidateFormatPreCheck</alias>
+                </commandAction></commandActions>
+    <events><event>
+                <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Events.WorkInstructionStepCompleted</name>
+                <shortname>WorkInstructionStepCompleted</shortname>
+                <description> Indicates that a Work Instruction Step has been completed.</description>
+                <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>OperationalData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Events.WorkInstructionSectionCompleted</name>
+                <shortname>WorkInstructionSectionCompleted</shortname>
+                <description> Indicates that a Work Instruction Section has been completed.</description>
+                <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>OperationalData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Events.OnWorkInstructionStepInPending</name>
+                <shortname>OnWorkInstructionStepInPending</shortname>
+                <description> Occurs when the work instruction step is associated with ES Scenario and is ackowledge with pending signatures.</description>
+                <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>OperationalData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Events.MessageOnWIReceived</name>
+                <shortname>MessageOnWIReceived</shortname>
+                <description> The event which permits the receipt of the possible error messages occurred during an operation.</description>
+                <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>OperationalData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event></events>
+    <event_handlers><event_handler>
+<name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Events.CompleteWIStepOnCompleteScenarioInstanceShell</name>
+<assembly>Siemens.SimaticIT.WI_OP.EventHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+<event_name>Siemens.SimaticIT.SystemData.ES_SD.SDModel.Events.OnCompleteScenarioInstance</event_name>
+<target_cpu>AnyCPU</target_cpu>
+<dependencies></dependencies>
+</event_handler><event_handler>
+<name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Events.CompleteWorkInstructionOnLastSectionCompletedShell</name>
+<assembly>Siemens.SimaticIT.WI_OP.EventHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+<event_name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Events.WorkInstructionSectionCompleted</event_name>
+<target_cpu>AnyCPU</target_cpu>
+<dependencies></dependencies>
+</event_handler></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities><entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.ReadingModel.WorkInstruction</name>
+      <securable>true</securable>
+    </entity><entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.ReadingModel.WorkInstructionSection</name>
+      <securable>true</securable>
+    </entity><entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.ReadingModel.WorkInstructionStep</name>
+      <securable>true</securable>
+    </entity><entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.ReadingModel.WorkInstructionStepItem</name>
+      <securable>true</securable>
+    </entity><entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.ReadingModel.WorkInstructionParameter</name>
+      <securable>true</securable>
+    </entity><entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.ReadingModel.WorkInstructionStepItemLimit</name>
+      <securable>true</securable>
+    </entity></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>OperationalData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>OperationalData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>OperationalData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.Types.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>OperationalData</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities><wr_entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstruction</name>
+      <shortname>WorkInstruction</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstructionSection</name>
+      <shortname>WorkInstructionSection</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstruction</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstruction</root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstructionStep</name>
+      <shortname>WorkInstructionStep</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstructionSection</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstruction</root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstructionStepItem</name>
+      <shortname>WorkInstructionStepItem</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstructionStep</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstruction</root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstructionParameter</name>
+      <shortname>WorkInstructionParameter</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstruction</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstruction</root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstructionStepItemLimit</name>
+      <shortname>WorkInstructionStepItemLimit</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstructionStepItem</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.OperationalData.WI_OP.OPModel.DataModel.WorkInstruction</root_entity>
+      <base_entity></base_entity>
+    </wr_entity></wr_entities>
+    <wr_facets></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

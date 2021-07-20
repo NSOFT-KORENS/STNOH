@@ -1,0 +1,43 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="64.793" y1="-34.391" x2="108.707" y2="-78.305" gradientTransform="matrix(0.817, 0, 0, -0.817, -46.93, -22.272)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="0.99" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="72" y1="-41.598" x2="101.5" y2="-71.098" gradientTransform="matrix(0.817, 0, 0, -0.817, -46.93, -22.272)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.302" stop-color="#f8f8f8"/>
+      <stop offset="0.737" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#d6d6d6"/>
+    </linearGradient>
+  </defs>
+  <g id="g915">
+    <path id="polyline28" d="M38,1h9V47H38" fill="none" stroke="#969696" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="polyline30" d="M10,47H1V1h9" fill="none" stroke="#969696" stroke-miterlimit="10" stroke-width="2"/>
+    <g id="g1027">
+      <rect id="rect16" x="6.409" y="4.988" width="35.151" height="37.603" rx="0.817" fill="url(#linear-gradient)"/>
+      <rect id="rect18" x="12.948" y="10.711" width="22.071" height="26.159" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817" fill="url(#linear-gradient-2)"/>
+      <polyline id="polyline20" points="6.409 9.893 9.679 9.893 9.679 13.98 6.409 13.98" fill="none" stroke="#6e6e6e" stroke-miterlimit="8.175" stroke-width="0.784"/>
+      <polyline id="polyline22" points="6.409 36.052 9.679 36.052 9.679 40.139 6.409 40.139" fill="none" stroke="#6e6e6e" stroke-miterlimit="8.175" stroke-width="0.784"/>
+      <rect id="rect24" x="8.044" y="21.337" width="1.635" height="10.627" fill="none" stroke="#6e6e6e" stroke-miterlimit="8.175" stroke-width="0.799"/>
+      <polyline id="polyline26" points="41.559 13.98 38.289 13.98 38.289 9.893 41.559 9.893" fill="none" stroke="#6e6e6e" stroke-miterlimit="8.175" stroke-width="0.784"/>
+      <polyline id="polyline28-4" points="41.559 40.139 38.289 40.139 38.289 36.052 41.559 36.052" fill="none" stroke="#6e6e6e" stroke-miterlimit="8.175" stroke-width="0.784"/>
+      <rect id="rect30" x="38.289" y="21.337" width="1.635" height="10.627" fill="none" stroke="#6e6e6e" stroke-miterlimit="8.175" stroke-width="0.799"/>
+      <polyline id="polyline32" points="14.175 6.623 11.313 6.623 11.313 40.956 14.175 40.956" fill="none" stroke="#8b8b8b" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <polyline id="polyline34" points="33.832 6.623 36.693 6.623 36.693 40.956 33.832 40.956" fill="none" stroke="#8b8b8b" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <polyline id="polyline36" points="30.115 10.711 30.115 12.345 31.75 12.345 31.75 13.163 33.385 13.163 33.385 14.798 35.02 14.798" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <polyline id="polyline38" points="12.948 34.417 15.401 34.417 15.401 36.869" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <polyline id="polyline40" points="12.948 27.877 15.401 27.877 15.401 31.964 17.036 31.964 17.036 32.782 18.671 32.782 18.671 34.417 22.758 34.417 22.758 36.869" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <polyline id="polyline42" points="15.401 10.711 15.401 12.345 17.036 12.345 17.036 13.163 18.671 13.163 18.671 14.798 22.758 14.798 22.758 18.885 24.393 18.885 24.393 19.703 26.028 19.703 26.028 21.337 30.115 21.337 30.115 25.425 31.75 25.425 31.75 26.242 33.385 26.242 33.385 27.877 35.02 27.877" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <polyline id="polyline44" points="22.758 10.711 22.758 12.345 24.393 12.345 24.393 13.163 26.028 13.163 26.028 14.798 30.115 14.798 30.115 18.885 31.75 18.885 31.75 19.703 33.385 19.703 33.385 21.337 35.02 21.337" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <polyline id="polyline46" points="12.948 21.337 15.401 21.337 15.401 25.425 17.036 25.425 17.036 26.242 18.671 26.242 18.671 27.877 22.758 27.877 22.758 31.964 24.393 31.964 24.393 32.782 26.028 32.782 26.028 34.417 30.115 34.417 30.115 36.869" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <polyline id="polyline48" points="12.948 14.798 15.401 14.798 15.401 18.885 17.036 18.885 17.036 19.703 18.671 19.703 18.671 21.337 22.758 21.337 22.758 25.425 24.393 25.425 24.393 26.242 26.028 26.242 26.028 27.877 30.115 27.877 30.115 31.964 31.75 31.964 31.75 32.782 33.385 32.782 33.385 34.417 35.02 34.417" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <rect id="rect50" x="6.409" y="4.988" width="35.151" height="37.603" rx="0.817" fill="none" stroke="#464646" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <line id="line52" x1="20.305" y1="36.869" x2="20.305" y2="10.711" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <line id="line54" x1="27.663" y1="10.711" x2="27.663" y2="36.869" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <line id="line56" x1="12.948" y1="17.25" x2="35.02" y2="17.25" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <line id="line58" x1="35.02" y1="30.329" x2="12.948" y2="30.329" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+      <line id="line60" x1="12.948" y1="23.79" x2="35.02" y2="23.79" fill="none" stroke="#147391" stroke-miterlimit="8.175" stroke-width="0.817"/>
+    </g>
+  </g>
+</svg>

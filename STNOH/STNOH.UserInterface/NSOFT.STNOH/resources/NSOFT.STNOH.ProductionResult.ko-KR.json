@@ -1,0 +1,12 @@
+﻿{
+  "NSOFT_STNOH_ProductionResult": {
+    "Title": "인터페이스 추적",
+    "Id": "식별자",
+    "InterfaceType": "인터페이스 유형",
+    "InterfaceStatus": "인터페이스 상태",
+    "Direction": "In/Out",
+    "CompletedTxnData": "완료 일자",
+    "ResponseMsg": "결과 메시지",
+    "ErrorMsg": "오류 메시지"
+  }
+}

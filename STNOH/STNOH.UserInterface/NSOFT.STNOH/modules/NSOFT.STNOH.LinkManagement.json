@@ -1,0 +1,20 @@
+{
+  "name": "NSOFT.STNOH.LinkManagement",
+  "type": "standard",
+  "title": "LinkManagement",
+  "header": "",
+  "icon": "fa-folder",
+  "functionalBlock": "NSOFT.STNOH",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.NSOFT_STNOH_LinkManagement_LinkManagement",
+      "title": "Link Management",
+      "header": "NSOFT_STNOH_LinkManagement.Title",
+      "icon": "svg typeWorkflowConfiguration48",
+      "securable": true,
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

@@ -1,0 +1,16 @@
+{
+  "NSOFT_STNOH_ByPassProcessList": {
+    "Title": "By-Pass Process List",
+    "MaterialNId": "Material Id",
+    "MaterialName": "Material Name",
+    "MainOperationNo": "Main Op No.",
+    "MainOperation": "Main Op Name",
+    "MainOperationMachine": "Main Op Machine",
+    "ByPassOperationNo": "By-Pass Operation No.",
+    "ByPassOperation": "By-Pass Op Name",
+    "ByPassOperationMachine": "By-Pass Op Machine",
+    "MTTR": "MTTR",
+    "MTBF": "MTBF",
+    "QuickSearchPlaceholder": "Find an Main Op Machine.."
+  }
+}

@@ -1,0 +1,18 @@
+﻿{
+  "NSOFT_STNOH_ByPassProcessStatus": {
+    "Title": "대체 공정 현황",
+    "MaterialNId": "품번",
+    "MaterialName": "품명",
+    "ByPassOperationNo": "대체 공정 번호",
+    "ByPassOperation": "대체 공정명",
+    "ByPassOperationMachine": "대체 공정 설비",
+    "ProducingQuantity": "생산중 수량",
+    "ProducedQuantity": "생산된 수량",
+    "Type": "유형",
+    "Note": "내용",
+    "QuickSearchPlaceholder": "Find an By-Pass Op Machine..",
+    "QuickSearchPlaceholder2": "Find an Note..",
+    "ByPassStartDate": "대체 공정 시작 시간",
+    "ByPassEndDate": "대체 공정 완료 시간"
+  }
+}

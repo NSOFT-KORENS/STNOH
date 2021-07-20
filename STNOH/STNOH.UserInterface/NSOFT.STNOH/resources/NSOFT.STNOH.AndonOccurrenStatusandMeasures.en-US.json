@@ -1,0 +1,15 @@
+{
+  "NSOFT_STNOH_AndonOccurrenStatusandMeasures": {
+    "Title": "Andon Occurren Status and Measures",
+    "NId": "Identifier",
+    "Context": "Context",
+    "Severity": "Severity",
+    "StartDate": "Occurrence Date",
+    "Defect": "Defect",
+    "Machine": "Machine",
+    "Material": "Material",
+    "EndDate": "Processing Date",
+    "Status": "Processing Result",
+    "Note": "Note"
+  }
+}

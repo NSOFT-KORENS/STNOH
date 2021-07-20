@@ -1,0 +1,20 @@
+{
+  "name": "NSOFT.STNOH.ByPassProcessList",
+  "type": "standard",
+  "title": "ByPassProcessList",
+  "header": "",
+  "icon": "svg typeSpecificationStep48",
+  "functionalBlock": "NSOFT.STNOH",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.NSOFT_STNOH_ByPassProcessList_ByPassProcessList",
+      "title": "By-Pass Process List",
+      "header": "NSOFT_STNOH_ByPassProcessList.Title",
+      "icon": "svg typeSpecificationStep48",
+      "securable": true,
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

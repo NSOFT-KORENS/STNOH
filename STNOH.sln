@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STNOH.CommandHandler", "STNOH\STNOH.CommandHandler\STNOH.CommandHandler.csproj", "{B470AEB5-67BC-46BE-8365-723CDBDE5A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STNOH.EventHandler", "STNOH\STNOH.EventHandler\STNOH.EventHandler.csproj", "{C8D8B182-AF77-4E89-928A-EABC6BE5FA2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STNOH.ReadingFunctionHandler", "STNOH\STNOH.ReadingFunctionHandler\STNOH.ReadingFunctionHandler.csproj", "{701D1596-B7D7-41B0-A01F-036E867BD469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STNOH.UserInterface", "STNOH\STNOH.UserInterface\STNOH.UserInterface.csproj", "{CF08031E-E4B8-4346-B350-9CC86AC198A6}"
+EndProject
+Project("{DA7C07C8-D9F3-4A79-840F-611D1C5950A5}") = "STNOH.Installer", "STNOH\STNOH.Installer\STNOH.Installer.iproj", "{37D0EAF0-9226-4BB9-A9D8-E3792A6B6D25}"
+EndProject
+Project("{CA2279AF-CA6F-4B4B-98B3-8D49B8D38547}") = "STNOH.DSPOMModel", "STNOH\STNOH.DSPOMModel\STNOH.DSPOMModel.pmproj", "{9FC30B95-577B-48D6-8567-D96D9F9E8225}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{428AC440-ABE7-4628-956F-CDC232858990}"
+	ProjectSection(SolutionItems) = preProject
+		packages.reference = packages.reference
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B470AEB5-67BC-46BE-8365-723CDBDE5A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B470AEB5-67BC-46BE-8365-723CDBDE5A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B470AEB5-67BC-46BE-8365-723CDBDE5A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B470AEB5-67BC-46BE-8365-723CDBDE5A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D8B182-AF77-4E89-928A-EABC6BE5FA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D8B182-AF77-4E89-928A-EABC6BE5FA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D8B182-AF77-4E89-928A-EABC6BE5FA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D8B182-AF77-4E89-928A-EABC6BE5FA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701D1596-B7D7-41B0-A01F-036E867BD469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701D1596-B7D7-41B0-A01F-036E867BD469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701D1596-B7D7-41B0-A01F-036E867BD469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701D1596-B7D7-41B0-A01F-036E867BD469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF08031E-E4B8-4346-B350-9CC86AC198A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF08031E-E4B8-4346-B350-9CC86AC198A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF08031E-E4B8-4346-B350-9CC86AC198A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF08031E-E4B8-4346-B350-9CC86AC198A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D0EAF0-9226-4BB9-A9D8-E3792A6B6D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D0EAF0-9226-4BB9-A9D8-E3792A6B6D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D0EAF0-9226-4BB9-A9D8-E3792A6B6D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D0EAF0-9226-4BB9-A9D8-E3792A6B6D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC30B95-577B-48D6-8567-D96D9F9E8225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC30B95-577B-48D6-8567-D96D9F9E8225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC30B95-577B-48D6-8567-D96D9F9E8225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC30B95-577B-48D6-8567-D96D9F9E8225}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17B39053-DAD1-4DD6-98C2-2657A995DA14}
+	EndGlobalSection
+EndGlobal

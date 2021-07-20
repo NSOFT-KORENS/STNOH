@@ -1,0 +1,16 @@
+﻿{
+  "NSOFT_STNOH_ByPassProcessList": {
+    "Title": "대체 공정 목록",
+    "MaterialNId": "품번",
+    "MaterialName": "품명",
+    "MainOperationNo": "공정 번호",
+    "MainOperation": "공정명",
+    "MainOperationMachine": "공정 설비",
+    "ByPassOperationNo": "대체 공정 번호",
+    "ByPassOperation": "대체 공정명",
+    "ByPassOperationMachine": "대체 공정 설비",
+    "MTTR": "MTTR",
+    "MTBF": "MTBF",
+    "QuickSearchPlaceholder": "Find an Main Op Machine.."
+  }
+}

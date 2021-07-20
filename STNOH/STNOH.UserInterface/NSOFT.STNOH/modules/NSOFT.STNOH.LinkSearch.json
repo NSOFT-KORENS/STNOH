@@ -1,0 +1,20 @@
+{
+  "name": "NSOFT.STNOH.LinkSearch",
+  "type": "standard",
+  "title": "LinkSearch",
+  "header": "",
+  "icon": "fa-folder",
+  "functionalBlock": "NSOFT.STNOH",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.NSOFT_STNOH_LinkSearch_LinkSearch",
+      "title": "Link",
+      "header": "NSOFT_STNOH_LinkSearch.Title",
+      "icon": "svg typeWorkflow48",
+      "securable": true,
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

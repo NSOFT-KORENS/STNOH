@@ -1,0 +1,19 @@
+﻿{
+  "NSOFT_STNOH_LinkManagement": {
+    "Title": "링크 관리",
+    "save": "Save",
+    "cancel": "Cancel",
+    "add": "추가",
+    "edit": "수정",
+    "delete": "삭제",
+    "deleteConfirmMessage": "선택한 행을 정말 삭제하시겠습니까?",
+    "addParameters": "매개변수 추가",
+    "parameter": "매개변수",
+    "LinkManage": "링크 관리",
+    "LinkName": "링크명",
+    "LinkUrl": "링크 Url",
+    "LinkParameter": "링크 매개변수",
+    "LinkParam": "변수",
+    "LinkValue": "값"
+  }
+}

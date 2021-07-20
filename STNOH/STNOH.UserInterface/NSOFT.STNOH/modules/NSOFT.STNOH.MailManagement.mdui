@@ -1,0 +1,885 @@
+{
+    "name": "NSOFT.STNOH.MailManagement",
+    "type": "model-driven",
+    "manifestVersion": "02.01.00",
+    "title": "MailManagement",
+    "header": "",
+    "icon": "fa-folder",
+    "functionalBlock": "NSOFT.STNOH",
+    "dependencies": [],
+    "states": [
+      {
+        "appName": "STNOH",
+        "appPrefix": "NSOFT.",
+        "urlPrefix": "Master",
+        "id": "home.NSOFT_STNOH_MailManagement_Master",
+        "title": "Mail Management",
+        "header": "NSOFT_STNOH_MailManagement.MasterTitle",
+        "activeContent": "",
+        "layoutTemplate": "masterDetails",
+        "icon": "svg typeMail48",
+        "securable": true,
+        "params": [],
+        "contents": {
+          "MasterContent": {
+            "id": "MasterContent",
+            "title": "NSOFT_STNOH_MailManagement.MasterTitle",
+            "query": "",
+            "multiplicity": "many",
+            "master": true,
+            "enableMultiSelection": false,
+            "properties": [
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "Content"
+                },
+                "name": "Content",
+                "label": "NSOFT_STNOH_MailManagement.Content",
+                "type": "String",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "MailType"
+                },
+                "name": "MailType",
+                "label": "NSOFT_STNOH_MailManagement.MailType",
+                "type": {},
+                "sortable": true,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "Title"
+                },
+                "name": "Title",
+                "label": "NSOFT_STNOH_MailManagement.Title",
+                "type": "String",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "IsActive"
+                },
+                "name": "IsActive",
+                "label": "NSOFT_STNOH_MailManagement.IsActive",
+                "type": "Boolean",
+                "sortable": true,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "NId"
+                },
+                "name": "NId",
+                "label": "sit.u4dm.nid",
+                "type": "String",
+                "sortable": true,
+                "searchable": true
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "Id"
+                },
+                "name": "Id",
+                "label": "Id",
+                "type": "Guid",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "IsFrozen"
+                },
+                "name": "IsFrozen",
+                "label": "IsFrozen",
+                "type": "Boolean",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "CreatedOn"
+                },
+                "name": "CreatedOn",
+                "label": "CreatedOn",
+                "type": "DateTimeOffset",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "LastUpdatedOn"
+                },
+                "name": "LastUpdatedOn",
+                "label": "LastUpdatedOn",
+                "type": "DateTimeOffset",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "ToBeCleaned"
+                },
+                "name": "ToBeCleaned",
+                "label": "ToBeCleaned",
+                "type": "Boolean",
+                "sortable": false,
+                "searchable": false
+              }
+            ],
+            "blueprintSettings": {
+              "viewOptions": "c",
+              "viewMode": "c",
+              "tileConfig": {
+                "commands": [],
+                "titleField": "NId",
+                "descriptionField": "Title",
+                "icon": "svg typeMail48",
+                "isCell": false,
+                "propertyFields": [
+                  {
+                    "field": "IsActive",
+                    "displayName": "NSOFT_STNOH_MailManagement.IsActive",
+                    "fieldSource": ""
+                  }
+                ],
+                "indicators": [],
+                "titleFieldSource": "",
+                "descriptionFieldSource": ""
+              },
+              "gridConfig": {
+                "columnDefs": [
+                  {
+                    "field": "NId",
+                    "displayName": "sit.u4dm.nid",
+                    "type": "String",
+                    "visible": {
+                      "expression": ""
+                    }
+                  },
+                  {
+                    "field": "MailType",
+                    "displayName": "NSOFT_STNOH_MailManagement.MailType",
+                    "type": "Object",
+                    "visible": {
+                      "expression": ""
+                    }
+                  },
+                  {
+                    "field": "IsActive",
+                    "displayName": "NSOFT_STNOH_MailManagement.IsActive",
+                    "type": "Boolean",
+                    "visible": {
+                      "expression": ""
+                    }
+                  }
+                ],
+                "commands": [],
+                "showSelectionCheckbox": false
+              },
+              "tagField": "",
+              "downloadOptions": {
+                "enabled": true,
+                "fileName": "",
+                "separator": ""
+              },
+              "defaultSortingField": "MailType",
+              "sortingDirection": "asc",
+              "isFilterPanel": false,
+              "filterOptions": {
+                "showDefaultClause": false,
+                "showMatchCase": false,
+                "allowedOperators": "",
+                "groupEnabled": false
+              },
+              "filterEnabled": true,
+              "exportManager": false,
+              "tagsManager": true,
+              "breadcrumbTitle": "",
+              "useScreenTitleInBreadcrumb": false,
+              "serverSidePagination": false,
+              "enablePaging": false,
+              "filterBarOptions": "sqgf",
+              "image": "svg typeMail48"
+            },
+            "actions": [],
+            "rootEntity": {
+              "name": ""
+            },
+            "entityRef": {
+              "entity": "MailContent",
+              "app": "Mail"
+            },
+            "fieldSources": []
+          },
+          "DetailContent": {
+            "id": "DetailContent",
+            "title": "NSOFT_STNOH_MailManagement.DetailTitle",
+            "query": "$expand=MailType&$filter=Id eq {{contents.MasterContent.selectedItem.Id}}",
+            "multiplicity": "one",
+            "master": false,
+            "enableMultiSelection": false,
+            "properties": [
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "Id"
+                },
+                "name": "Id",
+                "label": "Id",
+                "type": "Guid",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "NId"
+                },
+                "name": "NId",
+                "label": "NId",
+                "type": "String",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "Title"
+                },
+                "name": "Title",
+                "label": "Title",
+                "type": "String",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "MailType"
+                },
+                "name": "MailType",
+                "label": "MailType",
+                "type": {},
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "Content"
+                },
+                "name": "Content",
+                "label": "Content",
+                "type": "String",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "IsActive"
+                },
+                "name": "IsActive",
+                "label": "IsActive",
+                "type": "Boolean",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "IsFrozen"
+                },
+                "name": "IsFrozen",
+                "label": "IsFrozen",
+                "type": "Boolean",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "CreatedOn"
+                },
+                "name": "CreatedOn",
+                "label": "CreatedOn",
+                "type": "DateTimeOffset",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "LastUpdatedOn"
+                },
+                "name": "LastUpdatedOn",
+                "label": "LastUpdatedOn",
+                "type": "DateTimeOffset",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContent",
+                  "app": "NSOFT.STNOH",
+                  "property": "ToBeCleaned"
+                },
+                "name": "ToBeCleaned",
+                "label": "ToBeCleaned",
+                "type": "Boolean",
+                "sortable": false,
+                "searchable": false
+              }
+            ],
+            "blueprintSettings": {
+              "gridConfig": {
+                "columnDefs": [
+                  {
+                    "field": "Id",
+                    "displayName": "Id",
+                    "visible": true,
+                    "type": "Guid",
+                    "isIndicatorIcon": false
+                  },
+                  {
+                    "field": "NId",
+                    "displayName": "NId",
+                    "visible": true,
+                    "type": "String",
+                    "isIndicatorIcon": false
+                  },
+                  {
+                    "field": "Title",
+                    "displayName": "Title",
+                    "visible": true,
+                    "type": "String",
+                    "isIndicatorIcon": false
+                  },
+                  {
+                    "field": "MailType.Type",
+                    "displayName": "MailType",
+                    "visible": true,
+                    "type": "String",
+                    "isIndicatorIcon": false
+                  },
+                  {
+                    "field": "Content",
+                    "displayName": "Content",
+                    "visible": false,
+                    "type": "String",
+                    "isIndicatorIcon": false
+                  },
+                  {
+                    "field": "IsActive",
+                    "displayName": "IsActive",
+                    "visible": true,
+                    "type": "Boolean",
+                    "isIndicatorIcon": false
+                  },
+                  {
+                    "field": "IsFrozen",
+                    "displayName": "IsFrozen",
+                    "visible": true,
+                    "type": "Boolean",
+                    "isIndicatorIcon": false
+                  },
+                  {
+                    "field": "CreatedOn",
+                    "displayName": "CreatedOn",
+                    "visible": true,
+                    "type": "DateTimeOffset",
+                    "isIndicatorIcon": false
+                  },
+                  {
+                    "field": "LastUpdatedOn",
+                    "displayName": "LastUpdatedOn",
+                    "visible": true,
+                    "type": "DateTimeOffset",
+                    "isIndicatorIcon": false
+                  },
+                  {
+                    "field": "ToBeCleaned",
+                    "displayName": "ToBeCleaned",
+                    "visible": true,
+                    "type": "Boolean",
+                    "isIndicatorIcon": false
+                  }
+                ],
+                "commands": [],
+                "showSelectionCheckbox": false
+              },
+              "layoutSettings": {
+                "layout": "Horizontal",
+                "columns": 1,
+                "type": "Fixed"
+              }
+            },
+            "actions": [
+              {
+                "id": "Add",
+                "title": "Add",
+                "tooltip": "",
+                "icon": "svg cmdAdd24",
+                "main": true,
+                "params": {
+                  "selectedItem": "contents.MasterContent.selectedItem",
+                  "mode": "'add'"
+                },
+                "behavior": {
+                  "type": "command",
+                  "blueprint": {
+                    "controller": "mdui_ContentManagement_Ctrl",
+                    "url": "NSOFT.STNOH/blueprints/ContentManagement/ContentManagement.html"
+                  },
+                  "displayMode": "sidePanel",
+                  "onExit": {
+                    "refreshAndSelectContents": [
+                      {
+                        "content": "DetailContent",
+                        "key": "Id"
+                      }
+                    ]
+                  }
+                },
+                "show": {
+                  "expression": "activeContent =='DetailContent'"
+                }
+              },
+              {
+                "id": "Edit",
+                "title": "Edit",
+                "tooltip": "",
+                "icon": "svg cmdEdit24",
+                "main": true,
+                "params": {
+                  "selectedItem": "contents.MasterContent.selectedItem",
+                  "mode": "'edit'"
+                },
+                "behavior": {
+                  "type": "command",
+                  "blueprint": {
+                    "controller": "mdui_ContentManagement_Ctrl",
+                    "url": "NSOFT.STNOH/blueprints/ContentManagement/ContentManagement.html"
+                  },
+                  "displayMode": "sidePanel",
+                  "onExit": {
+                    "refreshAndSelectContents": [
+                      {
+                        "content": "DetailContent",
+                        "key": "Id"
+                      }
+                    ]
+                  }
+                },
+                "show": {
+                  "expression": "activeContent == 'DetailContent' && contents.MasterContent.selectedItem"
+                }
+              }
+            ],
+            "rootEntity": {
+              "name": ""
+            },
+            "entityRef": {
+              "entity": "MailContent",
+              "app": "Mail"
+            },
+            "fieldSources": [],
+            "templatePath": "NSOFT.STNOH/blueprints/ContentManagement/ContentManagement.html"
+          },
+          "User": {
+            "id": "User",
+            "title": "NSOFT_STNOH_MailManagement.User",
+            "query": "$expand=Person,Content&$filter=Content/Id eq {{contents.MasterContent.selectedItem.Id}}",
+            "multiplicity": "many",
+            "master": false,
+            "enableMultiSelection": false,
+            "properties": [
+              {
+                "propertyRef": {
+                  "entity": "MailContentPersonAssociation",
+                  "app": "NSOFT.STNOH",
+                  "property": "Person"
+                },
+                "name": "Person",
+                "label": "Person",
+                "type": {},
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContentPersonAssociation",
+                  "app": "NSOFT.STNOH",
+                  "property": "Content"
+                },
+                "name": "Content",
+                "label": "Content",
+                "type": {},
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContentPersonAssociation",
+                  "app": "NSOFT.STNOH",
+                  "property": "IsActive"
+                },
+                "name": "IsActive",
+                "label": "IsActive",
+                "type": "Boolean",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContentPersonAssociation",
+                  "app": "NSOFT.STNOH",
+                  "property": "Id"
+                },
+                "name": "Id",
+                "label": "Id",
+                "type": "Guid",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContentPersonAssociation",
+                  "app": "NSOFT.STNOH",
+                  "property": "IsFrozen"
+                },
+                "name": "IsFrozen",
+                "label": "IsFrozen",
+                "type": "Boolean",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContentPersonAssociation",
+                  "app": "NSOFT.STNOH",
+                  "property": "CreatedOn"
+                },
+                "name": "CreatedOn",
+                "label": "CreatedOn",
+                "type": "DateTimeOffset",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContentPersonAssociation",
+                  "app": "NSOFT.STNOH",
+                  "property": "LastUpdatedOn"
+                },
+                "name": "LastUpdatedOn",
+                "label": "LastUpdatedOn",
+                "type": "DateTimeOffset",
+                "sortable": false,
+                "searchable": false
+              },
+              {
+                "propertyRef": {
+                  "entity": "MailContentPersonAssociation",
+                  "app": "NSOFT.STNOH",
+                  "property": "ToBeCleaned"
+                },
+                "name": "ToBeCleaned",
+                "label": "ToBeCleaned",
+                "type": "Boolean",
+                "sortable": false,
+                "searchable": false
+              }
+            ],
+            "blueprintSettings": {
+              "viewOptions": "m",
+              "viewMode": "mc",
+              "tileConfig": {
+                "commands": [],
+                "titleField": "Person.UserName",
+                "descriptionField": "",
+                "icon": "svg typePerson48",
+                "isCell": false,
+                "propertyFields": [
+                  {
+                    "field": "Person.WorkEmail",
+                    "displayName": "Email",
+                    "visible": {
+                      "expression": ""
+                    },
+                    "fieldSource": ""
+                  }
+                ],
+                "indicators": [],
+                "titleFieldSource": "",
+                "descriptionFieldSource": ""
+              },
+              "gridConfig": {
+                "columnDefs": [
+                  {
+                    "field": "Person",
+                    "displayName": "Person",
+                    "visible": true,
+                    "type": "Object"
+                  },
+                  {
+                    "field": "Content",
+                    "displayName": "Content",
+                    "visible": true,
+                    "type": "Object"
+                  },
+                  {
+                    "field": "IsActive",
+                    "displayName": "IsActive",
+                    "visible": true,
+                    "type": "Boolean"
+                  },
+                  {
+                    "field": "Id",
+                    "displayName": "Id",
+                    "visible": true,
+                    "type": "Guid"
+                  },
+                  {
+                    "field": "IsFrozen",
+                    "displayName": "IsFrozen",
+                    "visible": true,
+                    "type": "Boolean"
+                  },
+                  {
+                    "field": "CreatedOn",
+                    "displayName": "CreatedOn",
+                    "visible": true,
+                    "type": "DateTimeOffset"
+                  },
+                  {
+                    "field": "LastUpdatedOn",
+                    "displayName": "LastUpdatedOn",
+                    "visible": true,
+                    "type": "DateTimeOffset"
+                  },
+                  {
+                    "field": "ToBeCleaned",
+                    "displayName": "ToBeCleaned",
+                    "visible": true,
+                    "type": "Boolean"
+                  }
+                ],
+                "commands": [],
+                "showSelectionCheckbox": false
+              },
+              "tagField": "",
+              "pagingOptions": {
+                "pageSizes": [
+                  5,
+                  10,
+                  25,
+                  100,
+                  250,
+                  500
+                ],
+                "pageSize": 10,
+                "currentPage": 1
+              },
+              "downloadOptions": {
+                "enabled": true,
+                "fileName": "",
+                "separator": ""
+              },
+              "image": "svg typePerson48",
+              "sortingDirection": "asc",
+              "isFilterPanel": false,
+              "filterOptions": {
+                "showDefaultClause": false,
+                "showMatchCase": false,
+                "allowedOperators": "",
+                "groupEnabled": false
+              },
+              "filterEnabled": true,
+              "exportManager": false,
+              "tagsManager": true,
+              "serverSidePagination": false,
+              "enablePaging": true,
+              "filterBarOptions": "sqgf",
+              "filterFields": [
+                {
+                  "field": "Person.UserName",
+                  "displayName": "User Name",
+                  "type": "string",
+                  "default": false,
+                  "values": "",
+                  "widget": "sit-text",
+                  "entityPickerTitle": "",
+                  "allowedCompareOperators": [
+                    "=",
+                    "in",
+                    "contains"
+                  ],
+                  "validation": {},
+                  "dataSource": {},
+                  "useEntityPicker": false,
+                  "entityPickerConfig": {},
+                  "pagingMode": "client",
+                  "fieldSource": ""
+                }
+              ]
+            },
+            "actions": [
+              {
+                "id": "Associate",
+                "title": "NSOFT_STNOH_MailManagement.Associate",
+                "tooltip": "NSOFT_STNOH_MailManagement.Associate",
+                "icon": "svg cmdLink24",
+                "main": true,
+                "params": {
+                  "Id": "contents.MasterContent.selectedItem.Id"
+                },
+                "behavior": {
+                  "type": "command",
+                  "blueprint": {
+                    "controller": "mdui_UserManagement_selectUsersAdd_Ctrl",
+                    "url": "NSOFT.STNOH/blueprints/UserManagement/UserManagement-add.html"
+                  },
+                  "displayMode": "sidePanel",
+                  "onExit": {
+                    "refreshAndSelectContents": [
+                      {
+                        "content": "User",
+                        "key": "Id"
+                      }
+                    ]
+                  }
+                },
+                "show": {
+                  "expression": "contents.MasterContent.selectedItem && activeContent == 'User' "
+                }
+              },
+              {
+                "id": "UnAssociate",
+                "title": "NSOFT_STNOH_MailManagement.UnAssociate",
+                "tooltip": "NSOFT_STNOH_MailManagement.UnAssociate",
+                "icon": "svg cmdUnlink24",
+                "main": true,
+                "params": {
+                  "Content": "contents.MasterContent.selectedItem.Id",
+                  "Person": "contents.User.selectedItem.Id"
+                },
+                "behavior": {
+                  "type": "confirm",
+                  "commandRef": {
+                    "app": "Mail",
+                    "command": "DeleteMailContentPersonAssociation",
+                    "fullName": "NSOFT.STNOH.STNOH.DSPOMModel.Commands.Published.DeleteMailContentPersonAssociation"
+                  },
+                  "displayMode": "sidePanel",
+                  "panelTitle": "",
+                  "panelTitleField": "",
+                  "onExit": {
+                    "refreshAndSelectContents": [
+                      {
+                        "content": "User",
+                        "key": "Id"
+                      }
+                    ]
+                  },
+                  "fields": [
+                    {
+                      "name": "Content",
+                      "label": "Content",
+                      "type": "Guid",
+                      "parameterRef": {
+                        "app": "Mail",
+                        "command": "DeleteMailContentPersonAssociation",
+                        "parameter": "Content"
+                      },
+                      "values": [],
+                      "hidden": false,
+                      "readOnly": false,
+                      "inputMode": "queryResult",
+                      "validation": {
+                        "required": false
+                      },
+                      "value": {
+                        "body": "return contents.MasterContent.selectedItem.Id"
+                      },
+                      "enableMultiSelection": false,
+                      "useEntityPicker": false
+                    },
+                    {
+                      "name": "Person",
+                      "label": "Person",
+                      "type": "Guid",
+                      "parameterRef": {
+                        "app": "Mail",
+                        "command": "DeleteMailContentPersonAssociation",
+                        "parameter": "Person"
+                      },
+                      "values": [],
+                      "hidden": false,
+                      "readOnly": false,
+                      "inputMode": "queryResult",
+                      "validation": {
+                        "required": false
+                      },
+                      "value": {
+                        "body": "return contents.User.selectedItem.Person.Id"
+                      },
+                      "enableMultiSelection": false,
+                      "useEntityPicker": false
+                    }
+                  ],
+                  "confirm": "NSOFT_STNOH_MailManagement.DeleteConfirmMessage01"
+                },
+                "show": {
+                  "expression": "activeContent == 'User' && contents.MasterContent.selectedItem && contents.User.selectedItem"
+                }
+              }
+            ],
+            "rootEntity": {
+              "name": ""
+            },
+            "entityRef": {
+              "entity": "MailContentPersonAssociation",
+              "app": "Mail"
+            },
+            "fieldSources": []
+          }
+        },
+        "autoGenerate": true,
+        "help": ""
+      }
+    ]
+}

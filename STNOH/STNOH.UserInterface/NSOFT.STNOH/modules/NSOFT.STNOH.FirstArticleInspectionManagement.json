@@ -1,0 +1,20 @@
+{
+  "name": "NSOFT.STNOH.FirstArticleInspectionManagement",
+  "type": "standard",
+  "title": "FirstArticleInspectionManagement",
+  "header": "",
+  "icon": "fa-folder",
+  "functionalBlock": "NSOFT.STNOH",
+  "dependencies": [],
+  "states": [
+    {
+      "id": "home.NSOFT_STNOH_FirstArticleInspectionManagement_FirstArticleInspectionManagement",
+      "title": "First Article Inspection Management",
+      "header": "NSOFT_STNOH_FirstArticleInspectionManagement.Title",
+      "icon": "svg typeCalendarHoliday48",
+      "securable": true,
+      "roles": []
+    }
+  ],
+  "manifestVersion": "01.01.00"
+}

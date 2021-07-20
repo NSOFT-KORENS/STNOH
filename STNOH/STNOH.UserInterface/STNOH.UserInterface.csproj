@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF08031E-E4B8-4346-B350-9CC86AC198A6}</ProjectGuid>
+    <ProjectTypeGuids>{D45F378E-08AA-4766-880A-1AF4180CC2F8};{349c5851-65df-11da-9384-00065b846f21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NSOFT.STNOH.UserInterface</RootNamespace>
+    <AssemblyName>NSOFT.STNOH.UserInterface</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Name>STNOH.UserInterface</Name>
+    <FunctionalBlockType>Project</FunctionalBlockType>
+    <FunctionalBlockVersion>01.00.00</FunctionalBlockVersion>
+    <FunctionalBlockName>STNOH</FunctionalBlockName>
+    <FunctionalBlockPrefix>NSOFT</FunctionalBlockPrefix>
+    <SitPlatformVersion>4.1</SitPlatformVersion>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NSOFT.STNOH\components\" />
+    <Folder Include="NSOFT.STNOH\config\" />
+    <Folder Include="NSOFT.STNOH\fonts\" />
+    <Folder Include="NSOFT.STNOH\images\" />
+    <Folder Include="NSOFT.STNOH\scripts\" />
+    <Folder Include="NSOFT.STNOH\services\" />
+    <Folder Include="NSOFT.STNOH\styles\" />
+    <Folder Include="NSOFT.STNOH\swac\" />
+    <Folder Include="NSOFT.STNOH\widgets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NSOFT.STNOH\blueprints\ContentManagement\ContentManagement-ctrl.js" />
+    <Content Include="NSOFT.STNOH\blueprints\ContentManagement\ContentManagement-srv.js" />
+    <Content Include="NSOFT.STNOH\blueprints\ContentManagement\ContentManagement.html" />
+    <Content Include="NSOFT.STNOH\blueprints\ContentManagement\module.js" />
+    <Content Include="NSOFT.STNOH\blueprints\document\document-add-ctrl.js" />
+    <Content Include="NSOFT.STNOH\blueprints\document\document-add.html" />
+    <Content Include="NSOFT.STNOH\blueprints\document\document-download-ctrl.js" />
+    <Content Include="NSOFT.STNOH\blueprints\document\document-download.html" />
+    <Content Include="NSOFT.STNOH\blueprints\document\document-srv.js" />
+    <Content Include="NSOFT.STNOH\blueprints\document\module.js" />
+    <Content Include="NSOFT.STNOH\blueprints\laborTraining\laborTraining-add-ctrl.js" />
+    <Content Include="NSOFT.STNOH\blueprints\laborTraining\laborTraining-add.html" />
+    <Content Include="NSOFT.STNOH\blueprints\laborTraining\laborTraining-srv.js" />
+    <Content Include="NSOFT.STNOH\blueprints\laborTraining\module.js" />
+    <Content Include="NSOFT.STNOH\blueprints\UserManagement\module.js" />
+    <Content Include="NSOFT.STNOH\blueprints\UserManagement\UserManagement-add-ctrl.js" />
+    <Content Include="NSOFT.STNOH\blueprints\UserManagement\UserManagement-add.html" />
+    <Content Include="NSOFT.STNOH\blueprints\UserManagement\UserManagement-srv.js" />
+    <Content Include="NSOFT.STNOH\modules\AndonOccurrenceStatusandMeasures\AndonOccurrenceStatusandMeasures-list-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\AndonOccurrenceStatusandMeasures\AndonOccurrenceStatusandMeasures-list.html" />
+    <Content Include="NSOFT.STNOH\modules\AndonOccurrenceStatusandMeasures\AndonOccurrenceStatusandMeasures-srv.js" />
+    <Content Include="NSOFT.STNOH\modules\AndonOccurrenceStatusandMeasures\module.js" />
+    <Content Include="NSOFT.STNOH\modules\ByPassProcessList\ByPassProcessList-list-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\ByPassProcessList\ByPassProcessList-list.html" />
+    <Content Include="NSOFT.STNOH\modules\ByPassProcessList\ByPassProcessList-srv.js" />
+    <Content Include="NSOFT.STNOH\modules\ByPassProcessList\module.js" />
+    <Content Include="NSOFT.STNOH\modules\ByPassProcessStatus\ByPassProcessStatus-list-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\ByPassProcessStatus\ByPassProcessStatus-list.html" />
+    <Content Include="NSOFT.STNOH\modules\ByPassProcessStatus\ByPassProcessStatus-srv.js" />
+    <Content Include="NSOFT.STNOH\modules\ByPassProcessStatus\module.js" />
+    <Content Include="NSOFT.STNOH\modules\FirstArticleInspectionManagement\FirstArticleInspectionManagement-add-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\FirstArticleInspectionManagement\FirstArticleInspectionManagement-add.html" />
+    <Content Include="NSOFT.STNOH\modules\FirstArticleInspectionManagement\FirstArticleInspectionManagement-edit-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\FirstArticleInspectionManagement\FirstArticleInspectionManagement-edit.html" />
+    <Content Include="NSOFT.STNOH\modules\FirstArticleInspectionManagement\FirstArticleInspectionManagement-list-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\FirstArticleInspectionManagement\FirstArticleInspectionManagement-list.html" />
+    <Content Include="NSOFT.STNOH\modules\FirstArticleInspectionManagement\FirstArticleInspectionManagement-srv.js" />
+    <Content Include="NSOFT.STNOH\modules\FirstArticleInspectionManagement\module.js" />
+    <Content Include="NSOFT.STNOH\modules\LaborTrainingUserMgt\LaborTrainingUserMgt-add-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\LaborTrainingUserMgt\LaborTrainingUserMgt-add.html" />
+    <Content Include="NSOFT.STNOH\modules\LaborTrainingUserMgt\LaborTrainingUserMgt-srv.js" />
+    <Content Include="NSOFT.STNOH\modules\LaborTrainingUserMgt\module.js" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\LinkManagement-parameter.html" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\LinkManagement-parameter-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\LinkManagement-add-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\LinkManagement-add.html" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\LinkManagement-edit-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\LinkManagement-edit.html" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\LinkManagement-list-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\LinkManagement-list.html" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\LinkManagement-select-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\LinkManagement-select.html" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\LinkManagement-srv.js" />
+    <Content Include="NSOFT.STNOH\modules\LinkManagement\module.js" />
+    <Content Include="NSOFT.STNOH\modules\LinkSearch\LinkSearch-list-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\LinkSearch\LinkSearch-list.html" />
+    <Content Include="NSOFT.STNOH\modules\LinkSearch\LinkSearch-srv.js" />
+    <Content Include="NSOFT.STNOH\modules\LinkSearch\module.js" />
+    <Content Include="NSOFT.STNOH\modules\ProductionResult\module.js" />
+    <Content Include="NSOFT.STNOH\modules\ProductionResult\ProductionResult-list-ctrl.js" />
+    <Content Include="NSOFT.STNOH\modules\ProductionResult\ProductionResult-list.html" />
+    <Content Include="NSOFT.STNOH\modules\ProductionResult\ProductionResult-srv.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NSOFT.STNOH\modules\NSOFT.STNOH.LaborTrainingUserMgt.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.LaborTraining.en-US.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.LaborTraining.ko-KR.json" />
+    <Content Include="NSOFT.STNOH\resources\resource.json" />
+    <Content Include="NSOFT.STNOH\modules\NSOFT.STNOH.LaborTraining.mdui" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.LinkManagement.en-US.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.LinkManagement.ko-KR.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.LinkSearch.en-US.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.LinkSearch.ko-KR.json" />
+    <Content Include="NSOFT.STNOH\modules\NSOFT.STNOH.LinkManagement.json" />
+    <Content Include="NSOFT.STNOH\modules\NSOFT.STNOH.LinkSearch.json" />
+    <Content Include="NSOFT.STNOH\modules\NSOFT.STNOH.ProductionResult.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.ProductionResult.en-US.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.ProductionResult.ko-KR.json" />
+    <Content Include="NSOFT.STNOH\modules\NSOFT.STNOH.AndonOccurrenceStatusandMeasures.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.AndonOccurrenStatusandMeasures.ko-KR.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.AndonOccurrenStatusandMeasures.en-US.json" />
+    <Content Include="NSOFT.STNOH\modules\NSOFT.STNOH.ByPassProcessList.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.ByPassProcessList.en-US.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.ByPassProcessList.ko-KR.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.ByPassProcessStatus.en-US.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.ByPassProcessStatus.ko-KR.json" />
+    <Content Include="NSOFT.STNOH\modules\NSOFT.STNOH.ByPassProcessStatus.json" />
+    <Content Include="NSOFT.STNOH\modules\NSOFT.STNOH.FirstArticleInspectionManagement.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.FirstArticleInspectionManagement.en-US.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.FirstArticleInspectionManagement.ko-KR.json" />
+    <Content Include="NSOFT.STNOH\modules\NSOFT.STNOH.MailManagement.mdui" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.Management.ko-KR.json" />
+    <Content Include="NSOFT.STNOH\resources\NSOFT.STNOH.Management.en-US.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.js" />
+    <Content Include="config.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="default.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="default-debug.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NSOFT.STNOH\module.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NSOFT.STNOH\locales\locales.json" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Project="$(SITUnifiedVSToolingPlatformBin)\Siemens.SimaticIt.UI.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59854</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59854/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeCompile">
+  </Target>
+  <Target Name="AfterCompile">
+  </Target>
+  -->
+</Project>

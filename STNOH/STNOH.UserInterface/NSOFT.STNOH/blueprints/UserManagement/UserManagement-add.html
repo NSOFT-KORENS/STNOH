@@ -1,0 +1,6 @@
+﻿<sit-side-panel sit-title="{{vm.sidepanelConfig.title}}" sit-messages="vm.sidepanelConfig.messages" sit-actions="vm.sidepanelConfig.actionButtons"
+                sit-close="vm.sidepanelConfig.closeButton">
+    <div id="user-list" class="mgt-list-full" data-internal-id="team-mgt-user-add-icv" ng-if="vm.usersListVisible" style="height : calc(100%-70px)">
+        <sit-item-collection-viewer sit-options="vm.icvConfig" data-sit-data="vm.users"></sit-item-collection-viewer>
+    </div>
+</sit-side-panel>

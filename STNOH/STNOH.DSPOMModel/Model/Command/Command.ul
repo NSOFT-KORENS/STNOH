@@ -1,0 +1,9 @@
+VERSION '01.13'
+
+[Composite]
+[Protected]
+[@Guid(5b11170a-6113-4b7f-bfe6-6258e1eccf5d)]
+COMMAND NonConformanceSendMail
+WITH
+    NonConformanceId AS Guid
+

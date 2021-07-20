@@ -1,0 +1,17 @@
+﻿{
+  "NSOFT_STNOH_MailManagement": {
+    "MasterTitle": "메일 관리",
+    "Content": "내용",
+    "MailType": "메일 유형",
+    "IsActive": "활성화",
+    "Title": "제목",
+    "addTitle": "Add Content",
+    "editTitle": "Edit Content",
+    "DeleteConfirmMessage01": "정말 삭제하시겠습니까?",
+    "DetailTitle": "Overview",
+    "User": "사용자",
+    "Associate": "연결",
+    "UnAssociate": "연결 해제",
+    "AddUser": "사용자 연결"
+  }
+}

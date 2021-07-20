@@ -1,0 +1,27 @@
+{
+  "NSOFT_STNOH_FirstArticleInspectionManagement": {
+    "Title" :  "First Article Inspection",
+    "addTitle": "Add FAI",
+    "editTitle": "Edit FAI",
+    "AddComponent": "Add Component",
+    "save": "Save",
+    "cancel": "Cancel",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "delete",
+    "identifier": "identifier",
+    "Material": "Material",
+    "asPlannedBoP": "AsPlannedBOP",
+    "Process": "Process",
+    "Operation": "Operation",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "dateValidMessage01": "The end date cannot be earlier than the start date.",
+    "dateValidMessage02": "The start date cannot be later than the end date.",
+    "NId": "NId",
+    "MaterialNId": "Material NId",
+    "BoPNId": "BoP NId",
+    "OperationNId": "Operation NId",
+    "deleteConfirmMessage": "Are you sure you want to delete your selection?"
+  }
+}

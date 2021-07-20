@@ -1,0 +1,15 @@
+﻿{
+  "NSOFT_STNOH_AndonOccurrenStatusandMeasures": {
+    "Title": "안돈 발생 현황 및 조치 내역 현황",
+    "NId": "식별자",
+    "Context": "유형",
+    "Severity": "심각도",
+    "StartDate": "발생 일시",
+    "Defect": "결함",
+    "Machine": "설비",
+    "Material": "자재",
+    "EndDate": "처리 일시",
+    "Status": "처리 결과",
+    "Note": "노트"
+  }
+}

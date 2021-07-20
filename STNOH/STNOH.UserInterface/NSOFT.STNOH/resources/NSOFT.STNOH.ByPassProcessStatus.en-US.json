@@ -1,0 +1,18 @@
+{
+  "NSOFT_STNOH_ByPassProcessStatus": {
+    "Title": "By-Pass Process Status",
+    "MaterialNId": "Material Id",
+    "MaterialName": "Material Name",
+    "ByPassOperationNo": "By-Pass Operation No.",
+    "ByPassOperation": "By-Pass Op Name",
+    "ByPassOperationMachine": "By-Pass Op Machine",
+    "ProducingQuantity": "By-pass Producing Qty",
+    "ProducedQuantity": "By-pass Produced Qty",
+    "Type": "Type",
+    "Note": "Note",
+    "QuickSearchPlaceholder": "Find an By-Pass Op Machine..",
+    "QuickSearchPlaceholder2": "Find an Note..",
+    "ByPassStartDate": "By-Pass Start Time",
+    "ByPassEndDate": "By-Pass End Time"
+  }
+}
