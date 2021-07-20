@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is used to define Application Log messages. You should follow below instructions while defining messages: 
+    - The <message> structure should be repeated for each Application Log message.
+    - The <id> attribute is mandatory and should be unique in this file.
+    - The <short> attribute represents the short text message and should be less than or up to 100 characters.
+    - The <long> attribute represents the long text message and should be less than or up to 400 characters.
+    - The <level> attribute is mandatory and its value should be one of: Verbose | Error | Warning | Critical | Informational.
+    - The <param> structure should be repeated for each parameter of the Application Log message.
+    - The <key> attribute represents the unique identifier for a parameter that repeats multiple times in the message text.
+    - The <type> attribute represents the datatype of the parameter and its value should be one of the primitive types: string | byte | int | decimal | float | double | long | boolean | Guid | Datetime | Timespan.  -->
+<messages>
+  <message>
+    <id>-000001</id>
+    <short>The Material Tracking Unit does not exist.</short>
+    <long>The Material Tracking Unit does not exist.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000002</id>
+    <short>The Material specific to Discrete Manufacturing does not exist.</short>
+    <long>The Material specific to Discrete Manufacturing does not exist.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000003</id>
+    <short>MinQuantityUoM must be consistent with the Material UoM.</short>
+    <long>MinQuantityUoM must be consistent with the Material UoM.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000004</id>
+    <short>A Material Tracking Unit specific to Discrete Manufacturing is linked to the Material Tracking Unit.</short>
+    <long>A Material Tracking Unit specific to Discrete Manufacturing is linked to the Material Tracking Unit.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000005</id>
+    <short>Serial Number %code% of Material %matNId% with Rev. (%rev%) already exists.</short>
+    <long>Serial Number %code% of Material %matNId% with Rev. (%rev%) already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>code</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>matNId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>rev</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000006</id>
+    <short>You must provide a value for Code Type and Code for the Material Tracking Unit you are editing.</short>
+    <long>You must provide a value for Code Type and Code for the Material Tracking Unit you are editing.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000007</id>
+    <short>You must provide a value for Code Type and Code for the Material Tracking Unit you are creating.</short>
+    <long>You must provide a value for Code Type and Code for the Material Tracking Unit you are creating.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000008</id>
+    <short>Code Type must be consistent with profile of parent Material specific to Discrete Manufacturing.</short>
+    <long>Code Type %codetype% must be consistent with profile of parent Material specific to Discrete Manufacturing.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>codetype</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000010</id>
+    <short>No Document has been linked.</short>
+    <long>No Document has been linked.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000011</id>
+    <short>No Document has been unlinked.</short>
+    <long>No Document has been unlinked.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000013</id>
+    <short>MTU Id is a required parameter.</short>
+    <long>MTU Id is a required parameter. Please check it is not empty.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000014</id>
+    <short>DocumentIdsList is a required parameter.</short>
+    <long>DocumentIdsList is a required parameter. Please check it is not null or empty.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000015</id>
+    <short>An Unexpected error has occured.</short>
+    <long>An Unexpected error has occured. Please try again.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000016</id>
+    <short>MTUDocumentAssociationIds is a required parameter.</short>
+    <long>MTUDocumentAssociationIds is a required parameter. Please check it is not null or empty.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000017</id>
+    <short>AMPowder Material Tracking Unit cannot be of type SerialNumber.</short>
+    <long>AMPowder Material Tracking Unit cannot be of type SerialNumber.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+</messages>

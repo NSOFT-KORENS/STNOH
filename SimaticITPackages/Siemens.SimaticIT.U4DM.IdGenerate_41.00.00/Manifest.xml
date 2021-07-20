@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.U4DM.IdGenerate</name>
+    <shortname>IdGenerate</shortname>
+    <description>Identifier Template Operational Data Domain Functional Block</description>
+    <version>41.00.00</version>
+    <companyname>Siemens.SimaticIT.U4DM</companyname>
+    <author>Siemens.SimaticIT.U4DM</author>
+    <hash>IRDByxkQrdSfwLgpAzFGiqHIal/h2rjrTyKjcHRgulA=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>OperationalData</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_COMMON_BIN</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UDM_RF</name>
+        <version>05.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.MAT_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.EQU_MS</name>
+        <version>06.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.ES_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UADM.FB_MS_MAT</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_RD_SERV</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.MatTool</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.CreateTemplate</name>
+                        <shortname>CreateTemplate</shortname>
+                        <description>Creates a Template given the context in which it will be used.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.CreateTemplateHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.CreateTemplateBlock</name>
+                        <shortname>CreateTemplateBlock</shortname>
+                        <description>Creates a Template Block, which represents a building block that will be used to form a Template.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.CreateTemplateBlockHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.DeleteTemplateBlocks</name>
+                        <shortname>DeleteTemplateBlocks</shortname>
+                        <description>Deletes all the specified Template Blocks.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.DeleteTemplateBlocksHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.DeleteTemplateBlock</name>
+                        <shortname>DeleteTemplateBlock</shortname>
+                        <description>Deletes the specified Template Block.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.DeleteTemplateBlockHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.DeleteTemplate</name>
+                        <shortname>DeleteTemplate</shortname>
+                        <description>Deletes the specified Template.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.DeleteTemplateHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.BeginIdTemplateEditing</name>
+                        <shortname>BeginIdTemplateEditing</shortname>
+                        <description>Places the Template (selected on the basis of its identifier) in Editing mode.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.BeginIdTemplateEditingHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.CheckIdTemplateEditing</name>
+                        <shortname>CheckIdTemplateEditing</shortname>
+                        <description>Verifies that the Template (selected on the basis of its identifier) is in Editing mode.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.CheckIdTemplateEditingHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.EndIdTemplateEditing</name>
+                        <shortname>EndIdTemplateEditing</shortname>
+                        <description>Deactivates the Editing mode for the Template (selected on the basis of its identifier).</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.EndIdTemplateEditingHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.GenerateMaterialBatchId</name>
+                        <shortname>GenerateMaterialBatchId</shortname>
+                        <description>Generates the actual Material Batch identifier in runtime.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.GenerateMaterialBatchIdHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.GenerateSerialNumberCode</name>
+                        <shortname>GenerateSerialNumberCode</shortname>
+                        <description>Generates the actual Serial Number code (identifier) at runtime.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.GenerateSerialNumberCodeHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.GenerateSerialNumberCodes</name>
+                        <shortname>GenerateSerialNumberCodes</shortname>
+                        <description>Generates a series of Serial Number codes (identifiers) that adopts the same Template in one shot.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.GenerateSerialNumberCodesHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.GenerateWorkOrderNId</name>
+                        <shortname>GenerateWorkOrderNId</shortname>
+                        <description>Generates a Natural Identifier for a Work Order at runtime.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.GenerateWorkOrderNIdHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.UpdateTemplateBlock</name>
+                        <shortname>UpdateTemplateBlock</shortname>
+                        <description>Updates the specified Template Block. </description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.UpdateTemplateBlockHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.CreateTemplateToMaterialPlant</name>
+                        <shortname>CreateTemplateToMaterialPlant</shortname>
+                        <description>Creates an entity representing the relationship involving a Template, a Material and a piece of Equipment representing a Plant.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.CreateTemplateToMaterialPlantHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.DeleteTemplateToMaterialPlant</name>
+                        <shortname>DeleteTemplateToMaterialPlant</shortname>
+                        <description>Deletes the specified TemplateToMaterialPlant entity, which represents the specific relationship involving a Template, a Material and a Plant (piece of Equipment).</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.DeleteTemplateToMaterialPlantHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.DeleteTemplateToMaterialPlantList</name>
+                        <shortname>DeleteTemplateToMaterialPlantList</shortname>
+                        <description>Deletes the specified list of **TemplateToMaterialPlant** entities, each representing a specific relationship involving a Template, a Material and a Plant (piece of Equipment).</description>
+                        <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>OperationalData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Commands.DeleteTemplateToMaterialPlantListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.IdGenerate.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command></commands>
+    <commandActions></commandActions>
+    <events></events>
+    <event_handlers></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>OperationalData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.ReadingModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>OperationalData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Types, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>OperationalData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.Types.ReadingModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>OperationalData</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.DataModel.TemplateType</name>
+      <shortname>TemplateType</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.DataModel.Template</name>
+      <shortname>Template</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.DataModel.TemplateBlock</name>
+      <shortname>TemplateBlock</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.DataModel.TemplateToMaterialPlant</name>
+      <shortname>TemplateToMaterialPlant</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity></wr_entities>
+    <wr_facets></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sections>
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="FB_MS_BOP" domainName="MasterData">
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.DependencyType">
+      <Property name="NId" kind="Plain" value="AfterEnd" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.DependencyType">
+      <Property name="NId" kind="Plain" value="AfterStart" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.MaterialSpecificationType">
+      <Property name="NId" kind="Plain" value="NormalPart" />
+      <Property name="HasOutputBehavior" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.MaterialSpecificationType">
+      <Property name="NId" kind="Plain" value="Disassemble" />
+      <Property name="HasOutputBehavior" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.MaterialSpecificationType">
+      <Property name="NId" kind="Plain" value="Alternative" />
+      <Property name="HasOutputBehavior" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.MaterialSpecificationType">
+      <Property name="NId" kind="Plain" value="SelectedFit" />
+      <Property name="HasOutputBehavior" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.MaterialSpecificationType">
+      <Property name="NId" kind="Plain" value="RangeParts" />
+      <Property name="HasOutputBehavior" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.MaterialSpecificationType">
+      <Property name="NId" kind="Plain" value="Reference" />
+      <Property name="HasOutputBehavior" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.MaterialSpecificationType">
+      <Property name="NId" kind="Plain" value="AsRequired" />
+      <Property name="HasOutputBehavior" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.MaterialSpecificationType">
+      <Property name="NId" kind="Plain" value="Additive" />
+      <Property name="HasOutputBehavior" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.MaterialSpecificationType">
+      <Property name="NId" kind="Plain" value="CoProduct" />
+      <Property name="HasOutputBehavior" kind="Plain" value="True" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.MaterialSpecificationType">
+      <Property name="NId" kind="Plain" value="ByProduct" />
+      <Property name="HasOutputBehavior" kind="Plain" value="True" />
+    </Entity>
+
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.OperationStepCategory">
+      <Property name="NId" kind="Plain" value="Default" />
+      <Property name="Name" kind="Plain" value="Default" />
+      <Property name="Description" kind="Plain" value="Default OperationStep Category" />
+    </Entity>
+
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.OperationStepCategoryProcessDefinitionAssociation">
+      <Property name="ProcessDefinitionNId" kind="Plain" value="UADMProcessDefinition" />
+      <Property name="ProcessDefinitionRevision" kind="Plain" value="B" />
+      <Property name="EquipmentNId" kind="Plain" value="NULL" />
+      <Property name="DM_Material" kind="Plain" value="NULL" />
+      <Property name="NId" kind="Plain" value="UADMDefaultOperationStepCategoryProcessDefinitionAssociation" />
+      <Property name="Active" kind="Plain" value="True" />
+      <Property name="ByMTU" kind="Plain" value="False" />
+      <Property name="OperationStepCategory" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.OperationStepCategory">
+          <Property name="NId" kind="Plain" value="Default" />
+        </LogicalKey>
+      </Property>
+      <Property name="ProcessDefinition" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.MasterData.BPF_MS.MSModel.DataModel.ProcessDefinition">
+          <Property name="NId" kind="Plain" value="UADMProcessDefinition" />
+          <Property name="Revision" kind="Plain" value="B" />
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+    <!--Traceability START-->
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.OperationStepCategory">
+      <Property name="NId" kind="Plain" value="Traceability" />
+      <Property name="Name" kind="Plain" value="Traceability" />
+      <Property name="Description" kind="Plain" value="Traceability Category" />
+    </Entity>
+
+    <!--There should be no link to BPF but if I do not set one, the WP post-action throws exception!-->
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.OperationStepCategoryProcessDefinitionAssociation">
+      <Property name="ProcessDefinitionNId" kind="Plain" value="UADMProcessDefinition" />
+      <Property name="ProcessDefinitionRevision" kind="Plain" value="B" />
+      <Property name="EquipmentNId" kind="Plain" value="NULL" />
+      <Property name="DM_Material" kind="Plain" value="NULL" />
+      <Property name="NId" kind="Plain" value="TraceabilityAssociation" />
+      <!--BPF must NOT be active-->
+      <Property name="Active" kind="Plain" value="False" />
+      <Property name="ByMTU" kind="Plain" value="True" />
+      <Property name="OperationStepCategory" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.DataModel.OperationStepCategory">
+          <Property name="NId" kind="Plain" value="Traceability" />
+        </LogicalKey>
+      </Property>
+      <Property name="ProcessDefinition" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.MasterData.BPF_MS.MSModel.DataModel.ProcessDefinition">
+          <Property name="NId" kind="Plain" value="UADMProcessDefinition" />
+          <Property name="Revision" kind="Plain" value="B" />
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <!--Traceability END-->
+
+  </Section>
+</Sections>

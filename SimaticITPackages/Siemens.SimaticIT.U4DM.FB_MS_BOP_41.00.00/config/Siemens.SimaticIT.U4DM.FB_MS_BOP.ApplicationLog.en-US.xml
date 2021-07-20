@@ -1,0 +1,2685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is used to define Application Log messages. Follow the instructions listed below while defining the messages: 
+    - The <message> structure should be repeated for each Application Log message.
+    - The <id> attribute is mandatory and should be unique in this file.
+    - The <short> attribute represents the short text message and should be less than or up to 100 characters.
+    - The <long> attribute represents the long text message and should be less than or up to 400 characters.
+    - The <level> attribute is mandatory and the value should be one of: Verbose | Error | Warning | Critical | Informational.
+    - The <param> structure should be repeated for each parameter of the Application Log message.
+    - The <key> attribute represents the unique identifier for a parameter that repeats multiple times in the message text.
+    - The <type> attribute represents the datatype of the parameter.  -->
+<messages>
+  <message>
+    <id>-70211</id>
+    <short>Certificate must have a value.</short>
+    <long>Certificate must have a value.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-70212</id>
+    <short>Operation/Step must have a value.</short>
+    <long>Operation/Step must have a value.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-70214</id>
+    <short>Only Operation or Step is allowed.</short>
+    <long>Only Operation or Step is allowed.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-70215</id>
+    <short>Number of required human resource must be at least 1.</short>
+    <long>Number of required human resource must be at least 1.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-702427</id>
+    <short>Unable to create Document %FileName% Natural Identifier %FileName%: failure during data entry.</short>
+    <long>Unable to create Document %FileName% Natural Identifier %FileName%: failure during data entry.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>FileName</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702285</id>
+    <short>Cannot create the Equipment Specification: the specified Equipment does not exist.</short>
+    <long>Cannot create the Equipment Specification: the specified Equipment does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702317</id>
+    <short>Equipment must belong to level Unit or Cell.</short>
+    <long>Equipment must belong to level Unit or Cell.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702176</id>
+    <short>Could not create Material Specification: Type does not exist.</short>
+    <long>Could not create Material Specification: Type does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702177</id>
+    <short>Could not create Material Specification: Quantity is null.</short>
+    <long>Could not create Material Specification: Quantity is null.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803278</id>
+    <short>Master Plan not found for the specified As Planned BOP.</short>
+    <long>Master Plan not found for the specified As Planned BOP.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702381</id>
+    <short>As Planned BOP with Baseline Id %AsPlannedBOPId% does not exist.</short>
+    <long>As Planned BOP with Baseline Id %AsPlannedBOPId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AsPlannedBOPId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702087</id>
+    <short>The NId and Revision of the Operation must be specified.</short>
+    <long>The NId and Revision of the Operation must be specified.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702178</id>
+    <short>Could not update Material Specification: the specified ID does not exist.</short>
+    <long>Could not update Material Specification: the specified ID does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702125</id>
+    <short>Parameter OriginalSequence must be specified.</short>
+    <long>Parameter OriginalSequence must be specified.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702171</id>
+    <short>Process ID %Id% not found: cannot modify data.</short>
+    <long>Process ID %Id% not found: cannot modify data.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Id</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702172</id>
+    <short>Process ID %NId% cannot be modified: Quantity is missing for Final Material %FinalMaterialId%.</short>
+    <long>Process ID %NId% cannot be modified: Quantity is missing for Final Material %FinalMaterialId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>FinalMaterialId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702025</id>
+    <short>As Planned BOP with ID %AsPlannedBOPId% not found.</short>
+    <long>As Planned BOP with ID %AsPlannedBOPId% not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AsPlannedBOPId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702073</id>
+    <short>Process %Id% is not linked to As Planned BOP %AsPlannedBOPId%.</short>
+    <long>Process %Id% is not linked to As Planned BOP %AsPlannedBOPId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Id</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>AsPlannedBOPId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702185</id>
+    <short>Update failed: Tool Specification not found.</short>
+    <long>Update failed: Tool Specification %Id% not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Id</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702127</id>
+    <short>Material Specification does not exist.</short>
+    <long>Material Specification does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702207</id>
+    <short>Cannot unlink Operation from Process.</short>
+    <long>Cannot unlink Operation %operationId% from Process %ProcessId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>operationId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>ProcessId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-70324</id>
+    <short>Cannot find the following Operation/Step Category associations: %stringList%.</short>
+    <long>Cannot find the following Operation/Step Category associations: %stringList%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>stringList</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803339</id>
+    <short>The Master Plan and As Planned BOP have not been provided.</short>
+    <long>The Master Plan and As Planned BOP have not been provided.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702051</id>
+    <short>The specified Operation does not exist.</short>
+    <long>The specified Operation does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702053</id>
+    <short>The specified Operation is not linked to Process.</short>
+    <long>The specified Operation is not linked to Process.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702072</id>
+    <short>The parent Process does not exist.</short>
+    <long>The parent Process does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702071</id>
+    <short>The child Process does not exist.</short>
+    <long>The child Process does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702070</id>
+    <short>The link between Processes does not exist.</short>
+    <long>The link between Processes does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-1511211</id>
+    <short>Cannot unlink the Skill from the Process Operation: the association ID was not found.</short>
+    <long>Cannot unlink the Skill from the Process Operation: the association ID was not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702122</id>
+    <short>Unlink Step from Operation failed: Link does not exist.</short>
+    <long>Unlink Step from Operation failed: the link between Step %StepId% and Operation %OperationId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>StepId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>OperationId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-703319</id>
+    <short>The specified User is not linked to Plant.</short>
+    <long>The specified User is not linked to Plant.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702318</id>
+    <short>Cannot find Equipment Specification.</short>
+    <long>Cannot find Equipment Specification.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803319</id>
+    <short>Operation Dependency, ID %Id% not found.</short>
+    <long>Operation Dependency, ID %Id% not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Id</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702168</id>
+    <short>Operation not found.</short>
+    <long>Operation not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-703270</id>
+    <short>The specified Skill does not exist.</short>
+    <long>The specified Skill does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-10000</id>
+    <short>Active associations related to the same Equipment and Materials specific to Discrete Manufacturing are present.</short>
+    <long>Impossible to activate Operation/Step Category associations: active associations related to the same Equipment and Materials specific to Discrete Manufacturing are present.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-803341</id>
+    <short>The As Planned BOP does not have an associated Root Process.</short>
+    <long>As Planned BOP %SourceAsPlannedBOPId% does not have an associated Root Process.</long>
+    <level>Error</level>
+    <params>
+      <key>SourceAsPlannedBOPId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-702293</id>
+    <short>Cannot delete Work Order.</short>
+    <long>Cannot delete Work Order.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702910</id>
+    <short>Cannot create an As Planned BOP: Baseline Name {AsPlannedBOP.BaselineName} and Baseline UId {AsPlannedBOP.BaselineUId} already exist. Specify another.</short>
+    <long>Cannot create an As Planned BOP: Baseline Name {AsPlannedBOP.BaselineName} and Baseline UId {AsPlannedBOP.BaselineUId} already exist. Specify another.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AsPlannedBOP.BaselineName</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>AsPlannedBOP.BaselineUId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702406</id>
+    <short>Cannot create a new Document: wrong Document type.</short>
+    <long>Cannot create Document %Document.FileName% %Document.NId%: wrong Document type.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Document.FileName</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>Document.NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702126</id>
+    <short>The Document already exists.</short>
+    <long>A Document identified by %Document.NId%, %newDocumentUId% already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Document.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>newDocumentUId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702959</id>
+    <short>A Document with the specified file name already exists.</short>
+    <long>A Document with file name %newDocumentUId% already exists.</long>
+    <level>Error</level>
+    <params>
+      <key>newDocumentUId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-702283</id>
+    <short>Cannot create the Equipment Specification: Parent Operation does not exist.</short>
+    <long>Cannot create the Equipment Specification: Parent Operation does not exist.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702284</id>
+    <short>Cannot specify both Equipment Configuration and Equipment Type when creating an Equipment Specification.</short>
+    <long>Cannot specify both Equipment Configuration and Equipment Type when creating an Equipment Specification.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702287</id>
+    <short>Cannot create Equipment Specification: the Equipment Configuration has already been assigned.</short>
+    <long>Cannot create Equipment Specification: the Equipment Configuration has already been assigned.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702286</id>
+    <short>Cannot create the Equipment Specification: the specified Equipment Type does not exist.</short>
+    <long>Cannot create the Equipment Specification: the specified Equipment Type does not exist.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702059</id>
+    <short>Material does not exist.</short>
+    <long>Material %MaterialDefinitionId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <key>MaterialDefinitionId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-702116</id>
+    <short>Delete Step Dependency List failed: the deletion of one or more Step Dependencies was unsuccessful.</short>
+    <long>Delete Step Dependency List failed: the deletion of one or more Step Dependencies was unsuccessful.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702913</id>
+    <short>Entity and Document are already linked.</short>
+    <long>Entity %matDef.Material.NId% and Document %doc.FileName% are already linked.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>matDef.Material.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>doc.FileName</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702276</id>
+    <short>Cannot link Document to Material: Material not found.</short>
+    <long>Cannot link Document %DocumentId% to Material %MaterialDefinitionId%: Material not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>DocumentId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>MaterialDefinitionId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702277</id>
+    <short>Cannot link Document to Material: Document not found.</short>
+    <long>Cannot link Document %DocumentId% to Material %MaterialDefinitionId%: Material not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>DocumentId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>MaterialDefinitionId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702278</id>
+    <short>Cannot link Document to Material: link already exists.</short>
+    <long>Cannot link Document %DocumentId% to Material %MaterialDefinitionId%: link already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>DocumentId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>MaterialDefinitionId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>702578</id>
+    <short>Cannot create the Material Specification: the Material Specification Type provided does not exist.</short>
+    <long>Cannot create the Material Specification for Material %MaterialSpecification.DMMaterialId%: Material Specification Type %MaterialSpecification.MaterialSpecificationTypeId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>MaterialSpecification.DMMaterialId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>MaterialSpecification.MaterialSpecificationTypeId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>702020</id>
+    <short>A valid Step ID or Operation ID must be specified.</short>
+    <long>A valid Step ID or Operation ID must be specified.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>703164</id>
+    <short>Entity already has an Additive Material Specification.</short>
+    <long>Entity already has an Additive Material Specification.</long>
+    <level>Error</level>
+    <params>
+      <key>entityNId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>703134</id>
+    <short>The Operation already has a Material Specification related to the AMPowder Material.</short>
+    <long>Operation %operation.NId% already has a Material Specification related to AMPowder Material %matDef.Material.NId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>operation.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>matDef.Material.NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>703135</id>
+    <short>The Step already has a Material Specification related to the AMPowder Material.</short>
+    <long>Step %step.NId% already has a Material Specification related to AMPowder Material %matDef.Material.NId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>step.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>matDef.Material.NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702945</id>
+    <short>The Material Specification quantity must be specified.</short>
+    <long>The Material Specification quantity must be specified.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702591</id>
+    <short>Cannot create the Material Specification: the Material Specification Type provided does not exist.</short>
+    <long>Cannot create the Material Specification: the Material Specification Type provided does not exist.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-703136</id>
+    <short>An Operation must contain only one Material Specification with the same AMPowder Material. There is more than one association between Operation and AMPowder Material passed in input.</short>
+    <long>An Operation must contain only one Material Specification with the same AMPowder Material. There is more than one association between Operation and AMPowder Material passed in input.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-703137</id>
+    <short>An Operation must contain only one Material Specification with the same AMPowder Material. There is more than one association between Operation and AMPowder Material.</short>
+    <long>An Operation must contain only one Material Specification with the same AMPowder Material. There is more than one association between Operation and AMPowder Material.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-703138</id>
+    <short>A Step must contain only one Material Specification with the same AMPowder Material. There is more than one association between Step and AMPowder Material passed in input.</short>
+    <long>A Step must contain only one Material Specification with the same AMPowder Material. There is more than one association between Step and AMPowder Material passed in input.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-703139</id>
+    <short>A Step must contain only one Material Specification with the same AMPowder Material. Some associations between Step and AMPowder Material already exist.</short>
+    <long>A Step must contain only one Material Specification with the same AMPowder Material. Some associations between Step and AMPowder Material already exist.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702208</id>
+    <short>Cannot create a Revision for the specified Operation: unable to find the specified Operation.</short>
+    <long>Cannot create a Revision for Operation %SourceOperationId%: unable to find the specified Operation.</long>
+    <level>Error</level>
+    <params>
+      <key>SourceOperationId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-702215</id>
+    <short>Cannot copy Operation and Documents.</short>
+    <long>Cannot copy Operation %sourceOperation.NId% %sourceOperation.Revision% and Documents.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>sourceOperation.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>sourceOperation.Revision</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803335</id>
+    <short>Cannot create a Revision for Process {sourceProcess.NId}: unable to create Process Revision in catalog.</short>
+    <long>Cannot create a Revision for Process {sourceProcess.NId}: unable to create Process Revision in catalog.</long>
+    <level>Error</level>
+    <params>
+      <key>sourceProcess.NId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-803314</id>
+    <short>Cannot create a Revision for Process {sourceProcess.NId}: it does not contain Operations.</short>
+    <long>Cannot create a Revision for Process {sourceProcess.NId}: it does not contain Operations.</long>
+    <level>Error</level>
+    <params>
+      <key>sourceProcess.NId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-702233</id>
+    <short>Cannot create a Revision for the specified Process: unable to find the specified Process.</short>
+    <long>Cannot create a Revision for Process %sourceProcess.NId%: unable to find the specified Process.</long>
+    <level>Error</level>
+    <params>
+      <key>sourceProcess.Id</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-702235</id>
+    <short>Cannot create a Revision for Process with NId {sourceProcess.NId} Revision {sourceProcess.Revision}: it is not linked to an As Planned BOP.</short>
+    <long>Cannot create a Revision for Process with NId {sourceProcess.NId} Revision {sourceProcess.Revision}: it is not linked to an As Planned BOP.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>sourceProcess.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>sourceProcess.Revision</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702234</id>
+    <short>Cannot create a Revision for Process with NId {sourceProcess.NId} Revision {sourceProcess.Revision}: cannot find Parent Process.</short>
+    <long>Cannot create a Revision for Process with NId {sourceProcess.NId} Revision {sourceProcess.Revision}: cannot find Parent Process.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>sourceProcess.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>sourceProcess.Revision</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702237</id>
+    <short>Cannot create a Revision for Process with NId {sourceProcess.NId} Revision {sourceProcess.Revision}: cannot link Operation.</short>
+    <long>Cannot create a Revision for Process with NId {sourceProcess.NId} Revision {sourceProcess.Revision}: cannot link Operation.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>sourceProcess.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>sourceProcess.Revision</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702230</id>
+    <short>Cannot create a Revision for the Process: it is not in status Active.</short>
+    <long>Cannot create a Revision for Process with NId %sourceProcess.NId% Revision %sourceProcess.Revision%: it is not in status Active.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>sourceProcess.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>sourceProcess.Revision</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-703221</id>
+    <short>Cannot create the Process Revision: the UId is not the one foreseen.</short>
+    <long>Cannot create the Process Revision: UId %sourceProcess.NId% is not the one foreseen.</long>
+    <level>Error</level>
+    <params>
+      <key>sourceProcess.UId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-702086</id>
+    <short>The Operation Dependency has not been created: an Operation cannot be linked to itself.</short>
+    <long>The Operation Dependency has not been created: Operation %dependency.FromOperationId% cannot be linked to itself.</long>
+    <level>Error</level>
+    <params>
+      <key>dependency.FromOperationId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-702039</id>
+    <short>The Operation Dependency has not been created: Operation not found.</short>
+    <long>The Operation Dependency that runs from Operation %dependency.FromOperationId% to Operation %dependency.ToOperationId% has not been created: Operation not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>dependency.FromOperationId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>dependency.ToOperationId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702040</id>
+    <short>The Operation Dependency has not been created: Process Context not found.</short>
+    <long>The Operation Dependency that runs from Operation %dependency.FromOperationId% to Operation %dependency.ToOperationId% has not been created: Process Context %%3 not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>dependency.FromOperationId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>dependency.ToOperationId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>dependency.Context</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702058</id>
+    <short>The Operation Dependency has not been created: mismatch between Operations and Process Context.</short>
+    <long>The Operation Dependency has not been created: the Operations do not have Parent Process Context %dependency.Context%.</long>
+    <level>Error</level>
+    <params>
+      <key>dependency.Context</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-1511057</id>
+    <short>Operation with Dependencies already exists.</short>
+    <long>Operation with Dependencies already exists.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702036</id>
+    <short>An Operation with the specified NId and Revision already exists.</short>
+    <long>Operation with NId %operationParameter.NId% and Revision %operationParameter.Revision% already exists: conflict with Operation %operationFoundId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>operationParameter.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>operationParameter.Revision</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>operationFoundId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702037</id>
+    <short>Operation with NId {Operation.NId} and Revision {Operation.Revision} has not been created: Parent Process not found.</short>
+    <long>Operation with NId {Operation.NId} and Revision {Operation.Revision} has not been created: Parent Process not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Operation.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>Operation.Revision</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>803838</id>
+    <short>Cannot create the Operation/Step Category: an Operation/Step Category with NId {OperationStepCategory.NId} already exists.</short>
+    <long>Cannot create the Operation/Step Category: an Operation/Step Category with NId {OperationStepCategory.NId} already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>OperationStepCategory.NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>702038</id>
+    <short>Operation Dependency already exists.</short>
+    <long>Operation Dependency already exists.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>702815</id>
+    <short>Circular dependencies are not allowed.</short>
+    <long>Circular dependencies are not allowed.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702038</id>
+    <short>Operation Dependency already exists.</short>
+    <long>Operation Dependency that runs from Operation %dependency.FromLinkId% to Operation %dependency.ToLinkId% already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>dependency.FromLinkId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>dependency.ToLinkId</key>
+        <type>string</type>
+      </param>      
+    </params>
+  </message>
+  <message>
+    <id>-702400</id>
+    <short>Could not create a new Process: the specified Plant does not exist.</short>
+    <long>Could not create Process %Process.Name% Revision %Process.Revision%: Plant %Process.Plant% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Process.Name</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>Process.Revision</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>Process.Plant</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702021</id>
+    <short>A Process with the specified NId and Revision already exists.</short>
+    <long>A Process with the specified NId and Revision already exists.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>702998</id>
+    <short>Cannot create Process with Material Class set to AM Powder.</short>
+    <long>Cannot create Process with Material Class set to AM Powder.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702449</id>
+    <short>Cannot create Process %process.NId%: negative values for Quantity, Min. Quantity or Max. Quantity are not allowed.</short>
+    <long>Cannot create Process %process.NId%: negative values for Quantity, Min. Quantity or Max. Quantity are not allowed.</long>
+    <level>Error</level>
+    <params>
+      <key>process.NId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-702737</id>
+    <short>Cannot create Process: the specified Parent already has associated Operations.</short>
+    <long>Cannot create Process %Process.NId%: Parent %parentProcess.NId% already has associated Operations.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Process.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>parentProcess.NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702022</id>
+    <short>Process not created: Parent (Process or As Planned BOP) not found.</short>
+    <long>Process with NId %Process.NId% and Revision %Process.Revision% not created: Parent (Process or As Planned BOP) not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Process.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>Process.Revision</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702940</id>
+    <short>Some Processes cannot be created: Plants are missing.</short>
+    <long>Processes %processNIds% cannot be created: Plants %plantNIds% do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>plantNIds</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>processNIds</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702145</id>
+    <short>Some Processes already exist with the specified NIds and Revisions.</short>
+    <long>Some Processes already exist with the specified NIds and Revisions.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702144</id>
+    <short>Process not created: Parent (Process or As Planned BOP) does not exist.</short>
+    <long>Process not created: Parent (Process or As Planned BOP) does not exist.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702146</id>
+    <short>Process not created: Parent As Planned BOP does not exist.</short>
+    <long>Process with NId %commandInput.Processes[i].NId% and Revision %commandInput.Processes[i].Revision% not created: Parent As Planned BOP %commandInput.Processes[i].AsPlannedBOPId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>commandInput.Processes[i].NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>commandInput.Processes[i].Revision</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>commandInput.Processes[i].AsPlannedBOPId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702147</id>
+    <short>Process not created: Parent Process does not exist.</short>
+    <long>Process with NId %commandInput.Processes[i].NId% and Revision %commandInput.Processes[i].Revision% not created: Parent Process %commandInput.Processes[i].ParentProcessId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>commandInput.Processes[i].NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>commandInput.Processes[i].Revision</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>commandInput.Processes[i].ParentProcessId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702143</id>
+    <short>Process already exists.</short>
+    <long>Process with NId %proc.NId% and Revision %proc.Revision% already exists: there are conflicts with Process %proc.Id%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>proc.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>proc.Revision</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>proc.Id</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>702218</id>
+    <short>Skill {NId} is already present.</short>
+    <long>Skill {NId} is already present.</long>
+    <level>Error</level>
+    <params>
+      <key>NId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-702113</id>
+    <short>Step not created: Step already exists.</short>
+    <long>Step with NId %Step.NId% not created: Step already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Step.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>Step.Revision</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702114</id>
+    <short>Step not created: Parent Operation not found.</short>
+    <long>Step with NId %Step.NId% Revision %Step.Revision% not created: Parent Operation %Step.OperationId% not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Step.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>Step.Revision</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>Step.OperationId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702830</id>
+    <short>Tool Definition does not exist.</short>
+    <long>Tool Definition does not exist.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702914</id>
+    <short>Entity and Document are already linked.</short>
+    <long>Entity %toolDef.NId% and Document %doc.FileName% are already linked.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>toolDef.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>doc.FileName</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702273</id>
+    <short>Cannot link Document to Tool Definition: Tool Definition not found.</short>
+    <long>Cannot link Document %DocumentId% to Tool Definition %ToolDefinitionId%: Tool Definition not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>DocumentId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>ToolDefinitionId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702274</id>
+    <short>Cannot link Document to Tool Definition: Document not found.</short>
+    <long>Cannot link Document %DocumentId% to Tool Definition %ToolDefinitionId%: Document not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>DocumentId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>ToolDefinitionId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702275</id>
+    <short>Cannot link Document to Tool Definition: link already exists.</short>
+    <long>Cannot link Document %DocumentId% to Tool Definition %ToolDefinitionId%: link already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>DocumentId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>ToolDefinitionId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>702746</id>
+    <short>Cannot create Tool Specification: the Tool Definition provided does not exist.</short>
+    <long>Cannot create Tool Specification: the Tool Definition provided does not exist.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>702745</id>
+    <short>Cannot create Tool Specification: enter a valid Step ID or Operation ID.</short>
+    <long>Cannot create Tool Specification: enter a valid Step ID or Operation ID.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>702744</id>
+    <short>Cannot create Tool Specification: the Step provided does not exist.</short>
+    <long>Cannot create Tool Specification: the Step provided does not exist.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>702743</id>
+    <short>Cannot create Tool Specification: the Operation provided does not exist.</short>
+    <long>Cannot create Tool Specification: the Operation provided does not exist.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702748</id>
+    <short>Cannot create Tool Specifications: the Tool Definitions provided do not exist.</short>
+    <long>Cannot create Tool Specifications: the Tool Definitions provided do not exist.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702749</id>
+    <short>Cannot create Tool Specifications: enter a valid Step ID or Operation ID.</short>
+    <long>Cannot create Tool Specifications for Tool Definition: enter a valid Step ID or Operation ID.</long>
+    <level>Error</level>
+    <params>
+      <key></key>
+      <type></type>
+    </params>
+  </message>
+  <message>
+    <id>-702750</id>
+    <short>Cannot create Tool Specifications: the Operations provided do not exist.</short>
+    <long>Cannot create Tool Specifications for Tool Definitions: the Operations provided do not exist.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-702751</id>
+    <short>Cannot create Tool Specifications: the Tool Definitions provided do not exist.</short>
+    <long>Cannot create Tool Specifications: the Tool Definitions provided do not exist.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-702466</id>
+    <short>The specified As Planned BOP does not exist.</short>
+    <long>The specified As Planned BOP does not exist.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-702027</id>
+    <short>Could not delete all specified AsPlannedBOP entities.</short>
+    <long>Could not delete all specified As Planned BOPs.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-702026</id>
+    <short>Process not deleted.</short>
+    <long>Process %childProcess% not deleted.</long>
+    <level>Error</level>
+    <params>
+      <key>childProcess</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-702289</id>
+    <short>Cannot delete all Equipment Specifications requested.</short>
+    <long>Cannot delete all Equipment Specifications requested.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702290</id>
+    <short>Equipment Specification not found.</short>
+    <long>Equipment Specification %guidMissedEquipmentSpec% not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>guidMissedEquipmentSpec</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702029</id>
+    <short>Could not delete all specified Material Specifications.</short>
+    <long>Could not delete all specified Material Specifications.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702028</id>
+    <short>Material Specification not found.</short>
+    <long>Material Specification %Id% not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Id</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>702045</id>
+    <short>Operation Dependencies have not been deleted: an Operation Dependency was not found.</short>
+    <long>Operation Dependencies have not been deleted:  Operation Dependency %Id% was not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Id</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>803276</id>
+    <short>Operation does not exist.</short>
+    <long>Operation does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>803277</id>
+    <short>The Operation cannot be deleted: it is used in %processToOpLink%.</short>
+    <long>The Operation cannot be deleted: it is used in %processToOpLink%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>processToOpLink</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702044</id>
+    <short>Operations have not been deleted: the Operation could not be found.</short>
+    <long>Operations have not been deleted: Operation %Id% could not be found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Id</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>803840</id>
+    <short>Cannot delete Operation/Step Categories %inputIdListParameter%: Operation/Step Categories %notExistingIdListParameter% were not found.</short>
+    <long>Cannot delete Operation/Step Categories %inputIdListParameter%: Operation/Step Categories %notExistingIdListParameter% were not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>inputIdListParameter</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>notExistingIdListParameter</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>803841</id>
+    <short>Deletions involving the Default Operation/Step Category are not allowed.</short>
+    <long>Deletions involving the Default Operation/Step Category are not allowed.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>803842</id>
+    <short>Cannot delete Operation/Step Categories %existingCategoryNIdErrorParameter%: Operation/Step Categories %associatedCategoryNIdErrorParameter% are currently linked to at least one Operation or Step.</short>
+    <long>Cannot delete Operation/Step Categories %existingCategoryNIdErrorParameter%: Operation/Step Categories %associatedCategoryNIdErrorParameter% are currently linked to at least one Operation or Step.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>existingCategoryNIdErrorParameter</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>associatedCategoryNIdErrorParameter</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>803271</id>
+    <short>The specified Process does not exist.</short>
+    <long>The specified Process does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>803272</id>
+    <short>Process %process.NId% is linked to at least one Root Process.</short>
+    <long>Process %process.NId% is linked to at least one Root Process.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>process.NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>803273</id>
+    <short>Process %process.NId% is linked to at least one As Planned BOP.</short>
+    <long>Process %process.NId% is linked to at least one As Planned BOP.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>process.NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702033</id>
+    <short>Could not delete all specified Processes.</short>
+    <long>Could not delete all specified Processes.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702030</id>
+    <short>Process not found.</short>
+    <long>Process %missedProcess% not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>missedProcess</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702115</id>
+    <short>Step Dependency has not been deleted: Step Dependency not found.</short>
+    <long>Step Dependency has not been deleted: Step Dependency %command.Id% not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>command.Id</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>702034</id>
+    <short>There are no Documents linked to the Tool Definition.</short>
+    <long>There are no Documents linked to the Tool Definition.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803340</id>
+    <short>Cannot clone As Planned BOP %commandInput.SourceAsPlannedBOPId%.</short>
+    <long>Cannot clone As Planned BOP %commandInput.SourceAsPlannedBOPId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>command.SourceAsPlannedBOPId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803345</id>
+    <short>Cannot clone As Planned BOP %commandInput.SourceAsPlannedBOPId%: Baseline with UID %baseLineUId% has already been evolved.</short>
+    <long>Cannot clone As Planned BOP %commandInput.SourceAsPlannedBOPId%: Baseline with UID %baseLineUId% has already been evolved.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>commandInput.SourceAsPlannedBOPId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>baseLineUId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702480</id>
+    <short>An As Planned BOP with more than one Root Process is not supported.</short>
+    <long>An As Planned BOP with more than one Root Process is not supported (BaselineUId %command.BaselineUId%).</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>command.BaselineUId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-1000</id>
+    <short>Document %documentId% not linked to Operation %command.OperationId%.</short>
+    <long>Document %documentId% not linked to Operation %command.OperationId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>documentId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>command.OperationId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702490</id>
+    <short>The Document is already linked to the Operation.</short>
+    <long>Document %DocumentId% is already linked to Operation %OperationId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>DocumentId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>OperationId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702415</id>
+    <short>Cannot link the Documents to the Steps: failure while creating the links.</short>
+    <long>Cannot link the Documents to the Steps: failure while creating the links.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-703140</id>
+    <short>Cannot link Material Specification to Operation: Material Specification does not exist.</short>
+    <long>Cannot link Material Specification to Operation: Material Specification %command.MaterialSpecificationId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>command.MaterialSpecificationId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-703141</id>
+    <short>Cannot link Material Specification to Operation: Operation does not exist.</short>
+    <long>Cannot link Material Specification to Operation: Operation %%1 does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>command.OperationId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-703142</id>
+    <short>The link between Operation and Material Specification already exists.</short>
+    <long>The link between Operation %toLinkOperation.Id% and Material Specification %toLinkMaterialSpecification.Id% already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ctoLinkOperation.Id</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>toLinkMaterialSpecification.Id</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-703134</id>
+    <short>The Operation already has a Material Specification related to the AMPowder Material.</short>
+    <long>Operation %operation.NId% already has a Material Specification related to AMPowder Material %matDef.Material.NId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>operation.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>matDef.Material.NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>703237</id>
+    <short>Cannot link Operation/Step Category to Process Definition: Operation/Step Category %operationStepCategoryId% does not exist.</short>
+    <long>Cannot link Operation/Step Category to Process Definition: Operation/Step Category %operationStepCategoryId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>operationStepCategoryId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>703238</id>
+    <short>Cannot link Operation/Step Category to Process Definition: at least one Process Definition must be specified.</short>
+    <long>Cannot link Operation/Step Category to Process Definition: at least one Process Definition must be specified.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>operationStepCategoryId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>703239</id>
+    <short>Cannot link Operation/Step Category to Process Definition: Process Definition %pdList% does not exist.</short>
+    <long>Cannot link Operation/Step Category to Process Definition: Process Definition %pdList% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>pdList</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>703240</id>
+    <short>Cannot link Operation/Step Category to Process Definition. The following Equipment Configurations do not exist: %eqList%.</short>
+    <long>Cannot link Operation/Step Category to Process Definition: Equipment Configurations %eqList% do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>eqList</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>703241</id>
+    <short>Cannot link Operation/Step Category to Process Definition: Equipment Configurations %eqList% are not Machines.</short>
+    <long>Cannot link Operation/Step Category to Process Definition: Equipment Configurations %eqList% are not Machines.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>eqList</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>703242</id>
+    <short>Cannot link Operation/Step Category to Process Definition: Materials %mdList% do not exist.</short>
+    <long>Cannot link Operation/Step Category to Process Definition: Materials %mdList% do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>mdList</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702048</id>
+    <short>Cannot create the link: the Operation cannot be found.</short>
+    <long>Cannot create the link: Operation %command.OperationId% cannot be found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>command.OperationId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702049</id>
+    <short>Cannot create the link: Process not found.</short>
+    <long>Cannot create the link: Process %command.ProcessId% not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>command.ProcessId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702050</id>
+    <short>The link already exists.</short>
+    <long>The link between Operation %NIdO% and Process %NIdP% already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>toLinkOperation.NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>toLinkProcess.NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702169</id>
+    <short>The Sequence Number has already been entered.</short>
+    <long>Sequence Number %Sequence% has already been entered.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Sequence</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702067</id>
+    <short>The link between Process and As Planned BOP already exists.</short>
+    <long>Process %ProcessNId% is already linked to As Planned BOP %AsPlannedBOPBaselineName%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ProcessNId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>AsPlannedBOPBaselineName</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702068</id>
+    <short>Child Process does not exist.</short>
+    <long>Child Process %ProcessId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ProcessId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702069</id>
+    <short>The parent As Planned BOP does not exist.</short>
+    <long>Parent As Planned BOP %AsPlannedBOPId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AsPlannedBOPId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>702064</id>
+    <short>The link that runs from Process %NId% to Process %NId% is already available.</short>
+    <long>The link that runs from Process %NId% to Process %NId% is already available.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>NId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702065</id>
+    <short>The child Process does not exist.</short>
+    <long>Child Process %FromProcessId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>FromProcessId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702066</id>
+    <short>The parent Process does not exist.</short>
+    <long>Parent Process %FromProcessId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ToProcessId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>1511173</id>
+    <short>The following Skills do not exist: %invalidSkillIds%.</short>
+    <long>The following Skills do not exist: %invalidSkillIds%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>invalidSkillIds</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>1511205</id>
+    <short>Cannot assign Skills %SNId% to Process Operation %ONId%: they already exist with Level %Level%.</short>
+    <long>Cannot assign Skills %SNId% to Process Operation %ONId%: they already exist with Level %Level%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>SNId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>ONId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>Level</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-703321</id>
+    <short>The following Skills do not exist: %invalidSkillIds%.</short>
+    <long>The following Skills do not exist: %invalidSkillIds%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>invalidSkillIds</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-703022</id>
+    <short>Document does not exist or has no associated File.</short>
+    <long>Document does not exist or has no associated File.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-703023</id>
+    <short>Setup error: the temporary file directory for Documents does not exist.</short>
+    <long>Setup error: the temporary file directory for Documents does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-703324</id>
+    <short>Document with the specified Id does not exist.</short>
+    <long>Document with the specified Id %DocumentId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>DocumentId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-702902</id>
+    <short>Operation does not exist.</short>
+    <long>Operation does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803323</id>
+    <short>Cannot unlink Logistic WhiteList %processToOperationLinkFromUID%.</short>
+    <long>Cannot unlink Logistic WhiteList %processToOperationLinkFromUID%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>processToOperationLinkFromUID</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803241</id>
+    <short>Cannot create Processes: Final Materials related to Processes do not exist.</short>
+    <long>Cannot create Processes: Final Materials %finalMaterialIds% related to Processes %processIds% do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>finalMaterialIds</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>processIds</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+
+  <message>
+    <id>-803258</id>
+    <short>Cannot submit the As Planned BOP with the specified Correlation ID: it does not exist.</short>
+    <long>Cannot submit the As Planned BOP with Correlation ID %corrId%: it does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>corrId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803260</id>
+    <short>Cannot submit the Master Plan with the specified Correlation ID: it does not exist.</short>
+    <long>Cannot submit the Master Plan with Correlation ID %corrId%: it does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>corrId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+
+  <message>
+    <id>-803261</id>
+    <short>Unable to delete all specified Master Plan entities.</short>
+    <long>Unable to delete all specified Master Plan entities.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>corrId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803262</id>
+    <short>Unable to delete the Inspection Definition: it is currently in use.</short>
+    <long>Unable to delete the Inspection Definition: it is currently in use.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803263</id>
+    <short>Unable to link Inspection Definition  %chrRepId%: it does not exist.</short>
+    <long>Unable to link Inspection Definition  %chrRepId%: it does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>chrRepId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803264</id>
+    <short>Unable to link the Inspection Definition to Operation %chrRepOpId%: it does not exist.</short>
+    <long>Unable to link the Inspection Definition to Operation %chrRepOpId%: it does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>chrRepOpId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803265</id>
+    <short>Unable to link the Inspection Definition: an Inspection Definition with NId %chrRepId% already exists.</short>
+    <long>Unable to link the Inspection Definition: an Inspection Definition with NId %chrRepId% already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>chrRepId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803266</id>
+    <short>Unable to link the Inspection Definition to As Planned BOP %chrAsPBop% and Master Plan %chrMPId%: they do not exist.</short>
+    <long>Unable to link the Inspection Definition to As Planned BOP %chrAsPBop% and Master Plan %chrMPId%: they do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>chrAsPBop</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>chrMPId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803267</id>
+    <short>Unable to unlink the Inspection Definition: Link %InsSpecId% does not exist.</short>
+    <long>Unable to unlink the Inspection Definition: Link %InsSpecId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>InsSpecId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803268</id>
+    <short>Step %StepId% does not exist.</short>
+    <long>Step %StepId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>StepId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803269</id>
+    <short>Inspection Definition %InspectionNId% does not exist.</short>
+    <long>Inspection Definition %InspectionNId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>InspectionNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803270</id>
+    <short>Equipment Types cannot be added: Units have been previously added.</short>
+    <long>Equipment Types cannot be added: Units have been previously added.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803271</id>
+    <short>Equipment belonging to level WorkCenter cannot be added: Units have been previously added.</short>
+    <long>Equipment belonging to level WorkCenter cannot be added: Units have been previously added.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803272</id>
+    <short>Equipment belonging to level Unit cannot be added: Equipment Types or WorkCenters have been previously added.</short>
+    <long>Equipment belonging to level Unit cannot be added: Equipment Types or WorkCenters have been previously added.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000001</id>
+    <short>Process %ProcessId% has not been found.</short>
+    <long>Process %ProcessId% has not been found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ProcessId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803831</id>
+    <short>Step already exists.</short>
+    <long>Step %NId% already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>NId</key>
+        <type>string</type>
+      </param>      
+    </params>
+  </message>
+  <message>
+    <id>-803832</id>
+    <short>Cannot create more than one Process Operation with its Work Operation type set to Dynamic in a single Process.</short>
+    <long>Cannot create more than one Process Operation with its Work Operation type set to Dynamic in a single Process.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803833</id>
+    <short>Circular dependencies are now allowed.</short>
+    <long>Circular dependencies are now allowed.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803834</id>
+    <short>Dependency already exists.</short>
+    <long>Dependency already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+<message>
+  <id>-803835</id>
+  <short>AsPlannedBoPId does not exist.</short>
+  <long>AsPlannedBoPId does not exist.</long>
+  <level>Error</level>
+  <params>
+    <param>
+      <key>AsPlannedBoPId</key>
+      <type>string</type>
+    </param>
+  </params>
+</message>
+  <message>
+    <id>-803836</id>
+    <short>Certification does not exist.</short>
+    <long>Certification does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>CertificationNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803837</id>
+    <short>Number of required Human Resources must be at least 1.</short>
+    <long>Number of required Human Resources must be at least 1.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>RequiredNumberOfHumanResource</key>
+        <type>integer</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803838</id>
+    <short>Entity is not valid.</short>
+    <long>Entity is not valid.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>CertificationSpecificationEntity</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803839</id>
+    <short>Cannot create Sub-Process %NId%: there are Process Operations on this As Planned BOP.</short>
+    <long>Cannot create Sub-Process %NId%: there are Process Operations on this As Planned BOP.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803840</id>
+    <short>Cannot link Operation %NId%: there are Sub-Processes.</short>
+    <long>Cannot link Operation %NId%: there are Sub-Processes.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+
+  <message>
+    <id>-803841</id>
+    <short>There is a Certification that is already linked.</short>
+    <long>One of the selected Certifications is already linked to %Parent%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>Parent</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803842</id>
+    <short>Cannot create the Revision: there are Sub-Processes.</short>
+    <long>Cannot create the Revision: there are Sub-Processes.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803843</id>
+    <short>One or more As Planned BOPs do not exist.</short>
+    <long>One or more As Planned BOPs do not exist. The following UIds do not exist: %AsPlannedBoP%</long>.
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AsPlannedBoP</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803844</id>
+    <short>One or more Master Plans do not exist.</short>
+    <long>One or more Master Plans do not exist. The following UIds do not exist: %MasterPlan%</long>.
+    <level>Error</level>
+    <params>
+      <param>
+        <key>MasterPlan</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803845</id>
+    <short>One or more Linked Objects do not exist.</short>
+    <long>One or more Linked Objects do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803846</id>
+    <short>One or more Process Definitions are already linked to the Material and/or Machine.</short>
+    <long>One or more Process Definition are already linked to the Material and/or Machine.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803847</id>
+    <short>No Master Plan to add.</short>
+    <long>No Master Plan to add.</long>.
+    <level>Error</level>
+    <params>
+      <param>
+        <key>MasterPlan</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-11510982</id>
+    <short>Operation Catalog having NID %operationCatalogNId% already exist.</short>
+    <long>Operation Catalog having NID %operationCatalogNId% already exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>operationCatalogNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-11510983</id>
+    <short>Cannot create ToolSpecification, the tool definition is already attached to operation/step.</short>
+    <long>Cannot create ToolSpecification, the tool definition is already attached to operation/step.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000002</id>
+    <short>Unable to inherit Documents from Material: the source Material does not exist.</short>
+    <long>Unable to inherit Documents from Material: source Material with NId %nid% and Revision %rev% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>nid</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>rev</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000003</id>
+    <short>Unable to inherit Documents from Material: the target Material does not exist.</short>
+    <long>Unable to inherit Documents from Material: target Material with NId %nid% and Revision %rev% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>nid</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>rev</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-11510984</id>
+    <short>Master Plan %MasterPlanId% does not exist.</short>
+    <long>Master Plan %MasterPlanId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>MasterPlanId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-11510985</id>
+    <short>Master Plan or As Planned BoP must be valorized.</short>
+    <long>Master Plan or As Planned BoP must be valorized.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-11510986</id>
+    <short>Material or Functional Code must be valorized.</short>
+    <long>Material or Functional Code must be valorized.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-11510987</id>
+    <short>Functional Code does not exist.</short>
+    <long>Functional Code %FunctionalCodeNId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <key>FunctionalCodeNId</key>
+      <type>string</type>
+    </params>
+  </message>
+  <message>
+    <id>-11510988</id>
+    <short>You must specify either a Master Plan or an As Planned BoP.</short>
+    <long>You must specify either a Master Plan or an As Planned BoP.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-11510989</id>
+    <short>It's not possible to delete the Operation because it is already used in %ProcessNId% process.</short>
+    <long>It's not possible to delete the Operation because it is already used in %ProcessNId% process.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ProcessNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-11510990</id>
+    <short>Operation is not valid.</short>
+    <long>Operation is not valid.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ParentId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-11510991</id>
+    <short>Step is not valid.</short>
+    <long>Step is not valid.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ParentId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-11510992</id>
+    <short>Steps does not exist.</short>
+    <long>Steps does not exist.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-11510993</id>
+    <short>Unable to delete the Step: the Step is linked to an Operation.</short>
+    <long>Unable to delete the Step: the Step is linked to an Operation.</long>
+    <level>Error</level>
+  </message>
+  <message>
+    <id>-11510994</id>
+    <short>The parent Master Plan does not exist.</short>
+    <long>Parent Master Plan %MasterPlanId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>MasterPlanId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-11510995</id>
+    <short>The link between Process and Master Plan already exists.</short>
+    <long>Process %ProcessNId% is already linked to Master Plan %MasterPlanNId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ProcessNId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>MasterPlanNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+</messages>

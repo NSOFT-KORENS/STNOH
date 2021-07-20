@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is used to define Application Log messages. You should follow below instructions while defining messages: 
+    - The <message> structure should be repeated for each Application Log message.
+    - The <id> attribute is mandatory and should be unique in this file.
+    - The <short> attribute represents the short text message and should be less than or up to 100 characters.
+    - The <long> attribute represents the long text message and should be less than or up to 400 characters.
+    - The <level> attribute is mandatory and its value should be one of: Verbose | Error | Warning | Critical | Informational.
+    - The <param> structure should be repeated for each parameter of the Application Log message.
+    - The <key> attribute represents the unique identifier for a parameter that repeats multiple times in the message text.
+    - The <type> attribute represents the datatype of the parameter.  -->
+<messages>
+  <message>
+    <id>-803980</id>
+    <short>Interlocking Check failure.</short>
+    <long>Interlocking Check %interlocking_check_nid% failed while starting or completing Work Order Operation %wo_operation_nid%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>interlocking_check_nid</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>wo_operation_nid</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803990</id>
+    <short>Error while linking the Interlocking Check to the Work Order Operation.</short>
+    <long>Error while linking the Interlocking Check to the Work Order Operation.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+    <message>
+    <id>-804040</id>
+    <short>Interlocking Check results could not be logged in History.</short>
+    <long>Interlocking Check results could not be logged in History.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-803991</id>
+    <short>Error while unlinking the Interlocking Check from the Work Order Operation.</short>
+    <long>Error while unlinking the Interlocking Check from the Work Order Operation.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000001</id>
+    <short>Error while linking the Interlocking Check to the Work Order Operation.</short>
+    <long>Error while linking the Interlocking Check to the Work Order Operation: the Interlocking Check does not exist.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000002</id>
+    <short>Error while linking the Interlocking Check to the Work Order Operation.</short>
+    <long>Error while linking the Interlocking Check to the Work Order Operation: the Work Order Operation does not exist.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000003</id>
+    <short>Error while linking the Interlocking Check to the Work Order Operation.</short>
+    <long>Error while linking the Interlocking Check to the Work Order Operation: fields Inbound and Outbound must be configured as expected by the system.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000004</id>
+    <short>Error while linking the Interlocking Check to the Work Order Operation.</short>
+    <long>Error while linking the Interlocking Check to the Work Order Operation: some parameters have not been set correctly.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000005</id>
+    <short>Error while linking Interlocking Checks to Work Order Steps.</short>
+    <long>Error while linking Interlocking Checks to Work Order Steps.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000006</id>
+    <short>Error while linking Interlocking Checks to Work Order Step.</short>
+    <long>Error while linking Interlocking Checks to Work Order Step: the Interlocking Check does not exist.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000007</id>
+    <short>Error while linking Interlocking Checks to Work Order Step.</short>
+    <long>Error while linking Interlocking Checks to Work Order Step: the Work Order Steps do not exist.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000008</id>
+    <short>Error while linking Interlocking Checks to Work Order Step.</short>
+    <long>Error while linking Interlocking Checks to Work Order Step: fields Inbound and Outbound must be configured as expected by the system.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000009</id>
+    <short>Error while linking Interlocking Checks to Work Order Step.</short>
+    <long>Error while linking Interlocking Checks to Work Order Step: some parameters have not been set correctly.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+  <id>-000010</id>
+  <short>Error while unlinking the Interlocking Check from the Work Order Operation.</short>
+  <long>Error while unlinking the Interlocking Check from the Work Order Operation: the link does not exist.</long>
+  <level>Error</level>
+  <params>
+  </params>
+  </message>
+  <message>
+    <id>-000011</id>
+    <short>Error while unlinking the Interlocking Check from the Work Order Operation.</short>
+    <long>Error while unlinking the Interlocking Check from the Work Order Operation: the status of Work Order or Work Order Operation inhibits unlinking.</long>
+      <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000012</id>
+    <short>Error while unlinking the Interlocking Check from the Work Order Steps.</short>
+    <long>Error while unlinking the Interlocking Check from the Work Order Steps.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000013</id>
+    <short>Error while unlinking the Interlocking Check from the Work Order Steps.</short>
+    <long>Error while unlinking the Interlocking Check from the Work Order Steps: the link does not exist.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000014</id>
+    <short>Error while unlinking the Interlocking Check from the Work Order Steps.</short>
+    <long>Error while unlinking the Interlocking Check from the Work Order Steps: the status of Work Order, Work Order Operation or Work Order Step inhibits unlinking.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000015</id>
+    <short>Error while updating Interlocking Checks on Work Order Steps.</short>
+    <long>Error while updating Interlocking Checks on Work Order Steps.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000016</id>
+    <short>Error while updating Interlocking Checks on Work Order Step.</short>
+    <long>Error while updating Interlocking Checks on Work Order Step: the link does not exist.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000017</id>
+    <short>Error while updating Interlocking Checks on Work Order Step.</short>
+    <long>Error while updating the link between the Interlocking Check and the Work Order Step: Work Order, Work Order Operation or Work Order Step is in an invalid status.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000018</id>
+    <short>Error while updating the link between the Interlocking Check and the Work Order Step.</short>
+    <long>Error while updating the link between the Interlocking Check and the Work Order Step: the Parameter value has not been set correctly.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000019</id>
+    <short>Error while updating Interlocking Checks on Work Order Operation.</short>
+    <long>Error while updating Interlocking Checks on Work Order Operation.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000020</id>
+    <short>Error while updating Interlocking Checks on Work Order Operation.</short>
+    <long>Error while updating Interlocking Checks on Work Order Operation: the link does not exist.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000021</id>
+    <short>Error while updating Interlocking Checks on Work Order Operation.</short>
+    <long>Error while updating the link between the Interlocking Check and the Work Order Operation: Work Order or Work Order Operation is not in a correct status.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000022</id>
+    <short>Error while updating the link between the Interlocking Check and the Work Order Operation.</short>
+    <long>Error while updating the link between the Interlocking Check and the Work Order Operation: the Parameter value has not been set correctly.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000023</id>
+    <short>Unable to start Work Order Operation/Step: Interlocking Check failure.</short>
+    <long>Unable to start Work Order Operation/Step: Interlocking Check failure.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000024</id>
+    <short>Error during input validation.</short>
+    <long>Error during input validation.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000025</id>
+    <short>The inbound Interlocking Check is not linked to an existing entity.</short>
+    <long>The inbound Interlocking Check is not linked to an existing entity (Work Order Operation, Work Order Step).</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000026</id>
+    <short>The outbound Interlocking Check is not linked to an existing entity.</short>
+    <long>The outbound Interlocking Check is not linked to an existing entity (Work Order Operation, Work Order Step).</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000027</id>
+    <short>Unable to complete Work Order Operation/Step: Interlocking Check failure.</short>
+    <long>Unable to complete Work Order Operation/Step: Interlocking Check failure.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+</messages>

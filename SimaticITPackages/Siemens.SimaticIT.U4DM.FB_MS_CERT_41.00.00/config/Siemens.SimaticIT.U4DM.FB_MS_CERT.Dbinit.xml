@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sections>
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="FB_MS_CERT" domainName="MasterData">
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_CREATED" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_DELETED" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_UPDATE_ADD_USER" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_UPDATE_REMOVE_USER" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_UPDATE_ADD_ROLE" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_UPDATE_REMOVE_ROLE" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_UPDATE_ADD_MAT" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_UPDATE_REMOVE_MAT" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_UPDATE_ADD_SKILL" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_UPDATE_REMOVE_SKILL" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_UPDATE_ADD_EQ" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction">
+      <Property name="NId" kind="Plain" value="CERTIF_UPDATE_REMOVE_EQ" />
+    </Entity>
+  </Section>
+</Sections>

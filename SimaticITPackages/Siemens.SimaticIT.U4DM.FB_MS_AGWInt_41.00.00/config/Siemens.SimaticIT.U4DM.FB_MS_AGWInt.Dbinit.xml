@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sections>
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="FB_MS_AGWInt" domainName="MasterData">
+    
+
+<!-- ***************** AUTOMATION TYPE / DATA TYPE MAPPING *****************  -->
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="Bool" />
+      <Property name="DataType" kind="Plain" value="bool" />
+      <Property name="NId" kind="Plain" value="Bool_bool" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="Int" />
+      <Property name="DataType" kind="Plain" value="smallint" />
+      <Property name="NId" kind="Plain" value="Int_smallint" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="DInt" />
+      <Property name="DataType" kind="Plain" value="int" />
+      <Property name="NId" kind="Plain" value="DInt_int" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="LInt" />
+      <Property name="DataType" kind="Plain" value="bigint" />
+      <Property name="NId" kind="Plain" value="LInt_bigint" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="DateTime" />
+      <Property name="DataType" kind="Plain" value="DateTime" />
+      <Property name="NId" kind="Plain" value="DateTime_DateTime" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="String" />
+      <Property name="DataType" kind="Plain" value="string" />
+      <Property name="NId" kind="Plain" value="String_string" />
+    </Entity>   
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="Byte" />
+      <Property name="DataType" kind="Plain" value="tinyint" />
+      <Property name="NId" kind="Plain" value="Byte_tinyint" />
+    </Entity>   
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="SInt" />
+      <Property name="DataType" kind="Plain" value="smallint" />
+      <Property name="NId" kind="Plain" value="SInt_smallint" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="UInt" />
+      <Property name="DataType" kind="Plain" value="int" />
+      <Property name="NId" kind="Plain" value="UInt_int" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="UDInt" />
+      <Property name="DataType" kind="Plain" value="bigint" />
+      <Property name="NId" kind="Plain" value="UDInt_bigint" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="ULInt" />
+      <Property name="DataType" kind="Plain" value="decimal" />
+      <Property name="NId" kind="Plain" value="ULInt_decimal" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="Real" />
+      <Property name="DataType" kind="Plain" value="decimal" />
+      <Property name="NId" kind="Plain" value="Real_decimal" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping">
+      <Property name="AutomationType" kind="Plain" value="LReal" />
+      <Property name="DataType" kind="Plain" value="decimal" />
+      <Property name="NId" kind="Plain" value="LReal_decimal" />
+    </Entity>
+
+    <!-- ***************** DISCRETE ENTITY PARAMETER ***************** -->
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DSParameter">
+      <Property name="NId" kind="Plain" value="Tool.NId" />
+      <Property name="Name" kind="Plain" value="ToolNId" />
+      <Property name="DataType" kind="Plain" value="string" />
+      <Property name="ContextEntity" kind="Plain" value="Tool" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DSParameter">
+      <Property name="NId" kind="Plain" value="Tool.UsageCounter" />
+      <Property name="Name" kind="Plain" value="TimesToBeUsed" />
+      <Property name="DataType" kind="Plain" value="decimal" />
+      <Property name="ContextEntity" kind="Plain" value="Tool" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DSParameter">
+      <Property name="NId" kind="Plain" value="Tool.UsageDuration" />
+      <Property name="Name" kind="Plain" value="UsageDuration" />
+      <Property name="DataType" kind="Plain" value="bigint" />
+      <Property name="ContextEntity" kind="Plain" value="Tool" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DSParameter">
+      <Property name="NId" kind="Plain" value="MTU.Code" />
+      <Property name="Name" kind="Plain" value="Code" />
+      <Property name="DataType" kind="Plain" value="string" />
+      <Property name="ContextEntity" kind="Plain" value="MaterialTrackingUnit" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DSParameter">
+      <Property name="NId" kind="Plain" value="MTU.Quantity" />
+      <Property name="Name" kind="Plain" value="Quantity" />
+      <Property name="DataType" kind="Plain" value="decimal" />
+      <Property name="ContextEntity" kind="Plain" value="MaterialTrackingUnit" />
+    </Entity>
+
+    <!-- Set Point Lifecycle Start  -->
+
+    <!-- Set Point Status Definitions  -->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusDefinition">
+      <Property name="NId" kind="Plain" value="Edit" />
+      <Property name="Name" kind="Plain" value="Edit" />
+      <Property name="Description" kind="Plain" value="Set point is in Edit mode" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusDefinition">
+      <Property name="NId" kind="Plain" value="Release" />
+      <Property name="Name" kind="Plain" value="Release" />
+      <Property name="Description" kind="Plain" value="Set point is in Release mode" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusDefinition">
+      <Property name="NId" kind="Plain" value="Obsolete" />
+      <Property name="Name" kind="Plain" value="Obsolete" />
+      <Property name="Description" kind="Plain" value="Set point is in Obsolete mode" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+    </Entity>
+
+    <!-- Set Point Status Transition Definition  -->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="from Edit to Release" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="from Edit to Obsolete" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="from Release to Obsolete" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+
+    <!-- Set Point Status Machine  -->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+      <Property name="NId" kind="Plain" value="SetPointLifecycle" />
+      <Property name="Name" kind="Plain" value="SetPointLifecycle" />
+      <Property name="Description" kind="Plain" value="Set Point life cycle" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+
+    <!-- Set Point Status  -->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="NId" kind="Plain" value="Edit" />
+      <Property name="Name" kind="Plain" value="Edit" />
+      <Property name="Description" kind="Plain" value="Set point is in Edit mode" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsInitial" kind="Plain" value="True" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="SetPointLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference">
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="NId" kind="Plain" value="Release" />
+      <Property name="Name" kind="Plain" value="Release" />
+      <Property name="Description" kind="Plain" value="Set point is in Release mode" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsInitial" kind="Plain" value="True" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="SetPointLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference">
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="NId" kind="Plain" value="Obsolete" />
+      <Property name="Name" kind="Plain" value="Obsolete" />
+      <Property name="Description" kind="Plain" value="Set point is in Obsolete mode" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsInitial" kind="Plain" value="True" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="SetPointLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference">
+      </Property>
+    </Entity>
+
+    <!--Set Point Status Transition-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Edit" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="SetPointLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Release" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="SetPointLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="Verb" kind="Plain" value="from Edit to Release" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Edit" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="SetPointLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Obsolete" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="SetPointLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="Verb" kind="Plain" value="from Edit to Obsolete" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Release" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="SetPointLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Obsolete" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="SetPointLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="Verb" kind="Plain" value="from Release to Obsolete" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+    </Entity>
+    
+    <!-- Set Point Lifecycle End  -->
+    
+  </Section>    
+</Sections>

@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.U4DM.FB_RD_SERV</name>
+    <shortname>FB_RD_SERV</shortname>
+    <description>Lifecycles, States and UoMs Reference Data Domain Functional Block</description>
+    <version>41.00.00</version>
+    <companyname>Siemens.SimaticIT.U4DM</companyname>
+    <author>Siemens.SimaticIT.U4DM</author>
+    <hash>lLhsSbBDRHt6Yk4ZDTjHnqll9mHljWJ3pRAGHxJ4Wr0=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>ReferenceData</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_COMMON_BIN</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UDM_RF</name>
+        <version>05.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateNonConformanceNotification</name>
+                        <shortname>CreateNonConformanceNotification</shortname>
+                        <description>This command creates a notification for a Non-Conformance.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateNonConformanceNotificationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.DeleteNonConformanceNotification</name>
+                        <shortname>DeleteNonConformanceNotification</shortname>
+                        <description>Deletes a Non-Conformance Notification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.DeleteNonConformanceNotificationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.GetCurrentUserRoles</name>
+                        <shortname>GetCurrentUserRoles</shortname>
+                        <description>Retrieves the list of roles assigned to the current user.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.GetCurrentUserRolesHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.TCMCreateUoMList</name>
+                        <shortname>TCMCreateUoMList</shortname>
+                        <description>Ceates a list of Units of Measurement.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.TCMCreateUoMListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateWorkOrderNotification</name>
+                        <shortname>CreateWorkOrderNotification</shortname>
+                        <description>Creates a new Work Order Notification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>false</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateWorkOrderNotificationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.DeleteWorkOrderNotificationList</name>
+                        <shortname>DeleteWorkOrderNotificationList</shortname>
+                        <description>Removes a set of Work Order Notifications.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.DeleteWorkOrderNotificationListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateProcessNotification</name>
+                        <shortname>CreateProcessNotification</shortname>
+                        <description>Ceates a new Process notification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateProcessNotificationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.DeleteProcessNotificationList</name>
+                        <shortname>DeleteProcessNotificationList</shortname>
+                        <description>Removes a list of notifications related to a Process.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.DeleteProcessNotificationListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateSnagAndNoteNotification</name>
+                        <shortname>CreateSnagAndNoteNotification</shortname>
+                        <description>Creates a new Snag and Note notification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateSnagAndNoteNotificationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.DeleteSnagAndNoteNotificationList</name>
+                        <shortname>DeleteSnagAndNoteNotificationList</shortname>
+                        <description>Deletes a list of Snag and Note notifications.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.DeleteSnagAndNoteNotificationListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateNonProductiveActivityNotificationList</name>
+                        <shortname>CreateNonProductiveActivityNotificationList</shortname>
+                        <description>Creates a list of notifications related to a Non-Productive Activity.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateNonProductiveActivityNotificationListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.DeleteNonProductiveActivityNotificationList</name>
+                        <shortname>DeleteNonProductiveActivityNotificationList</shortname>
+                        <description>Deletes a list of notifications related to a Non-Productive Activity.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.DeleteNonProductiveActivityNotificationListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateExtEventLog</name>
+                        <shortname>CreateExtEventLog</shortname>
+                        <description>Inserts records in the **ExtEventLog** entity.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.CreateExtEventLogHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.TCMChangeStatusEventLog</name>
+                        <shortname>TCMChangeStatusEventLog</shortname>
+                        <description>This command updates the **ExtEventLog** table.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.TCMChangeStatusEventLogHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.TCMDeleteEventLogList</name>
+                        <shortname>TCMDeleteEventLogList</shortname>
+                        <description>Used to delete **ExtEventLog** records.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.TCMDeleteEventLogListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.TCMChangeStatusEventLogList</name>
+                        <shortname>TCMChangeStatusEventLogList</shortname>
+                        <description>Changes the status in the **ExtEventLog** table for a list of events.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Commands.TCMChangeStatusEventLogListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command></commands>
+    <commandActions></commandActions>
+    <events><event>
+                <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Events.ErrorEvent</name>
+                <shortname>ErrorEvent</shortname>
+                <description> Notifies when an error and/or exception occurs.</description>
+                <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Events, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>ReferenceData</domain>
+                <taglist>
+                </taglist>
+                <securable>false</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Events.OnCreateProcessNotification</name>
+                <shortname>OnCreateProcessNotification</shortname>
+                <description> Event raised when a Process Notification must be created.</description>
+                <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Events, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>ReferenceData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event></events>
+    <event_handlers><event_handler>
+<name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Events.CreateProcessNotificationEventShell</name>
+<assembly>Siemens.SimaticIT.U4DM.FB_RD_SERV.EventHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+<event_name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Events.OnCreateProcessNotification</event_name>
+<target_cpu>AnyCPU</target_cpu>
+<dependencies></dependencies>
+</event_handler></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>ReferenceData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.ReadingModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>ReferenceData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Types, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>ReferenceData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.Types.ReadingModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>ReferenceData</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.NonConformanceNotification</name>
+      <shortname>NonConformanceNotification</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.WorkOrderNotification</name>
+      <shortname>WorkOrderNotification</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ProcessNotification</name>
+      <shortname>ProcessNotification</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.SnagAndNoteNotification</name>
+      <shortname>SnagAndNoteNotification</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.WorkInstructionAssociationType</name>
+      <shortname>WorkInstructionAssociationType</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.NonProductiveActivityNotification</name>
+      <shortname>NonProductiveActivityNotification</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ExtObjectType</name>
+      <shortname>ExtObjectType</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ExtEventType</name>
+      <shortname>ExtEventType</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ExtEventContext</name>
+      <shortname>ExtEventContext</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ExtEventLog</name>
+      <shortname>ExtEventLog</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity></wr_entities>
+    <wr_facets></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

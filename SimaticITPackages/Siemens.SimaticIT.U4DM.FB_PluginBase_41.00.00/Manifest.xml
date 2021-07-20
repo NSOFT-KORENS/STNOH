@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.U4DM.FB_PluginBase</name>
+    <shortname>FB_PluginBase</shortname>
+    <description></description>
+    <version>41.00.00</version>
+    <companyname>Siemens.SimaticIT.U4DM</companyname>
+    <author>Siemens.SimaticIT.U4DM</author>
+    <hash>HoSN8h7xBpoAhViX1arygYgyujqXZXwDmQhXk31VAnY=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>PluginBase</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_COMMON_BIN</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands></commands>
+    <commandActions></commandActions>
+    <events></events>
+    <event_handlers></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.PluginBase.FB_PluginBase.PBModel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>PluginBase</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.PluginBase.FB_PluginBase.PBModel.Types.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>PluginBase</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities></wr_entities>
+    <wr_facets></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

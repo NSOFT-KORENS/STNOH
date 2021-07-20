@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is used to define Application Log messages. You should follow below instructions while defining messages: 
+    - The <message> structure should be repeated for each Application Log message.
+    - The <id> attribute is mandatory and should be unique in this file.
+    - The <short> attribute represents the short text message and should be less than or up to 100 characters.
+    - The <long> attribute represents the long text message and should be less than or up to 400 characters.
+    - The <level> attribute is mandatory and its value should be one of: Verbose | Error | Warning | Critical | Informational.
+    - The <param> structure should be repeated for each parameter of the Application Log message.
+    - The <key> attribute represents the unique identifier for a parameter that repeats multiple times in the message text.
+    - The <type> attribute represents the datatype of the parameter and its value should be one of the primitive types: string | byte | int | decimal | float | double | long | boolean | Guid | Datetime | Timespan.  -->
+<messages>
+  <message>
+    <id>-000001</id>
+    <short>Both, the quantity and UoM must be provided for Volume.</short>
+    <long>Both, the quantity and UoM must be provided for Volume.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000003</id>
+    <short>Both, the quantity and UoM must be provided for Weight.</short>
+    <long>Both, the quantity and UoM must be provided for Weight.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000004</id>
+    <short>Cannot create or update the Material: Materials cannot have a negative value for Volume.</short>
+    <long>Material creation or update not permitted: Materials cannot have a negative value for Volume.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000005</id>
+    <short> Cannot create or update the Material: Materials cannot have a negative value for Weight.</short>
+    <long> Material creation or update not permitted: Materials cannot have a negative value for Weight.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000006</id>
+    <short> Cannot create or update the Material: Materials cannot have a negative value for AMPowder MinQuantity.</short>
+    <long> Material creation or update not permitted: Materials cannot have a negative value for AMPowder MinQuantity.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000007</id>
+    <short>The Material does not exist.</short>
+    <long>The specified Material does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000008</id>
+    <short>Unable to link Suppliers. Suppliers do not exist.</short>
+    <long>Unable to link Suppliers. Suppliers do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000009</id>
+    <short>The specified Suppliers are already associated to the Material.</short>
+    <long>The Suppliers %alreadyAssociatedSupplierNIds% are already associated to the Material.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>alreadyAssociatedSupplierNIds</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000010</id>
+    <short>Cannot unlink suppliers from Material: links not found.</short>
+    <long>Cannot unlink suppliers from Material: links %notFoundAssociations% not found.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>notFoundAssociations</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+<message>
+    <id>-000011</id>
+    <short>Unable to link the Functional Code. The Functional Code does not exist.</short>
+    <long>Unable to link the Functional Code. The Functional Code does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+<message>
+    <id>-000012</id>
+    <short>The Material is already associated with either this or some other Functional Code.</short>
+    <long>The Material is already associated with either this or some other Functional Code.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000013</id>
+    <short>The specified Supplier does not exist.</short>
+    <long>The Supplier %supplierNId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>supplierNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000014</id>
+    <short>The specified Supplier is already associated to the Material.</short>
+    <long>The Supplier %supplierNId% is already associated to the Material.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>supplierNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000015</id>
+    <short>The specified Supplier is Frozen.</short>
+    <long>The Supplier %supplierNId% is Frozen.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>supplierNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000016</id>
+    <short>The specified Functional Code does not exist.</short>
+    <long>The Functional Code %functionalCodeNId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>functionalCodeNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000017</id>
+    <short>The specified Functional Code is Frozen.</short>
+    <long>The Functional Code %functionalCodeNId% is Frozen.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>functionalCodeNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+<message>
+    <id>-000018</id>
+    <short>The specified Material is Locked.</short>
+    <long>The Material %materialNId% is Locked.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>materialNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+<message>
+    <id>-702931</id>
+    <short>Material Group Ids not sent in parameter.</short>
+    <long>Material Group Ids not sent in parameter.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+<message>
+    <id>-601020</id>
+    <short>The specified Functional Codes do not exist.</short>
+    <long>The specified functional codes do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>FuncCodeDoesNotExists</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>  
+  <message>
+    <id>-601019</id>
+    <short> A Functional Code with NId %NId% already exists.</short>
+    <long> A Functional Code with NId %NId% already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>NId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+ 
+</messages>

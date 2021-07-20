@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.OPCUAConnect_MS</name>
+    <shortname>OPCUAConnect_MS</shortname>
+    <description>OPC UA Connection Management</description>
+    <version>02.01.00</version>
+    <companyname>Siemens.SimaticIT</companyname>
+    <author>Siemens.SimaticIT</author>
+    <hash>LF6WMWdlEg+y0IszC1vqDR0Tfl7F/7q4E0cSGsNhkWY=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>MasterData</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UDM_RF</name>
+        <version>05.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.ATN_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.EQU_MS</name>
+        <version>06.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands><command>
+                        <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands.AssociateAutomationNodeTypesWithEquipmentType</name>
+                        <shortname>AssociateAutomationNodeTypesWithEquipmentType</shortname>
+                        <description>Binds one or more Automation Node Types to an Equipment Type.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands.AssociateAutomationNodeTypesWithEquipmentTypeHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.OPCUAConnect_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands.AssociateAutomationNodeInstancesWithEquipmentConfiguration</name>
+                        <shortname>AssociateAutomationNodeInstancesWithEquipmentConfiguration</shortname>
+                        <description>Binds one or more Automation Node Instances to an Equipment Configuration.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands.AssociateAutomationNodeInstancesWithEquipmentConfigurationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.OPCUAConnect_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands.DisassociateAutomationNodeTypesFromEquipmentType</name>
+                        <shortname>DisassociateAutomationNodeTypesFromEquipmentType</shortname>
+                        <description>Unbinds one or more Automation Node Types from an Equipment Type.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands.DisassociateAutomationNodeTypesFromEquipmentTypeHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.OPCUAConnect_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands.DisassociateAutomationNodeInstancesFromEquipmentConfiguration</name>
+                        <shortname>DisassociateAutomationNodeInstancesFromEquipmentConfiguration</shortname>
+                        <description>Unbinds one or more Automation Node Instances from an Equipment Configuration.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands.DisassociateAutomationNodeInstancesFromEquipmentConfigurationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.OPCUAConnect_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command></commands>
+    <commandActions></commandActions>
+    <events><event>
+                <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Events.AutomationNodeInstancesAssociatedWithEquipmentConfiguration</name>
+                <shortname>AutomationNodeInstancesAssociatedWithEquipmentConfiguration</shortname>
+                <description> This event is raised when one or more Automation Node Instances are bound to an Equipment Configuration.</description>
+                <assembly>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Events.AutomationNodeInstancesDisassociatedFromEquipmentConfiguration</name>
+                <shortname>AutomationNodeInstancesDisassociatedFromEquipmentConfiguration</shortname>
+                <description> This event is raised when one or more Automation Node Instances are unbound from an Equipment Configuration.</description>
+                <assembly>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event></events>
+    <event_handlers></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities><entity>
+      <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.DataModel.ReadingModel.EquipmentTypeToAutomationNodeType</name>
+      <securable>true</securable>
+    </entity><entity>
+      <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.DataModel.ReadingModel.EquipmentConfigurationToAutomationNodeInstance</name>
+      <securable>true</securable>
+    </entity></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Types.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.DataModel.EquipmentTypeToAutomationNodeType</name>
+      <shortname>EquipmentTypeToAutomationNodeType</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentType</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentType</root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.DataModel.EquipmentConfigurationToAutomationNodeInstance</name>
+      <shortname>EquipmentConfigurationToAutomationNodeInstance</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentConfiguration</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentConfiguration</root_entity>
+      <base_entity></base_entity>
+    </wr_entity></wr_entities>
+    <wr_facets></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

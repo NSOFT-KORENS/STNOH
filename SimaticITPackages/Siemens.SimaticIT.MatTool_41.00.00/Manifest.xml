@@ -1,0 +1,1463 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.MatTool</name>
+    <shortname>MatTool</shortname>
+    <description></description>
+    <version>41.00.00</version>
+    <companyname>Siemens.SimaticIT</companyname>
+    <author>Siemens.SimaticIT</author>
+    <hash>hxW+Fk5hXR2QhREMA0aSCbA+RYZuTpeqs4AcEbr3qho=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>MasterData</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.EQU_MS</name>
+        <version>06.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UDM_RF</name>
+        <version>05.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.MAT_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.ES_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_COMMON_BIN</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_RD_SERV</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UADM.FB_MS_MAT</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateDefectType</name>
+                        <shortname>CreateDefectType</shortname>
+                        <description>Creates a Defect Type, as well as any subsequent relationships (parent-to-child and child-to-parent).</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateDefectTypeHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateDefectType</name>
+                        <shortname>UpdateDefectType</shortname>
+                        <description>Updates a specific Defect Type, as well as its related relationships.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateDefectTypeHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteDefectTypeList</name>
+                        <shortname>DeleteDefectTypeList</shortname>
+                        <description>Deletes one or more Defect Types, as well as their related relationships.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteDefectTypeListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateDefectGroup</name>
+                        <shortname>CreateDefectGroup</shortname>
+                        <description>Creates a Defect Group, as well as any subsequent relationships (parent-to-child and child-to-parent). </description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateDefectGroupHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateDefectGroup</name>
+                        <shortname>UpdateDefectGroup</shortname>
+                        <description>Updates a specific Defect Group.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateDefectGroupHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteDefectGroupList</name>
+                        <shortname>DeleteDefectGroupList</shortname>
+                        <description>Deletes one or more Defect Groups.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteDefectGroupListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.AssignNonConformanceTransitionMailAddressList</name>
+                        <shortname>AssignNonConformanceTransitionMailAddressList</shortname>
+                        <description>Creates an XML file with the list of e-mail addresses associated to User Roles. These e-mail addresses receive notifications when the specified Non-Conformance Transition (related to a specific Non-Conformance Lifecycle) occurs.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.AssignNonConformanceTransitionMailAddressListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.AssignNonConformanceTransitionRoleList</name>
+                        <shortname>AssignNonConformanceTransitionRoleList</shortname>
+                        <description>Creates an XML file with the list of User Roles allowed to perform actions on a specific Non-Conformance Transition (related to a specific Non-Conformance Lifecycle).</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.AssignNonConformanceTransitionRoleListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateNonConformanceTransition</name>
+                        <shortname>CreateNonConformanceTransition</shortname>
+                        <description>This command creates a new Transition for a specific Quality Non-Conformance Lifecycle.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateNonConformanceTransitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteNonConformanceTransitionList</name>
+                        <shortname>DeleteNonConformanceTransitionList</shortname>
+                        <description>Deletes one or more Non-Conformance Transitions.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteNonConformanceTransitionListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.RemoveNonConformanceTransitionMailAddressList</name>
+                        <shortname>RemoveNonConformanceTransitionMailAddressList</shortname>
+                        <description>Removes the e-mail addresses of the User Roles assigned to a specific Non-Conformance Transition (of a specific Non-Conformance Lifecycle).</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.RemoveNonConformanceTransitionMailAddressListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.RemoveNonConformanceTransitionRoleList</name>
+                        <shortname>RemoveNonConformanceTransitionRoleList</shortname>
+                        <description>Removes specific User Roles from the list of those previously assigned to receive notifications related to a Non-Conformance Transition (of a specific Non-Conformance Lifecycle).</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.RemoveNonConformanceTransitionRoleListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.GetNonConformanceTransitionRoleMailList</name>
+                        <shortname>GetNonConformanceTransitionRoleMailList</shortname>
+                        <description>Returns the list of Authorized Roles and E-Mail Addresses configured to receive notifications for a specific Transition of a Non-Conformance.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.GetNonConformanceTransitionRoleMailListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateNonConformanceStatus</name>
+                        <shortname>CreateNonConformanceStatus</shortname>
+                        <description>This command creates a Non-Conformance Status. </description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateNonConformanceStatusHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateNonConformanceStatus</name>
+                        <shortname>UpdateNonConformanceStatus</shortname>
+                        <description>Updates a specific Non-Conformance Status.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateNonConformanceStatusHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteNonConformanceStatusList</name>
+                        <shortname>DeleteNonConformanceStatusList</shortname>
+                        <description>Deletes one or more Non-Conformance States.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteNonConformanceStatusListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateSkill</name>
+                        <shortname>CreateSkill</shortname>
+                        <description>Deprecated: use **CreateSkillBOP** in FB MS BOP instead. This command creates a Skill. A Skill represents a specific requirement that can either be directly associated to Process Operations and Work Order Operations or assigned to specific Users through Certifications. </description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateSkillHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateReworkCodeList</name>
+                        <shortname>CreateReworkCodeList</shortname>
+                        <description>Creates a list of Rework Codes. A Rework Code represents an association involving a Process, which has been defined to rework an item, a Defect or Defect Group, Failures or Sub-Failures and a Final Material.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateReworkCodeListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteReworkCodeList</name>
+                        <shortname>DeleteReworkCodeList</shortname>
+                        <description>Deletes one or more Rework Codes.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteReworkCodeListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateNonConformanceLifecycle</name>
+                        <shortname>UpdateNonConformanceLifecycle</shortname>
+                        <description>Updates a specific Non-Conformance Lifecycle.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateNonConformanceLifecycleHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UADMCreateMaterialDefinition</name>
+                        <shortname>UADMCreateMaterialDefinition</shortname>
+                        <description>Creates a Material. The prefix UADM indicates that the command is invoked by the default AppU4DM UI. This command can be extended in any case, and the developed custom logic can be called from the UI instead.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UADMCreateMaterialDefinitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UADMUpdateMaterialDefinition</name>
+                        <shortname>UADMUpdateMaterialDefinition</shortname>
+                        <description>Updates the specified Material. The prefix UADM indicates that the command is invoked by the default AppU4DM UI. This command can be extended in any case, and the developed custom logic can be called from the UI instead.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UADMUpdateMaterialDefinitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.EnableLocationMachineForCompleteByDifferentUser</name>
+                        <shortname>EnableLocationMachineForCompleteByDifferentUser</shortname>
+                        <description>Enables a Machine to permit a Work Order Operation to be completed by a User other than who started its execution.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>false</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.EnableLocationMachineForCompleteByDifferentUserHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteNonConformanceLifecycleList</name>
+                        <shortname>DeleteNonConformanceLifecycleList</shortname>
+                        <description>Deletes one or more Non-Conformance Lifecycles.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteNonConformanceLifecycleListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateToolDefinition</name>
+                        <shortname>CreateToolDefinition</shortname>
+                        <description>This command creates a Tool Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateToolDefinitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UADMCreateToolDefinition</name>
+                        <shortname>UADMCreateToolDefinition</shortname>
+                        <description>Creates a Tool Definition. The prefix UADM indicates that the command is invoked by the default AppU4DM UI. This command can be extended in any case, and the developed custom logic can be called from the UI instead.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UADMCreateToolDefinitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UADMCreateNewToolDefinitionRevision</name>
+                        <shortname>UADMCreateNewToolDefinitionRevision</shortname>
+                        <description>Creates a new Revision of the specified Tool Definition. The prefix UADM indicates that the command is invoked by the default AppU4DM UI. This command can be extended in any case, and the developed custom logic can be called from the UI instead.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UADMCreateNewToolDefinitionRevisionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateToolDefinition</name>
+                        <shortname>UpdateToolDefinition</shortname>
+                        <description>Updates a specific Tool Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateToolDefinitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteToolDefinitions</name>
+                        <shortname>DeleteToolDefinitions</shortname>
+                        <description>Deletes one or more Tool Definitions, provided that the specified versions are not in use.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteToolDefinitionsHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateNonConformanceLifecycle</name>
+                        <shortname>CreateNonConformanceLifecycle</shortname>
+                        <description>Creates a Quality Non-Conformance Lifecycle.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateNonConformanceLifecycleHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateWorkOperationType</name>
+                        <shortname>CreateWorkOperationType</shortname>
+                        <description>Creates the type of an Operation or a Work Order Operation. The type determines how the Operation / Work Order Operation will behave at runtime.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateWorkOperationTypeHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateNewMaterialDefinitionRevision</name>
+                        <shortname>CreateNewMaterialDefinitionRevision</shortname>
+                        <description>Creates a new Revision (version) of the specified Material.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateNewMaterialDefinitionRevisionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateDefectGroupContextualization</name>
+                        <shortname>CreateDefectGroupContextualization</shortname>
+                        <description>Creates an association involving a Defect Group, a Material and a Machine. </description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateDefectGroupContextualizationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.RemoveDefectGroupContextualization</name>
+                        <shortname>RemoveDefectGroupContextualization</shortname>
+                        <description>Removes the association involving a specific Defect Group, specific Materials and specific Machines.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.RemoveDefectGroupContextualizationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateDefectTypeContextualization</name>
+                        <shortname>CreateDefectTypeContextualization</shortname>
+                        <description>Creates an association involving a Defect Type, a Material and a Machine. </description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateDefectTypeContextualizationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.RemoveDefectTypeContextualization</name>
+                        <shortname>RemoveDefectTypeContextualization</shortname>
+                        <description>Removes the association involving a specific Defect Type, specific Materials and specific Machines.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.RemoveDefectTypeContextualizationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteWorkOperationTypeList</name>
+                        <shortname>DeleteWorkOperationTypeList</shortname>
+                        <description>Deletes one or more Work Operation Types, provided that the specified entities are not in use.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteWorkOperationTypeListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.SetNonConformanceStatusIsScrapped</name>
+                        <shortname>SetNonConformanceStatusIsScrapped</shortname>
+                        <description>Sets behavior **IsScrapped** on the specified Non-Conformance Status for a specific Non-Conformance Lifecycle.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.SetNonConformanceStatusIsScrappedHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.SetNonConformanceStatusIsFrozen</name>
+                        <shortname>SetNonConformanceStatusIsFrozen</shortname>
+                        <description>Sets behavior **IsFrozen** on the specified Non-Conformance Status for a specific Non-Conformance Lifecycle.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.SetNonConformanceStatusIsFrozenHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.LinkSubstrateDefinitionToMachine</name>
+                        <shortname>LinkSubstrateDefinitionToMachine</shortname>
+                        <description>Links one or more specified Machines (or Equipment Types) to a specific Substrate Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.LinkSubstrateDefinitionToMachineHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UnlinkSubstrateDefinitionToMachine</name>
+                        <shortname>UnlinkSubstrateDefinitionToMachine</shortname>
+                        <description>Removes the specified list of links between a Substrate Definition and Machines (or Equipment Types).</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UnlinkSubstrateDefinitionToMachineHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateNonProductiveActivity</name>
+                        <shortname>CreateNonProductiveActivity</shortname>
+                        <description>This command creates a Non-Productive Activity. </description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateNonProductiveActivityHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateNonProductiveActivity</name>
+                        <shortname>UpdateNonProductiveActivity</shortname>
+                        <description>Updates a specific Non-Productive Activity.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateNonProductiveActivityHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteNonProductiveActivityList</name>
+                        <shortname>DeleteNonProductiveActivityList</shortname>
+                        <description>Deletes one or more Non-Productive Activities.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteNonProductiveActivityListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateTeam</name>
+                        <shortname>CreateTeam</shortname>
+                        <description>This command creates a Team.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.CreateTeamHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteTeam</name>
+                        <shortname>DeleteTeam</shortname>
+                        <description>Deletes a specific Team. </description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.DeleteTeamHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateTeam</name>
+                        <shortname>UpdateTeam</shortname>
+                        <description>Updates the details about the specific Team.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateTeamHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.LinkSkillsToTeam</name>
+                        <shortname>LinkSkillsToTeam</shortname>
+                        <description>Links one or more specified Skills to a specific Team.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.LinkSkillsToTeamHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UnLinkSkillsFromTeam</name>
+                        <shortname>UnLinkSkillsFromTeam</shortname>
+                        <description>Removes the specified links related to the Skills required to join a Team.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UnLinkSkillsFromTeamHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.LinkUsersToTeam</name>
+                        <shortname>LinkUsersToTeam</shortname>
+                        <description>Links one or more Users to a specific Team.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.LinkUsersToTeamHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UnLinkUsersFromTeam</name>
+                        <shortname>UnLinkUsersFromTeam</shortname>
+                        <description>Removes the specified list of links between a Team and Users.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UnLinkUsersFromTeamHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.TCM2CreateToolDefinitionList</name>
+                        <shortname>TCM2CreateToolDefinitionList</shortname>
+                        <description>Creates a list of Tool Definitions imported from an external system. Used in case of integration with Teamcenter Manufacturing.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.TCM2CreateToolDefinitionListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.SetNonConformanceStatusIsClosedOk</name>
+                        <shortname>SetNonConformanceStatusIsClosedOk</shortname>
+                        <description>Sets behavior **IsClosedOk** on the specified Non-Conformance Status for a specific Non-Conformance Lifecycle.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.SetNonConformanceStatusIsClosedOkHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateNonConformanceStatusBehavior</name>
+                        <shortname>UpdateNonConformanceStatusBehavior</shortname>
+                        <description>Sets the **IsClosedOk**, **IsRuntimeFrozen** and **IsScrapped** flags on the specified Non-Conformance Status for a specific Non-Conformance Lifecycle.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Commands.UpdateNonConformanceStatusBehaviorHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.MatTool.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command></commands>
+    <commandActions></commandActions>
+    <events><event>
+                <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Events.OnPLMCreateToolDefinitionList</name>
+                <shortname>OnPLMCreateToolDefinitionList</shortname>
+                <description> Event raised whenever a list of Tool Definitions is created.</description>
+                <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Events.OnJoinTeam</name>
+                <shortname>OnJoinTeam</shortname>
+                <description> Event raised when a User joins the Team.</description>
+                <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Events.OnLeaveTeam</name>
+                <shortname>OnLeaveTeam</shortname>
+                <description> Event raised when a User leaves the Team.</description>
+                <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event></events>
+    <event_handlers><event_handler>
+<name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Events.OnJoinTeamEventHandlerShell</name>
+<assembly>Siemens.SimaticIT.MatTool.EventHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+<event_name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Events.OnJoinTeam</event_name>
+<target_cpu>AnyCPU</target_cpu>
+<dependencies></dependencies>
+</event_handler><event_handler>
+<name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Events.OnLeaveTeamEventHandlerShell</name>
+<assembly>Siemens.SimaticIT.MatTool.EventHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+<event_name>Siemens.SimaticIT.MasterData.MatTool.MSModel.Events.OnLeaveTeam</event_name>
+<target_cpu>AnyCPU</target_cpu>
+<dependencies></dependencies>
+</event_handler></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.MatTool.MSModel.Types.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.DefectGroup</name>
+      <shortname>DefectGroup</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.NonConformanceTransition</name>
+      <shortname>NonConformanceTransition</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.DefectType</name>
+      <shortname>DefectType</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.Skill</name>
+      <shortname>Skill</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.ReworkCode</name>
+      <shortname>ReworkCode</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.NonConformanceStatus</name>
+      <shortname>NonConformanceStatus</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.NonConformanceLifecycle</name>
+      <shortname>NonConformanceLifecycle</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.ToolDefinition</name>
+      <shortname>ToolDefinition</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.WorkOperationType</name>
+      <shortname>WorkOperationType</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.NonConformanceSeverity</name>
+      <shortname>NonConformanceSeverity</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.DefectSpecification</name>
+      <shortname>DefectSpecification</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.DefectGroupSpecification</name>
+      <shortname>DefectGroupSpecification</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.ToolDefinitionCompatibleMachine</name>
+      <shortname>ToolDefinitionCompatibleMachine</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.NonConformanceStatusBehavior</name>
+      <shortname>NonConformanceStatusBehavior</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.NonProductiveActivity</name>
+      <shortname>NonProductiveActivity</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.Team</name>
+      <shortname>Team</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.TeamSkillAssociation</name>
+      <shortname>TeamSkillAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.TeamUserAssociation</name>
+      <shortname>TeamUserAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.TeamHistory</name>
+      <shortname>TeamHistory</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.TeamHistoryAction</name>
+      <shortname>TeamHistoryAction</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity></wr_entities>
+    <wr_facets><wr_facet>
+      <name>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.SubstrateDefinition</name>
+      <shortname>SubstrateDefinition</shortname>
+      <parententity>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.ToolDefinition</parententity>
+      <root_entity>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.ToolDefinition</root_entity>
+    </wr_facet></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

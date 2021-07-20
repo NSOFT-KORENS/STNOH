@@ -1,0 +1,810 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.U4DM.FB_MS_AGWInt</name>
+    <shortname>FB_MS_AGWInt</shortname>
+    <description></description>
+    <version>41.00.00</version>
+    <companyname>Siemens.SimaticIT.U4DM</companyname>
+    <author>Siemens.SimaticIT.U4DM</author>
+    <hash>Xstt3o8kfodn2y8HdXdlOPkXMZiYWdDHSKAu/SD7lv4=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>MasterData</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UDM_RF</name>
+        <version>05.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.EQU_MS</name>
+        <version>06.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.MAT_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.ES_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.ATN_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.OPCUAConnect_MS</name>
+        <version>02.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.WI_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_COMMON_BIN</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_RD_SERV</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UADM.FB_MS_MAT</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.MatTool</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkAutomationNodeInstanceParameterToDCItemList</name>
+                        <shortname>LinkAutomationNodeInstanceParameterToDCItemList</shortname>
+                        <description>This command links the Work Instruction Definition Parameter to the Automation Node Instance Parameter.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkAutomationNodeInstanceParameterToDCItemListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkAutomationNodeInstanceParameterFromDCItemList</name>
+                        <shortname>UnlinkAutomationNodeInstanceParameterFromDCItemList</shortname>
+                        <description>This command is used to unlink Automation Node Instance Parameters from Work Instruction Parameters.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkAutomationNodeInstanceParameterFromDCItemListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkAutomationNodeInstanceParameterToMaterialParameterList</name>
+                        <shortname>LinkAutomationNodeInstanceParameterToMaterialParameterList</shortname>
+                        <description>Links a parameter defined for the Automation Node Instance to the corresponding parameter defined for a Material in MES.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkAutomationNodeInstanceParameterToMaterialParameterListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkAutomationNodeInstanceParameterFromMaterialParameterList</name>
+                        <shortname>UnlinkAutomationNodeInstanceParameterFromMaterialParameterList</shortname>
+                        <description>This command deletes the association between Automation Node Instance Parameters and the corresponding Material Parameters.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkAutomationNodeInstanceParameterFromMaterialParameterListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkAutomationNodeInstanceParameterToToolDefinitionParameterList</name>
+                        <shortname>LinkAutomationNodeInstanceParameterToToolDefinitionParameterList</shortname>
+                        <description>This command links a parameter defined for an Automation Node Instance to the corresponding parameter defined for a Tool Definition.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkAutomationNodeInstanceParameterToToolDefinitionParameterListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkAutomationNodeInstanceParameterFromToolDefinitionParameterList</name>
+                        <shortname>UnlinkAutomationNodeInstanceParameterFromToolDefinitionParameterList</shortname>
+                        <description>This command deletes the association between Automation Node Instance Parameters and the corresponding Tool Definition Parameters.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkAutomationNodeInstanceParameterFromToolDefinitionParameterListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.CreateSetPoint</name>
+                        <shortname>CreateSetPoint</shortname>
+                        <description>This command creates Setpoints.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.CreateSetPointHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.ChangeSetPointStatus</name>
+                        <shortname>ChangeSetPointStatus</shortname>
+                        <description>This command changes the status of Setpoints.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.ChangeSetPointStatusHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkSetPointItemToSetPoint</name>
+                        <shortname>LinkSetPointItemToSetPoint</shortname>
+                        <description>This command links a Setpoint Item to a Setpoint.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkSetPointItemToSetPointHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkSetPointItemToSetPoint</name>
+                        <shortname>UnlinkSetPointItemToSetPoint</shortname>
+                        <description>This command unlinks Setpoint Items from the Setpoint.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkSetPointItemToSetPointHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.DeleteSetPointList</name>
+                        <shortname>DeleteSetPointList</shortname>
+                        <description>This command deletes one or more Setpoints.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.DeleteSetPointListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UpdateSetPoint</name>
+                        <shortname>UpdateSetPoint</shortname>
+                        <description>This command updates the Setpoint.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UpdateSetPointHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UpdateSetPointItem</name>
+                        <shortname>UpdateSetPointItem</shortname>
+                        <description>This command saves the updated details of the variable.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UpdateSetPointItemHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkEquipmentToSetPoint</name>
+                        <shortname>LinkEquipmentToSetPoint</shortname>
+                        <description>This command links the Equipment to the Setpoint.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkEquipmentToSetPointHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkMachineDefinitionToSetPoint</name>
+                        <shortname>LinkMachineDefinitionToSetPoint</shortname>
+                        <description>This command links the Machine Definition to the Setpoint.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkMachineDefinitionToSetPointHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkEquipmentToSetPoint</name>
+                        <shortname>UnlinkEquipmentToSetPoint</shortname>
+                        <description>This command unlinks the Equipment from the Setpoint.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkEquipmentToSetPointHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkMachineDefinitionToSetPoint</name>
+                        <shortname>UnlinkMachineDefinitionToSetPoint</shortname>
+                        <description>This command unlinks the Machine Definition from the Setpoint.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkMachineDefinitionToSetPointHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkATNInstanceParameterToSetPointItemList</name>
+                        <shortname>LinkATNInstanceParameterToSetPointItemList</shortname>
+                        <description>This command links the Automation Node Instance to a variable.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkATNInstanceParameterToSetPointItemListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkATNInstanceParameterToSetPointItemList</name>
+                        <shortname>UnlinkATNInstanceParameterToSetPointItemList</shortname>
+                        <description>This command unlinks the Automation Node Instance Parameter from the variable.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkATNInstanceParameterToSetPointItemListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkToolDefinitionToAutomationNodeTypeList</name>
+                        <shortname>LinkToolDefinitionToAutomationNodeTypeList</shortname>
+                        <description>This command links a Tool Definition to the Automation Node Types.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkToolDefinitionToAutomationNodeTypeListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkToolDefinitionToAutomationNodeTypeList</name>
+                        <shortname>UnlinkToolDefinitionToAutomationNodeTypeList</shortname>
+                        <description>This command unlinks the Tool Definition from the Automation Node Type.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkToolDefinitionToAutomationNodeTypeListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkToolDefinitionToSetPoint</name>
+                        <shortname>LinkToolDefinitionToSetPoint</shortname>
+                        <description>This command links Tool Definitions to Setpoints. It also links Tools (created using the same Tool Definitions) to Setpoints.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkToolDefinitionToSetPointHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkToolDefinitionToSetPoint</name>
+                        <shortname>UnlinkToolDefinitionToSetPoint</shortname>
+                        <description>This command is used to unlink the Tool Definitions from the Setpoints. Additionally it also unlinks the Tools (created using the same Tool Definitions) from the Setpoints.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkToolDefinitionToSetPointHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkATNTypeParameterToToolDefinitionSetPointItemList</name>
+                        <shortname>LinkATNTypeParameterToToolDefinitionSetPointItemList</shortname>
+                        <description>This command links an Automation Node Type Parameter to a Setpoint Variable for a Tool Definition.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.LinkATNTypeParameterToToolDefinitionSetPointItemListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkATNTypeParameterFromToolDefinitionSetPointItemList</name>
+                        <shortname>UnlinkATNTypeParameterFromToolDefinitionSetPointItemList</shortname>
+                        <description>This command is used to unlink the ATN Type Parameters from the Tool Definition Setpoint Item List.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.UnlinkATNTypeParameterFromToolDefinitionSetPointItemListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command></commands>
+    <commandActions><commandAction>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.RemoveATNEntityParametersHandlerShell</name>
+                        <shortname>RemoveATNEntityParametersHandlerShell</shortname>
+                        <description>This post action removes all associations between ATN Instance Parameters and entities parameters.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.MasterData.OPCUAConnect_MS.MSModel.Commands.DisassociateAutomationNodeInstancesFromEquipmentConfiguration</command>
+                        <type>Post</type>
+                        <is_enabled>true</is_enabled>
+                        <is_optional>false</is_optional>
+                </commandAction><commandAction>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.PostActionLinkEquipmentToSetPointHandlerShell</name>
+                        <shortname>PostActionLinkEquipmentToSetPointHandlerShell</shortname>
+                        <description>Links the newly created Equipment Configuration to a Setpoint.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.Commands.CreateEquipmentConfiguration</command>
+                        <type>Post</type>
+                        <is_enabled>true</is_enabled>
+                        <is_optional>false</is_optional>
+                </commandAction><commandAction>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Commands.PostActionDeleteSetpointAssociationsHandlerShell</name>
+                        <shortname>PostActionDeleteSetpointAssociationsHandlerShell</shortname>
+                        <description>Deletes the association between the removed Equipment Configuration and the previously linked Setpoint.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_AGWInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.Commands.DeleteEquipmentConfiguration</command>
+                        <type>Post</type>
+                        <is_enabled>true</is_enabled>
+                        <is_optional>false</is_optional>
+                </commandAction></commandActions>
+    <events><event>
+                <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Events.OnLinkToolDefinitionSetPoint</name>
+                <shortname>OnLinkToolDefinitionSetPoint</shortname>
+                <description> This event is raised when Tool Definitions are linked to the Setpoints.</description>
+                <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Events.OnUnlinkToolDefinitionFromSetPoint</name>
+                <shortname>OnUnlinkToolDefinitionFromSetPoint</shortname>
+                <description> This event is raised when Tool Definitions are unlinked from the Setpoints.</description>
+                <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event></events>
+    <event_handlers></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.Types.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DiscreteAutomationNodeDataTypeMapping</name>
+      <shortname>DiscreteAutomationNodeDataTypeMapping</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.DSParameter</name>
+      <shortname>DSParameter</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.SetPoint</name>
+      <shortname>SetPoint</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.SetPointItem</name>
+      <shortname>SetPointItem</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.SetPointItemDefaultValue</name>
+      <shortname>SetPointItemDefaultValue</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.SetPointEquipmentAssociation</name>
+      <shortname>SetPointEquipmentAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.SetPointItemATNInstanceAssociation</name>
+      <shortname>SetPointItemATNInstanceAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.ToolDefinitionAutomationNodeTypeAssociation</name>
+      <shortname>ToolDefinitionAutomationNodeTypeAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.SetPointToolDefinitionAssociation</name>
+      <shortname>SetPointToolDefinitionAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.SetPointEquipmentTypeAssociation</name>
+      <shortname>SetPointEquipmentTypeAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.SetPointItemToolDefinitionATNTypeParameterAssociation</name>
+      <shortname>SetPointItemToolDefinitionATNTypeParameterAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity></wr_entities>
+    <wr_facets><wr_facet>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.MaterialATNInstanceParameterAssociation</name>
+      <shortname>MaterialATNInstanceParameterAssociation</shortname>
+      <parententity></parententity>
+      <root_entity>Siemens.SimaticIT.MasterData.MAT_MS.MSModel.DataModel.Material</root_entity>
+    </wr_facet><wr_facet>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.WIDefinitionATNInstanceParameterAssociation</name>
+      <shortname>WIDefinitionATNInstanceParameterAssociation</shortname>
+      <parententity></parententity>
+      <root_entity>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.WorkInstructionDefinitionParameter</root_entity>
+    </wr_facet><wr_facet>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_AGWInt.MSModel.DataModel.ToolDefinitionATNInstanceParameterAssociation</name>
+      <shortname>ToolDefinitionATNInstanceParameterAssociation</shortname>
+      <parententity></parententity>
+      <root_entity>Siemens.SimaticIT.MasterData.MatTool.MSModel.DataModel.ToolDefinition</root_entity>
+    </wr_facet></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

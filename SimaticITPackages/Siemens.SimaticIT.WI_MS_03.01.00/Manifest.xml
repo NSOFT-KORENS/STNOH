@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.WI_MS</name>
+    <shortname>WI_MS</shortname>
+    <description>Work Instruction Master Data Domain Functional Block</description>
+    <version>03.01.00</version>
+    <companyname>Siemens.SimaticIT</companyname>
+    <author>Siemens.SimaticIT</author>
+    <hash>et3BtYPsO1dCOSjqEoHvYYMNqwxXNwynZga8jwvC5io=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>MasterData</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UDM_RF</name>
+        <version>05.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.ES_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.CreateWorkInstructionDefinition</name>
+                        <shortname>CreateWorkInstructionDefinition</shortname>
+                        <description>Creates a new Work Instruction Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.CreateWorkInstructionDefinitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.DeleteWorkInstructionDefinition</name>
+                        <shortname>DeleteWorkInstructionDefinition</shortname>
+                        <description>Deletes an existing Work Instruction Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.DeleteWorkInstructionDefinitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UpdateWorkInstructionDefinition</name>
+                        <shortname>UpdateWorkInstructionDefinition</shortname>
+                        <description>Updates an existing Work Instruction Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UpdateWorkInstructionDefinitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.DeleteWorkInstructionDefinitionParameter</name>
+                        <shortname>DeleteWorkInstructionDefinitionParameter</shortname>
+                        <description>Deletes a Work Instruction Definition Parameter.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.DeleteWorkInstructionDefinitionParameterHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UpdateWorkInstructionDefinitionParameter</name>
+                        <shortname>UpdateWorkInstructionDefinitionParameter</shortname>
+                        <description>Updates a Work Instruction Definition Parameter.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UpdateWorkInstructionDefinitionParameterHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.CreateWorkInstructionTemplate</name>
+                        <shortname>CreateWorkInstructionTemplate</shortname>
+                        <description>Creates a new Work Instruction Template.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.CreateWorkInstructionTemplateHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UpdateWorkInstructionTemplate</name>
+                        <shortname>UpdateWorkInstructionTemplate</shortname>
+                        <description>Updates an existing Work Instruction Template.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UpdateWorkInstructionTemplateHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.DeleteWorkInstructionTemplate</name>
+                        <shortname>DeleteWorkInstructionTemplate</shortname>
+                        <description>Deletes an existing Work Instruction Template.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.DeleteWorkInstructionTemplateHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.SetWorkInstructionDefinitionRevisionCurrent</name>
+                        <shortname>SetWorkInstructionDefinitionRevisionCurrent</shortname>
+                        <description>Sets a Work Instruction Definition revision as the one to be used.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.SetWorkInstructionDefinitionRevisionCurrentHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UnsetWorkInstructionDefinitionRevisionCurrent</name>
+                        <shortname>UnsetWorkInstructionDefinitionRevisionCurrent</shortname>
+                        <description>Removes the setting as Current from a Work Instruction Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UnsetWorkInstructionDefinitionRevisionCurrentHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.SetWorkInstructionTemplateAsDefault</name>
+                        <shortname>SetWorkInstructionTemplateAsDefault</shortname>
+                        <description>Sets a Work Instruction Template as the default Template to be used to create a Work Instruction Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.SetWorkInstructionTemplateAsDefaultHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.DeleteWorkInstructionTemplateParameter</name>
+                        <shortname>DeleteWorkInstructionTemplateParameter</shortname>
+                        <description>Deletes an existing Work Instruction Template Parameter.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.DeleteWorkInstructionTemplateParameterHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UpdateWorkInstructionTemplateParameter</name>
+                        <shortname>UpdateWorkInstructionTemplateParameter</shortname>
+                        <description>Updates an existing Work Instruction Template Parameter.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UpdateWorkInstructionTemplateParameterHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.SaveWorkInstructionDesign</name>
+                        <shortname>SaveWorkInstructionDesign</shortname>
+                        <description>Updates the **Design** property of an existing Work Instruction Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.SaveWorkInstructionDesignHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.CreateNewWorkInstructionDefinitionRevision</name>
+                        <shortname>CreateNewWorkInstructionDefinitionRevision</shortname>
+                        <description>Creates a new Work Instruction Definition revision.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.CreateNewWorkInstructionDefinitionRevisionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.CopyWorkInstructionDefinitionRevision</name>
+                        <shortname>CopyWorkInstructionDefinitionRevision</shortname>
+                        <description>Copies a Work Instruction Definition revision.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.CopyWorkInstructionDefinitionRevisionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.LockWorkInstructionDefinition</name>
+                        <shortname>LockWorkInstructionDefinition</shortname>
+                        <description>Locks an existing Work Instruction Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.LockWorkInstructionDefinitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UnlockWorkInstructionDefinition</name>
+                        <shortname>UnlockWorkInstructionDefinition</shortname>
+                        <description>Unlocks an existing Work Instruction Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.UnlockWorkInstructionDefinitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.DeleteESScenarioFromWI</name>
+                        <shortname>DeleteESScenarioFromWI</shortname>
+                        <description>Deletes the WI_ESScenario which has information of Electronic Signature Scenario assigned to Work Instruction Step.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.DeleteESScenarioFromWIHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.AssignESScenarioToWI</name>
+                        <shortname>AssignESScenarioToWI</shortname>
+                        <description>Creates a WI_ESScenario entity representing the association between Work Instruction Step and Electronic Signature Scenario.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.AssignESScenarioToWIHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.ExportWorkInstructionDefinition</name>
+                        <shortname>ExportWorkInstructionDefinition</shortname>
+                        <description>Exports an existing Work Instruction Definition.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.ExportWorkInstructionDefinitionHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.CreateWorkInstructionDefinitionByImport</name>
+                        <shortname>CreateWorkInstructionDefinitionByImport</shortname>
+                        <description>Creates a Work Instruction Definition starting from an imported model in json format.</description>
+                        <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Commands.CreateWorkInstructionDefinitionByImportHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.WI_MS.CommandHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command></commands>
+    <commandActions></commandActions>
+    <events></events>
+    <event_handlers><event_handler>
+<name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Events.UnassignESScenarioFromWIShell</name>
+<assembly>Siemens.SimaticIT.WI_MS.EventHandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+<event_name>Siemens.SimaticIT.MasterData.ES_MS.MSModel.Events.ScenarioConfigurationDeleted</event_name>
+<target_cpu>AnyCPU</target_cpu>
+<dependencies></dependencies>
+</event_handler></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities><entity>
+      <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.ReadingModel.WorkInstructionDefinition</name>
+      <securable>true</securable>
+    </entity><entity>
+      <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.ReadingModel.WorkInstructionDefinitionParameter</name>
+      <securable>true</securable>
+    </entity><entity>
+      <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.ReadingModel.WorkInstructionTemplate</name>
+      <securable>true</securable>
+    </entity><entity>
+      <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.ReadingModel.WorkInstructionTemplateParameter</name>
+      <securable>true</securable>
+    </entity><entity>
+      <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.ReadingModel.WI_ESScenario</name>
+      <securable>true</securable>
+    </entity></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.MasterData.WI_MS.MSModel.Types.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.WorkInstructionDefinition</name>
+      <shortname>WorkInstructionDefinition</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.WorkInstructionDefinitionParameter</name>
+      <shortname>WorkInstructionDefinitionParameter</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.WorkInstructionDefinition</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.WorkInstructionDefinition</root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.WorkInstructionTemplate</name>
+      <shortname>WorkInstructionTemplate</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.WorkInstructionTemplateParameter</name>
+      <shortname>WorkInstructionTemplateParameter</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.WorkInstructionTemplate</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.WorkInstructionTemplate</root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.MasterData.WI_MS.MSModel.DataModel.WI_ESScenario</name>
+      <shortname>WI_ESScenario</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity></wr_entities>
+    <wr_facets></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

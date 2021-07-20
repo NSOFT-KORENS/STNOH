@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This file is used to define Application Log messages. You should follow below instructions while defining messages: 
+    - The <message> structure should be repeated for each Application Log message.
+    - The <id> attribute is mandatory and should be unique in this file.
+    - The <short> attribute represents the short text message and should be less than or up to 100 characters.
+    - The <long> attribute represents the long text message and should be less than or up to 400 characters.
+    - The <level> attribute is mandatory and its value should be one of: Verbose | Error | Warning | Critical | Informational.
+    - The <param> structure should be repeated for each parameter of the Application Log message.
+    - The <key> attribute represents the unique identifier for a parameter that repeats multiple times in the message text.
+    - The <type> attribute represents the datatype of the parameter and its value should be one of the primitive types: string | byte | int | decimal | float | double | long | boolean | Guid | Datetime | Timespan.  -->
+<messages>
+  <message>
+    <id>-000001</id>
+    <short>TransitionVerb is not valid</short>
+    <long>Transition Verb is not valid</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000002</id>
+    <short>Event does not exist</short>
+    <long>Event does not exist</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000003</id>
+    <short>Internal command error</short>
+    <long>Internal command error</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000004</id>
+    <short>Status Transition is not allowed</short>
+    <long>Status Transition is not allowed. Wrong current Status</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000005</id>
+    <short>Command input SystemNId cannot be empty.</short>
+    <long>Command input SystemNId cannot be empty.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000006</id>
+    <short>Invalid Command input EventTypeNId.</short>
+    <long>Invalid Command input EventTypeNId. It cannot be empty and must exist in the system.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000007</id>
+    <short>One or more input ContextNIds are invalid.</short>
+    <long>One or more input ContextNIds are invalid. Invalid ContextNIds are %ContextNIds% .</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ContextNIds</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+</messages>

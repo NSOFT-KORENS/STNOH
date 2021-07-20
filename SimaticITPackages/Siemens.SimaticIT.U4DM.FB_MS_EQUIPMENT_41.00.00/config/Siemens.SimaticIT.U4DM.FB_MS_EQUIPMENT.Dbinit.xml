@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sections>
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="FB_MS_EQUIPMENT" domainName="MasterData">
+
+
+    <!--EquipmentType-->
+    <Entity type="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentType">
+      <Property name="NId" kind="Plain" value="UADM" />
+      <Property name="Name" kind="Plain" value="UADM" />
+      <Property name="Description" kind="Plain" value="Equipment type for UADM" />
+    </Entity>
+
+    <!--EquipmentTypeStateMachine-->
+    <Entity type="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentTypeStateMachine">
+      <Property name="StateMachineNId" kind="Plain" value="UADMEquipmentLifecycle" />
+      <Property name="EquipmentType" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentType">
+          <Property name="NId" kind="Plain" value="UADM" />
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+    <!--EquipmentTypeProperty-->
+    <Entity type="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentTypeProperty">
+      <Property name="NId" kind="Plain" value="ActiveNonConformanceNr" />
+      <Property name="PropertyValue" kind="Plain" value="0" />
+      <Property name="PropertyType" kind="Plain" value="4" />
+      <Property name="EquipmentType" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentType">
+          <Property name="NId" kind="Plain" value="UADM" />
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+    <Entity type="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentTypeProperty">
+      <Property name="NId" kind="Plain" value="EnabledForCompleteByDifferentUser" />
+      <Property name="PropertyValue" kind="Plain" value="False" />
+      <Property name="PropertyType" kind="Plain" value="7" />
+      <Property name="EquipmentType" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentType">
+          <Property name="NId" kind="Plain" value="UADM" />
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+    <Entity type="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentTypeProperty">
+      <Property name="NId" kind="Plain" value="Lockable" />
+      <Property name="PropertyValue" kind="Plain" value="False" />
+      <Property name="PropertyType" kind="Plain" value="7" />
+      <Property name="EquipmentType" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentType">
+          <Property name="NId" kind="Plain" value="UADM" />
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+    <Entity type="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentTypeProperty">
+      <Property name="NId" kind="Plain" value="IsActive" />
+      <Property name="PropertyValue" kind="Plain" value="False" />
+      <Property name="PropertyType" kind="Plain" value="7" />
+      <Property name="EquipmentType" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentType">
+          <Property name="NId" kind="Plain" value="UADM" />
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+    <Entity type="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentTypeProperty">
+      <Property name="NId" kind="Plain" value="Is3DPrinter" />
+      <Property name="PropertyValue" kind="Plain" value="False" />
+      <Property name="PropertyType" kind="Plain" value="7" />
+      <Property name="EquipmentType" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.MasterData.EQU_MS.MSModel.DataModel.EquipmentType">
+          <Property name="NId" kind="Plain" value="UADM" />
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+  </Section>
+
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="FB_MS_EQUIPMENT" domainName="ReferenceData">
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+      <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+      <Property name="Name" kind="Plain" value="UADMEquipmentLifecycle" />
+      <Property name="Description" kind="Plain" value="UADMEquipmentLifecycle" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <!--Status : Start-->
+    <!--Ready-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="Name" kind="Plain" value="Ready" />
+      <Property name="Description" kind="Plain" value="Ready" />
+      <Property name="Color" kind="Plain" value="#FFFFFF" />
+      <Property name="NId" kind="Plain" value="Ready" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="IsInitial" kind="Plain" value="True" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference" />
+    </Entity>
+    <!--Busy-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="Name" kind="Plain" value="Busy" />
+      <Property name="Description" kind="Plain" value="Busy" />
+      <Property name="Color" kind="Plain" value="#C8D2D7" />
+      <Property name="NId" kind="Plain" value="Busy" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="IsInitial" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference" />
+    </Entity>
+      <!--Repair-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="Name" kind="Plain" value="Repair" />
+      <Property name="Description" kind="Plain" value="Repair" />
+      <Property name="Color" kind="Plain" value="#C8D2D7" />
+      <Property name="NId" kind="Plain" value="Repair" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="IsInitial" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusBehaviorDefinition">
+          <Property name="NId" kind="Plain" value="IsFrozen" />
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <!--OnHold-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="Name" kind="Plain" value="OnHold" />
+      <Property name="Description" kind="Plain" value="OnHold" />
+      <Property name="Color" kind="Plain" value="#C8D2D7" />
+      <Property name="NId" kind="Plain" value="OnHold" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="IsInitial" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference" />
+    </Entity>
+    <!--Scrapped-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="Name" kind="Plain" value="Scrapped" />
+      <Property name="Description" kind="Plain" value="Scrapped" />
+      <Property name="Color" kind="Plain" value="#C8D2D7" />
+      <Property name="NId" kind="Plain" value="Scrapped" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="IsInitial" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference" />
+    </Entity>
+    <!--Running-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="Name" kind="Plain" value="Running" />
+      <Property name="Description" kind="Plain" value="Running" />
+      <Property name="Color" kind="Plain" value="#C8D2D7" />
+      <Property name="NId" kind="Plain" value="Running" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="IsInitial" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference" />
+    </Entity>
+    <!--Status : End-->
+    
+    <!--StatusTransition : Statrt-->
+    
+    <!--Ready To Busy-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Ready to Busy" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Busy" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Ready" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+     <!--Ready To Repair-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Ready to Repair" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Repair" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Ready" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <!--Ready To OnHold-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Ready to OnHold" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="OnHold" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Ready" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <!--Ready To Scrapped-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Ready to Scrapped" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Scrapped" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Ready" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <!--Ready To Running-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Ready to Running" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Running" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Ready" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+    <!--Busy To Ready-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Busy to Ready" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Ready" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Busy" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <!--Busy To Scrapped-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Busy to Scrapped" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Scrapped" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Busy" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+     <!--Repair To Ready-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Repair to Ready" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Ready" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Repair" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+     <!--Repair To OnHold-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Repair to OnHold" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="OnHold" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Repair" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+     <!--Repair To Scrapped-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Repair to Scrapped" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Scrapped" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Repair" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    
+    <!--Running To Ready-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Running to Ready" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Ready" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Running" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <!--Running To Scrapped-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Running to Scrapped" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Scrapped" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Running" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+    <!--OnHold To Ready-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from OnHold to Ready" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Ready" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="OnHold" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <!--OnHold To Scrapped-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from OnHold to Scrapped" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Scrapped" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="OnHold" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+    <!--Scrapped To Ready-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="from Scrapped to Ready" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="True" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Ready" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Scrapped" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+
+    <!--StatusTransition : End-->
+
+    <!--Status Behavior Start-->
+    <!--IsReady-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusBehaviorDefinition">
+      <Property name="Name" kind="Plain" value="IsReady" />
+      <Property name="Description" kind="Plain" value="IsReady" />
+      <Property name="NId" kind="Plain" value="IsReady" />
+      <Property name="Statuses" kind="ManyToManyReference">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Ready" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+<!--IsLock : IsBusy-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusBehaviorDefinition">
+      <Property name="Name" kind="Plain" value="IsLock" />
+      <Property name="Description" kind="Plain" value="IsLock" />
+      <Property name="NId" kind="Plain" value="IsLock" />
+      <Property name="Statuses" kind="ManyToManyReference">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Busy" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <!--IsFrozen : IsRepair-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusBehaviorDefinition">
+      <Property name="Name" kind="Plain" value="IsFrozen" />
+      <Property name="Description" kind="Plain" value="IsFrozen" />
+      <Property name="NId" kind="Plain" value="IsFrozen" />
+      <Property name="Statuses" kind="ManyToManyReference" />
+    </Entity>
+<!--IsOnHold-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusBehaviorDefinition">
+      <Property name="Name" kind="Plain" value="IsOnHold" />
+      <Property name="Description" kind="Plain" value="IsOnHold" />
+      <Property name="NId" kind="Plain" value="IsOnHold" />
+      <Property name="Statuses" kind="ManyToManyReference">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="OnHold" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+<!--IsScrapped-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusBehaviorDefinition">
+      <Property name="Name" kind="Plain" value="IsScrapped" />
+      <Property name="Description" kind="Plain" value="IsScrapped" />
+      <Property name="NId" kind="Plain" value="IsScrapped" />
+      <Property name="Statuses" kind="ManyToManyReference">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Scrapped" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+<!--IsRunning-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusBehaviorDefinition">
+      <Property name="Name" kind="Plain" value="IsRunning" />
+      <Property name="Description" kind="Plain" value="IsRunning" />
+      <Property name="NId" kind="Plain" value="IsRunning" />
+      <Property name="Statuses" kind="ManyToManyReference">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Running" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="UADMEquipmentLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <!--Status Behavior End-->
+  </Section>
+
+</Sections>

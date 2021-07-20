@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT</name>
+    <shortname>FB_MS_EQUIPMENT</shortname>
+    <description>Equipment Master Data Domain Functional Block</description>
+    <version>41.00.00</version>
+    <companyname>Siemens.SimaticIT.U4DM</companyname>
+    <author>Siemens.SimaticIT.U4DM</author>
+    <hash>IG6MDp6DBo+byY4GnsO9vbXWK8PH8t9WeW+8Rdyjd0w=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>MasterData</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UDM_RF</name>
+        <version>05.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.EQU_MS</name>
+        <version>06.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_COMMON_BIN</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_RD_SERV</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands></commands>
+    <commandActions><commandAction>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Commands.PostActionCreateEquipmentTypeHandlerShell</name>
+                        <shortname>PostActionCreateEquipmentTypeHandlerShell</shortname>
+                        <description>Customizes the behavior of the **CreateEquipmentType** command by adding the following Equipment Configuration Properties: * **Lockable**, to configure if Equipment can be be locked (that is, made unavailable for concurrent use). * **EnableCompleteByDifferentUser**, to configure if the Equipment is enabled for Work Order Operation completion by a different user. * **Is3DPrinter**, to define Equipment as 3D Printer Machine. * **IsActive**, to indicate if Equipment is currently active. * **ActiveNonConformanceNr**, to indicate the number of Non-Conformances of type Quality that are active on specific Equipment. The resulting custom UADM Equipment Type is designed specifically for Machines.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.Commands.CreateEquipmentType</command>
+                        <type>Post</type>
+                        <is_enabled>true</is_enabled>
+                        <is_optional>false</is_optional>
+                </commandAction><commandAction>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Commands.PostActionUpdateEquipmentConfigurationPropertyHandlerShell</name>
+                        <shortname>PostActionUpdateEquipmentConfigurationPropertyHandlerShell</shortname>
+                        <description>Customizes the behavior of the **UpdateEquipmentConfigurationProperty** command by adding the following check: If the **Is3DPrinter** property is **True**, then add two new Equipment Configuration Properties: * **AMMachine**, to identify the machine external name. * **TransferPlugin**, to identify the external plugin to be called during the DNC file transfer. If the **Is3DPrinter** property is **False**, then delete the **AMMachine** and **TransferPlugin** properties.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.Commands.UpdateEquipmentConfigurationProperty</command>
+                        <type>Post</type>
+                        <is_enabled>true</is_enabled>
+                        <is_optional>false</is_optional>
+                </commandAction><commandAction>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Commands.PostActionDeleteEquipmentConfigurationPropertyHandlerShell</name>
+                        <shortname>PostActionDeleteEquipmentConfigurationPropertyHandlerShell</shortname>
+                        <description>Customizes the behavior of the **DeleteEquipmentConfigurationProperty** command by adding the following check:  if the **Is3DPrinter** property is **Deleted**, then delete the **AMMachine** and **TransferPlugin** properties.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.Commands.DeleteEquipmentConfigurationProperty</command>
+                        <type>Post</type>
+                        <is_enabled>true</is_enabled>
+                        <is_optional>false</is_optional>
+                </commandAction><commandAction>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Commands.PostActionDeleteEquipmentTypePropertyHandlerShell</name>
+                        <shortname>PostActionDeleteEquipmentTypePropertyHandlerShell</shortname>
+                        <description>Customizes the behavior of the **DeleteEquipmentTypeProperty** command by adding the following check:  if the **Is3DPrinter** property is **Deleted**, then delete the **AMMachine** and **TransferPlugin** properties.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.Commands.DeleteEquipmentTypeProperty</command>
+                        <type>Post</type>
+                        <is_enabled>true</is_enabled>
+                        <is_optional>false</is_optional>
+                </commandAction><commandAction>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Commands.PostActionUpdateEquipmentTypePropertyHandlerShell</name>
+                        <shortname>PostActionUpdateEquipmentTypePropertyHandlerShell</shortname>
+                        <description>Customizes the behavior of the **UpdateEquipmentTypeProperty** command by adding the following check: If the **Is3DPrinter** property is **True**, then add two new Equipment Configuration Properties: * **AMMachine**, to identify the machine external name. * **TransferPlugin**, to identify the external plugin to be called during the DNC file transfer. If the **Is3DPrinter** property is **False**, then delete the **AMMachine** and **TransferPlugin** properties.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.Commands.UpdateEquipmentTypeProperty</command>
+                        <type>Post</type>
+                        <is_enabled>true</is_enabled>
+                        <is_optional>false</is_optional>
+                </commandAction><commandAction>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Commands.CheckAlreadyExistingNIdsOnCreateEquipmentConfigurationHandlerShell</name>
+                        <shortname>CheckAlreadyExistingNIdsOnCreateEquipmentConfigurationHandlerShell</shortname>
+                        <description>Checks whether there are Equipment Configurations with the same Natural Identifier the user is trying to assign to the new Equipment Configuration..</description>
+                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.MasterData.EQU_MS.MSModel.Commands.CreateEquipmentConfiguration</command>
+                        <type>PreCheck</type>
+                        <is_enabled>true</is_enabled>
+                        <alias>CheckAlreadyExistingNIdsOnCreateEquipmentConfiguration</alias>
+                </commandAction></commandActions>
+    <events><event>
+                <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Events.Is3DPrinterPropertyRemoved</name>
+                <shortname>Is3DPrinterPropertyRemoved</shortname>
+                <description> Event raied when the property **Is3DPrinter** is set to **False** or when is deleted.</description>
+                <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Events.is3DPrinterPropertyRemovedFromEquipmentType</name>
+                <shortname>is3DPrinterPropertyRemovedFromEquipmentType</shortname>
+                <description> Event raised when the property **Is3DPrinter**  from Equipment Type is set to **False** or when is deleted.</description>
+                <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Events.AMMachinePropertyUpdatedFromEqConfiguration</name>
+                <shortname>AMMachinePropertyUpdatedFromEqConfiguration</shortname>
+                <description> Event raised when the property **AMMachine** from Equipment Configuration is changed.</description>
+                <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Events.AMMachinePropertyUpdatedFromEqType</name>
+                <shortname>AMMachinePropertyUpdatedFromEqType</shortname>
+                <description> Event raised when the property **AMMachine**  from Equipment Type is changed.</description>
+                <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event></events>
+    <event_handlers></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_EQUIPMENT.MSModel.Types.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities></wr_entities>
+    <wr_facets></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

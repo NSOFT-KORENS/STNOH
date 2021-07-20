@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is used to define Application Log messages. You should follow below instructions while defining messages: 
+    - The <message> structure should be repeated for each Application Log message.
+    - The <id> attribute is mandatory and should be unique in this file.
+    - The <short> attribute represents the short text message and should be less than or up to 100 characters.
+    - The <long> attribute represents the long text message and should be less than or up to 400 characters.
+    - The <level> attribute is mandatory and the value should be one of: Verbose | Error | Warning | Critical | Informational.
+    - The <param> structure should be repeated for each parameter of the Application Log message.
+    - The <key> attribute represents the unique identifier for a parameter that repeats multiple times in the message text.
+    - The <type> attribute represents the datatype of the parameter.  -->
+<messages>
+  
+  <message>
+    <id>-702941</id>
+    <short>Print Job File %PJFId% does not exist.</short>
+    <long>Print Job File %PJFId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>PJFId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  
+  <message>
+    <id>-703131</id>
+    <short>Equipment Type List cannot be empty.</short>
+    <long>Equipment Type List cannot be empty.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  
+  <message>
+    <id>-702972</id>
+    <short>Equipment Type %EquipmentNId% is not a 3D Printer.</short>
+    <long>Equipment Type %EquipmentNId% is not a 3D Printer.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>EquipmentNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+
+  <message>
+    <id>-703002</id>
+    <short>PrintJobFile ID %PJFId% is runtime only and cannot be edited.</short>
+    <long>PrintJobFile ID %PJFId% is runtime only and cannot be edited.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>PJFId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+
+  <message>
+    <id>-702946</id>
+    <short>PrintJobFile ID %PJFId% cannot be edited. Edit configuration key not enabled.</short>
+    <long>PrintJobFile ID %PJFId% cannot be edited. Edit configuration key not enabled.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>PJFId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+
+</messages>

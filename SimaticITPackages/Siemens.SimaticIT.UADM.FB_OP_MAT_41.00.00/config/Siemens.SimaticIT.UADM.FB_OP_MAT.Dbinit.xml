@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sections>
+
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="2019-3-28-11-56-30" domainName="OperationalData">
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Create" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Consume" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Supply" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Split" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Status" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Assemble" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Disassemble" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="DisassembleTriggered" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Recycle" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Mix" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="AddNonConformance" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="RemoveNonConformance" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Edit" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Change SN" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Co-Produce" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="By-Produce" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Increase Quantity" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Join" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="BufferAssociation" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="BufferDisassociation" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Link Document" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Link Runtime Document" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.OperationalData.FB_OP_MAT.OPModel.DataModel.DM_MaterialTrackingUnitHistoryAction">
+      <Property name="NId" kind="Plain" value="Unlink Document" />
+    </Entity>
+  </Section>
+ 
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="2019-3-28-11-56-30" domainName="ReferenceData">
+   
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+      <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+      <Property name="Name" kind="Plain" value="MaterialTrackingUnit Lifecycle" />
+      <Property name="Description" kind="Plain" value="MaterialTrackingUnit Life cycle" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="Name" kind="Plain" value="Available" />
+      <Property name="Description" kind="Plain" value="Available" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="NId" kind="Plain" value="Available" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="IsInitial" kind="Plain" value="True" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="Name" kind="Plain" value="Scrapped" />
+      <Property name="Description" kind="Plain" value="Scarpped" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="NId" kind="Plain" value="Scrapped" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="IsInitial" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="Name" kind="Plain" value="Repair" />
+      <Property name="Description" kind="Plain" value="Repair" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="NId" kind="Plain" value="Repair" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="IsInitial" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusBehaviorDefinition">
+          <Property name="NId" kind="Plain" value="IsFrozen" />
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusDefinition">
+      <Property name="NId" kind="Plain" value="Available" />
+      <Property name="Name" kind="Plain" value="Available" />
+      <Property name="Description" kind="Plain" value="Available" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusDefinition">
+      <Property name="NId" kind="Plain" value="Scrapped" />
+      <Property name="Name" kind="Plain" value="Scrapped" />
+      <Property name="Description" kind="Plain" value="Scrapped" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusDefinition">
+      <Property name="NId" kind="Plain" value="Repair" />
+      <Property name="Name" kind="Plain" value="Repair" />
+      <Property name="Description" kind="Plain" value="Repair" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="From Available to Repair" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Repair" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent" >
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Available" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="From Repair to Available" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Available" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent" >
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Repair" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="From Repair to Scrapped" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Scrapped" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent" >
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Repair" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="Verb" kind="Plain" value="From Available to Scrapped" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Scrapped" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="SourceStatus" kind="SingleReferenceToParent" >
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Available" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="From Available to Repair" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="From Repair to Available" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="From Repair to Scrapped" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="From Available to Scrapped" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusBehaviorDefinition">
+      <Property name="Name" kind="Plain" value="IS_SCRAPPED" />
+      <Property name="Description" kind="Plain" value="IS_SCRAPPED" />
+      <Property name="NId" kind="Plain" value="IS_SCRAPPED" />
+      <Property name="Statuses" kind="ManyToManyReference">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Scrapped" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="MaterialTrackingUnitLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusBehaviorDefinition">
+      <Property name="Name" kind="Plain" value="IsFrozen" />
+      <Property name="Description" kind="Plain" value="IsFrozen" />
+      <Property name="NId" kind="Plain" value="IsFrozen" />
+      <Property name="Statuses" kind="ManyToManyReference" />
+    </Entity>
+  </Section>
+</Sections>

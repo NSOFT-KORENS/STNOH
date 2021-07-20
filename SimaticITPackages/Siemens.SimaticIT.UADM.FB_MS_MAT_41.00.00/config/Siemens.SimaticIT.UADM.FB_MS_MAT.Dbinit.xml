@@ -1,0 +1,2499 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sections>
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="Runtime" domainName="ReferenceData">
+    <!-- ***************** UoMDimension ***************** -->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="n/a" />
+      <Property name="Name" kind="Plain" value="n/a" />
+      <Property name="Description" kind="Plain" value="n/a" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Absorbed dose rate" />
+      <Property name="Name" kind="Plain" value="Absorbed dose rate" />
+      <Property name="Description" kind="Plain" value="Absorbed dose rate" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Absorbed dose, specific energy" />
+      <Property name="Name" kind="Plain" value="Absorbed dose, specific energy" />
+      <Property name="Description" kind="Plain" value="Absorbed dose, specific energy" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Acceleration" />
+      <Property name="Name" kind="Plain" value="Acceleration" />
+      <Property name="Description" kind="Plain" value="Acceleration" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Acidity" />
+      <Property name="Name" kind="Plain" value="Acidity" />
+      <Property name="Description" kind="Plain" value="Acidity" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Activity (radionuclide)" />
+      <Property name="Name" kind="Plain" value="Activity (radionuclide)" />
+      <Property name="Description" kind="Plain" value="Activity (radionuclide)" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Angular Acceleration" />
+      <Property name="Name" kind="Plain" value="Angular Acceleration" />
+      <Property name="Description" kind="Plain" value="Angular Acceleration" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Angular Velocity" />
+      <Property name="Name" kind="Plain" value="Angular Velocity" />
+      <Property name="Description" kind="Plain" value="Angular Velocity" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Area Density" />
+      <Property name="Name" kind="Plain" value="Area Density" />
+      <Property name="Description" kind="Plain" value="Area Density" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Catalytic activity" />
+      <Property name="Name" kind="Plain" value="Catalytic activity" />
+      <Property name="Description" kind="Plain" value="Catalytic activity" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Catalytic concentration" />
+      <Property name="Name" kind="Plain" value="Catalytic concentration" />
+      <Property name="Description" kind="Plain" value="Catalytic concentration" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Concentration" />
+      <Property name="Name" kind="Plain" value="Concentration" />
+      <Property name="Description" kind="Plain" value="Concentration" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Current Density" />
+      <Property name="Name" kind="Plain" value="Current Density" />
+      <Property name="Description" kind="Plain" value="Current Density" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Density" />
+      <Property name="Name" kind="Plain" value="Density" />
+      <Property name="Description" kind="Plain" value="Density" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Dose equivalent" />
+      <Property name="Name" kind="Plain" value="Dose equivalent" />
+      <Property name="Description" kind="Plain" value="Dose equivalent" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Dynamic Viscosity" />
+      <Property name="Name" kind="Plain" value="Dynamic Viscosity" />
+      <Property name="Description" kind="Plain" value="Dynamic Viscosity" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Electric capacitance" />
+      <Property name="Name" kind="Plain" value="Electric capacitance" />
+      <Property name="Description" kind="Plain" value="Electric capacitance" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Electric charge" />
+      <Property name="Name" kind="Plain" value="Electric charge" />
+      <Property name="Description" kind="Plain" value="Electric charge" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Electric charge density" />
+      <Property name="Name" kind="Plain" value="Electric charge density" />
+      <Property name="Description" kind="Plain" value="Electric charge density" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Electric conductance" />
+      <Property name="Name" kind="Plain" value="Electric conductance" />
+      <Property name="Description" kind="Plain" value="Electric conductance" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Electric field strength" />
+      <Property name="Name" kind="Plain" value="Electric field strength" />
+      <Property name="Description" kind="Plain" value="Electric field strength" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Electric flux density" />
+      <Property name="Name" kind="Plain" value="Electric flux density" />
+      <Property name="Description" kind="Plain" value="Electric flux density" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Electric potential" />
+      <Property name="Name" kind="Plain" value="Electric potential" />
+      <Property name="Description" kind="Plain" value="Electric potential" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Energy" />
+      <Property name="Name" kind="Plain" value="Energy" />
+      <Property name="Description" kind="Plain" value="Energy" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Energy density" />
+      <Property name="Name" kind="Plain" value="Energy density" />
+      <Property name="Description" kind="Plain" value="Energy density" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Exposure" />
+      <Property name="Name" kind="Plain" value="Exposure" />
+      <Property name="Description" kind="Plain" value="Exposure" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Force" />
+      <Property name="Name" kind="Plain" value="Force" />
+      <Property name="Description" kind="Plain" value="Force" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Frequency" />
+      <Property name="Name" kind="Plain" value="Frequency" />
+      <Property name="Description" kind="Plain" value="Frequency" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Fuel Consumption" />
+      <Property name="Name" kind="Plain" value="Fuel Consumption" />
+      <Property name="Description" kind="Plain" value="Fuel Consumption" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Heat capacity" />
+      <Property name="Name" kind="Plain" value="Heat capacity" />
+      <Property name="Description" kind="Plain" value="Heat capacity" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Heat flux density" />
+      <Property name="Name" kind="Plain" value="Heat flux density" />
+      <Property name="Description" kind="Plain" value="Heat flux density" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Illuminance" />
+      <Property name="Name" kind="Plain" value="Illuminance" />
+      <Property name="Description" kind="Plain" value="Illuminance" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Inductance" />
+      <Property name="Name" kind="Plain" value="Inductance" />
+      <Property name="Description" kind="Plain" value="Inductance" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Line Density" />
+      <Property name="Name" kind="Plain" value="Line Density" />
+      <Property name="Description" kind="Plain" value="Line Density" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Luminance" />
+      <Property name="Name" kind="Plain" value="Luminance" />
+      <Property name="Description" kind="Plain" value="Luminance" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Luminous flux" />
+      <Property name="Name" kind="Plain" value="Luminous flux" />
+      <Property name="Description" kind="Plain" value="Luminous flux" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Magnetic Field Strength" />
+      <Property name="Name" kind="Plain" value="Magnetic Field Strength" />
+      <Property name="Description" kind="Plain" value="Magnetic Field Strength" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Magnetic flux" />
+      <Property name="Name" kind="Plain" value="Magnetic flux" />
+      <Property name="Description" kind="Plain" value="Magnetic flux" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Magnetic flux density" />
+      <Property name="Name" kind="Plain" value="Magnetic flux density" />
+      <Property name="Description" kind="Plain" value="Magnetic flux density" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Molar Energy" />
+      <Property name="Name" kind="Plain" value="Molar Energy" />
+      <Property name="Description" kind="Plain" value="Molar Energy" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Molar Entropy" />
+      <Property name="Name" kind="Plain" value="Molar Entropy" />
+      <Property name="Description" kind="Plain" value="Molar Entropy" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Moment of Force" />
+      <Property name="Name" kind="Plain" value="Moment of Force" />
+      <Property name="Description" kind="Plain" value="Moment of Force" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Permeability" />
+      <Property name="Name" kind="Plain" value="Permeability" />
+      <Property name="Description" kind="Plain" value="Permeability" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Permittivity" />
+      <Property name="Name" kind="Plain" value="Permittivity" />
+      <Property name="Description" kind="Plain" value="Permittivity" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Plane Angle" />
+      <Property name="Name" kind="Plain" value="Plane Angle" />
+      <Property name="Description" kind="Plain" value="Plane Angle" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Radiance" />
+      <Property name="Name" kind="Plain" value="Radiance" />
+      <Property name="Description" kind="Plain" value="Radiance" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Resistance" />
+      <Property name="Name" kind="Plain" value="Resistance" />
+      <Property name="Description" kind="Plain" value="Resistance" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Solid Angle" />
+      <Property name="Name" kind="Plain" value="Solid Angle" />
+      <Property name="Description" kind="Plain" value="Solid Angle" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Specific energy" />
+      <Property name="Name" kind="Plain" value="Specific energy" />
+      <Property name="Description" kind="Plain" value="Specific energy" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Specific heat capacity" />
+      <Property name="Name" kind="Plain" value="Specific heat capacity" />
+      <Property name="Description" kind="Plain" value="Specific heat capacity" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Specific Volume" />
+      <Property name="Name" kind="Plain" value="Specific Volume" />
+      <Property name="Description" kind="Plain" value="Specific Volume" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Speed" />
+      <Property name="Name" kind="Plain" value="Speed" />
+      <Property name="Description" kind="Plain" value="Speed" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Surface Tension" />
+      <Property name="Name" kind="Plain" value="Surface Tension" />
+      <Property name="Description" kind="Plain" value="Surface Tension" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+      <Property name="NId" kind="Plain" value="Thermal Conductivity" />
+      <Property name="Name" kind="Plain" value="Thermal Conductivity" />
+      <Property name="Description" kind="Plain" value="Thermal Conductivity" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="false" />
+    </Entity>
+    <!-- ***************** UoM ***************** -->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="%" />
+      <Property name="Name" kind="Plain" value="%" />
+      <Property name="Description" kind="Plain" value="Percentage" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="n/a" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="A/m" />
+      <Property name="Name" kind="Plain" value="Ampere per Meter" />
+      <Property name="Description" kind="Plain" value="Ampere per Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Magnetic Field Strength" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="A/m2" />
+      <Property name="Name" kind="Plain" value="Ampere per Square Meter" />
+      <Property name="Description" kind="Plain" value="Ampere per Square Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Current Density" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="A/mm2" />
+      <Property name="Name" kind="Plain" value="Ampere per Square Millimeter" />
+      <Property name="Description" kind="Plain" value="Ampere per Square Millimeter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="A/m2" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Current Density" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Bq" />
+      <Property name="Name" kind="Plain" value="Becquerel" />
+      <Property name="Description" kind="Plain" value="Becquerel" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Activity (radionuclide)" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="J" />
+      <Property name="Name" kind="Plain" value="Joule" />
+      <Property name="Description" kind="Plain" value="The joule is the SI unit of work or energy. One joule is the amount of work done when an applied force of 1 newton moves through a distance of 1 metre in the direction of the force." />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Energy" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Btu" />
+      <Property name="Name" kind="Plain" value="British Thermal Unit" />
+      <Property name="Description" kind="Plain" value="British Thermal Unit" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Coulomb" />
+      <Property name="Name" kind="Plain" value="Coulomb" />
+      <Property name="Description" kind="Plain" value="Coulomb" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Electric charge" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="C/kg" />
+      <Property name="Name" kind="Plain" value="Coulomb per Kilogram" />
+      <Property name="Description" kind="Plain" value="Exposure (X and Gamma rays)" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Exposure" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="C/m2" />
+      <Property name="Name" kind="Plain" value="Coulomb per Square Meter" />
+      <Property name="Description" kind="Plain" value="Coulomb per Square Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Electric flux density" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="C/m3" />
+      <Property name="Name" kind="Plain" value="Coulomb per Cubic Meter" />
+      <Property name="Description" kind="Plain" value="Coulomb per Cubic Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Electric charge density" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="cal" />
+      <Property name="Name" kind="Plain" value="Calorie" />
+      <Property name="Description" kind="Plain" value="Calorie" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="cd" />
+      <Property name="Name" kind="Plain" value="Candela" />
+      <Property name="Description" kind="Plain" value="Candela" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Luminous Intensity" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="cd/m2" />
+      <Property name="Name" kind="Plain" value="Candela per Square Meter" />
+      <Property name="Description" kind="Plain" value="Candela per Square Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Luminance" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="daKg" />
+      <Property name="Name" kind="Plain" value="DecaKg" />
+      <Property name="Description" kind="Plain" value="DecaKg" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="g" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Mass" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="erg" />
+      <Property name="Name" kind="Plain" value="Erg" />
+      <Property name="Description" kind="Plain" value="Erg" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Farad" />
+      <Property name="Name" kind="Plain" value="Farad" />
+      <Property name="Description" kind="Plain" value="The farad is the SI unit of the capacitance of an electrical system, that is, its capacity to store electricity. It is a rather large unit as defined and is more often used as a microfarad." />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Electric capacitance" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="F/m" />
+      <Property name="Name" kind="Plain" value="Farad per Meter" />
+      <Property name="Description" kind="Plain" value="Farad per Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Permittivity" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="g/m2" />
+      <Property name="Name" kind="Plain" value="Gram per Square Meter" />
+      <Property name="Description" kind="Plain" value="Gram per Square Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Area Density" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="g/mm2" />
+      <Property name="Name" kind="Plain" value="Gram per Square Millimeter" />
+      <Property name="Description" kind="Plain" value="Gram per Square Millimeter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="g/m2" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Area Density" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Gm" />
+      <Property name="Name" kind="Plain" value="Gigameter" />
+      <Property name="Description" kind="Plain" value="Gigameter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Length" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Gy" />
+      <Property name="Name" kind="Plain" value="Gray" />
+      <Property name="Description" kind="Plain" value="Gray" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Absorbed dose, specific energy" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Gy/s" />
+      <Property name="Name" kind="Plain" value="Gray per Second" />
+      <Property name="Description" kind="Plain" value="Gray per Second" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Absorbed dose rate" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Henry" />
+      <Property name="Name" kind="Plain" value="Henry" />
+      <Property name="Description" kind="Plain" value="Henry" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Inductance" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="H/m" />
+      <Property name="Name" kind="Plain" value="Henry per Meter" />
+      <Property name="Description" kind="Plain" value="Henry per Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Permeability" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="HP" />
+      <Property name="Name" kind="Plain" value="Horsepower" />
+      <Property name="Description" kind="Plain" value="Horsepower" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="W" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Power" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="HPh" />
+      <Property name="Name" kind="Plain" value="Horsepower hour" />
+      <Property name="Description" kind="Plain" value="Horsepower hour" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Hz" />
+      <Property name="Name" kind="Plain" value="Herz" />
+      <Property name="Description" kind="Plain" value="The hertz is the SI unit of the frequency of a periodic phenomenon. One hertz indicates that 1 cycle of the phenomenon occurs every second. For most work much higher frequencies are needed such as the kilohertz [kHz] and megahertz [MHz]." />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Frequency" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="J/K" />
+      <Property name="Name" kind="Plain" value="Joule per Kelvin" />
+      <Property name="Description" kind="Plain" value="Heat capacity, entropy" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Heat capacity" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="J/Kg" />
+      <Property name="Name" kind="Plain" value="Joule per Kilogram" />
+      <Property name="Description" kind="Plain" value="Joule per Kilogram" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Specific energy" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="J/KgK" />
+      <Property name="Name" kind="Plain" value="Joule per Kilogram Kelvin" />
+      <Property name="Description" kind="Plain" value="Specific heat capacity, specific entropy" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Specific heat capacity" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="J/m3" />
+      <Property name="Name" kind="Plain" value="Joule per Cubic Meter" />
+      <Property name="Description" kind="Plain" value="Joule per Cubic Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Energy density" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="J/mol" />
+      <Property name="Name" kind="Plain" value="Joule per Mole" />
+      <Property name="Description" kind="Plain" value="Joule per Mole" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Molar Energy" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="J/molK" />
+      <Property name="Name" kind="Plain" value="Joule per Mole Kelvin" />
+      <Property name="Description" kind="Plain" value="molar entropy, molar heat capacity" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Molar Entropy" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="kat" />
+      <Property name="Name" kind="Plain" value="Katal" />
+      <Property name="Description" kind="Plain" value="Katal" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Catalytic activity" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="kat/m3" />
+      <Property name="Name" kind="Plain" value="Katal per cubic metre" />
+      <Property name="Description" kind="Plain" value="Catalytic (activity) concentration" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Catalytic concentration" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Kcal" />
+      <Property name="Name" kind="Plain" value="Kilocalorie" />
+      <Property name="Description" kind="Plain" value="Kilocalorie" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="kg/m" />
+      <Property name="Name" kind="Plain" value="Kilogram per Meter" />
+      <Property name="Description" kind="Plain" value="Kilogram per Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Line Density" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+        <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="kg/m2" />
+      <Property name="Name" kind="Plain" value="Kilogram per Square Meter" />
+      <Property name="Description" kind="Plain" value="Kilogram per Square Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Area Density" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="kg/m3" />
+      <Property name="Name" kind="Plain" value="Kilogram per Cubic Meter" />
+      <Property name="Description" kind="Plain" value="Kilogram per Cubic Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Density" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="km/h" />
+      <Property name="Name" kind="Plain" value="Kilometer per Hour" />
+      <Property name="Description" kind="Plain" value="Kilometer per Hour" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m/s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Speed" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Km/l" />
+      <Property name="Name" kind="Plain" value="Kilometer per Liter" />
+      <Property name="Description" kind="Plain" value="Kilometer per Liter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Fuel Consumption" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="km3" />
+      <Property name="Name" kind="Plain" value="Cubic Kilometer" />
+      <Property name="Description" kind="Plain" value="Cubic Kilometer" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m3" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Volume" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="kWh" />
+      <Property name="Name" kind="Plain" value="Kilowatt hour" />
+      <Property name="Description" kind="Plain" value="Kilowatt hour" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="l/100km" />
+      <Property name="Name" kind="Plain" value="Liter per 100 Kilometer" />
+      <Property name="Description" kind="Plain" value="Liter per 100 Kilometer" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Fuel Consumption" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="lm" />
+      <Property name="Name" kind="Plain" value="Lumen" />
+      <Property name="Description" kind="Plain" value="Lumen" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Luminous flux" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="lx" />
+      <Property name="Name" kind="Plain" value="Lux" />
+      <Property name="Description" kind="Plain" value="Lux" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Illuminance" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="m/s" />
+      <Property name="Name" kind="Plain" value="Meter per Second" />
+      <Property name="Description" kind="Plain" value="Meter per Second" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Speed" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="m/s2" />
+      <Property name="Name" kind="Plain" value="Meter per Second Squared" />
+      <Property name="Description" kind="Plain" value="Meter per Second Squared" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Acceleration" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="m3/kg" />
+      <Property name="Name" kind="Plain" value="Cubic Meter per Kilogram" />
+      <Property name="Description" kind="Plain" value="Cubic Meter per Kilogram" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Specific Volume" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Mach" />
+      <Property name="Name" kind="Plain" value="Mach Number" />
+      <Property name="Description" kind="Plain" value="Mach Number" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m/s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Speed" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Megam" />
+      <Property name="Name" kind="Plain" value="Megameter" />
+      <Property name="Description" kind="Plain" value="Megameter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Length" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="MESMonth" />
+      <Property name="Name" kind="Plain" value="MESMonth" />
+      <Property name="Description" kind="Plain" value="MESMonth" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Time" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="MESYear" />
+      <Property name="Name" kind="Plain" value="MESYear" />
+      <Property name="Description" kind="Plain" value="MESYear" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Time" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="mol/m3" />
+      <Property name="Name" kind="Plain" value="Mole per Cubic Meter" />
+      <Property name="Description" kind="Plain" value="Concentration of amount of substance" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Concentration" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="N" />
+      <Property name="Name" kind="Plain" value="Newton" />
+      <Property name="Description" kind="Plain" value="The newton is the SI unit of force. One newton is the force required to give a mass of 1 kilogram an acceleration of 1 metre per second per second." />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Force" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="N*m" />
+      <Property name="Name" kind="Plain" value="Newton Meter" />
+      <Property name="Description" kind="Plain" value="Newton Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Moment of Force" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="n/a" />
+      <Property name="Name" kind="Plain" value="n/a" />
+      <Property name="Description" kind="Plain" value="n/a" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="n/a" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="N/m" />
+      <Property name="Name" kind="Plain" value="Newton per Meter" />
+      <Property name="Description" kind="Plain" value="Newton per Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Surface Tension" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="ng" />
+      <Property name="Name" kind="Plain" value="Nanogram" />
+      <Property name="Description" kind="Plain" value="Nanogram" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="g" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Mass" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="ns" />
+      <Property name="Name" kind="Plain" value="Nanosecond" />
+      <Property name="Description" kind="Plain" value="Nanosecond" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Time" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Ohm" />
+      <Property name="Name" kind="Plain" value="Ohm" />
+      <Property name="Description" kind="Plain" value="Ohm" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Resistance" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Pa*s" />
+      <Property name="Name" kind="Plain" value="Pascal Second" />
+      <Property name="Description" kind="Plain" value="Pascal Second" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Dynamic Viscosity" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="pH" />
+      <Property name="Name" kind="Plain" value="Potential of Hydrogen" />
+      <Property name="Description" kind="Plain" value="The pH of a solution is defined to be the negative logarithm of the concentration, measured in moles per liter. This unit is inverted in the sense that lower pH readings correspond to greater acidity, and therefore more hydrogen ions." />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Acidity" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="picom" />
+      <Property name="Name" kind="Plain" value="Picometer" />
+      <Property name="Description" kind="Plain" value="Picometer" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Length" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="ps" />
+      <Property name="Name" kind="Plain" value="Picosecond" />
+      <Property name="Description" kind="Plain" value="Picosecond" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Time" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="qq" />
+      <Property name="Name" kind="Plain" value="Quintal" />
+      <Property name="Description" kind="Plain" value="Quintal" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="g" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Mass" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="rad" />
+      <Property name="Name" kind="Plain" value="Radian" />
+      <Property name="Description" kind="Plain" value="Radian" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Plane Angle" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="rad/s" />
+      <Property name="Name" kind="Plain" value="Radian per Second" />
+      <Property name="Description" kind="Plain" value="Radian per Second" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Angular Velocity" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="rad/s2" />
+      <Property name="Name" kind="Plain" value="Radian per Second Squared" />
+      <Property name="Description" kind="Plain" value="Radian per Second Squared" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Angular Acceleration" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Sms" />
+      <Property name="Name" kind="Plain" value="Siemens" />
+      <Property name="Description" kind="Plain" value="Siemens" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Electric conductance" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="sr" />
+      <Property name="Name" kind="Plain" value="Steradian" />
+      <Property name="Description" kind="Plain" value="Steradian" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Solid Angle" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Sv" />
+      <Property name="Name" kind="Plain" value="Sievert" />
+      <Property name="Description" kind="Plain" value="Sievert" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Dose equivalent" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="T" />
+      <Property name="Name" kind="Plain" value="Tesla" />
+      <Property name="Description" kind="Plain" value="Tesla" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Magnetic flux density" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="tera" />
+      <Property name="Name" kind="Plain" value="Tera" />
+      <Property name="Description" kind="Plain" value="Tera" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="n/a" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="ton" />
+      <Property name="Name" kind="Plain" value="Metric Ton" />
+      <Property name="Description" kind="Plain" value="Metric Ton" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="g" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Mass" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="V" />
+      <Property name="Name" kind="Plain" value="Volt" />
+      <Property name="Description" kind="Plain" value="The volt is the SI unit of electric potential. One volt is the difference of potential between two points of an electical conductor when a current of 1 ampere flowing between those points dissipates a power of 1 watt." />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Electric potential" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="V/m" />
+      <Property name="Name" kind="Plain" value="Volt per Meter" />
+      <Property name="Description" kind="Plain" value="Volt per Meter" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Electric field strength" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="W/m2" />
+      <Property name="Name" kind="Plain" value="Watt per Square Meter" />
+      <Property name="Description" kind="Plain" value="Heat flux density, irradiance" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Heat flux density" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="W/m2sr" />
+      <Property name="Name" kind="Plain" value="Watt per Square Meter Steradian" />
+      <Property name="Description" kind="Plain" value="Watt per Square Meter Steradian" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Radiance" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="W/mK" />
+      <Property name="Name" kind="Plain" value="Watt per Meter Kelvin" />
+      <Property name="Description" kind="Plain" value="Watt per Meter Kelvin" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Thermal Conductivity" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="Wb" />
+      <Property name="Name" kind="Plain" value="Weber" />
+      <Property name="Description" kind="Plain" value="Weber" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Magnetic flux" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="μs" />
+      <Property name="Name" kind="Plain" value="Microsecond" />
+      <Property name="Description" kind="Plain" value="Microsecond" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent" />
+      <Property name="UoMBase" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Time" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+    </Entity>
+      <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+      <Property name="NId" kind="Plain" value="each" />
+      <Property name="Name" kind="Plain" value="each" />
+      <Property name="Description" kind="Plain" value="each" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="UoMDimension" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+          <Property name="NId" kind="Plain" value="Surface Tension" />
+        </LogicalKey>
+      </Property>
+      <Property name="UoMBase" kind="SingleReferenceToParent"/>
+    </Entity>
+    <!-- ***************** UoM Factor***************** -->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="1000000" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="A/m2" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Current Density" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="A/mm2" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="A/m2" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Current Density" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="1055.0559" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="Btu" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="J" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Energy" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="4.184" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="cal" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="J" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Energy" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="10000" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="g" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Mass" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="daKg" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="g" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Mass" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="0.0000001" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="erg" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="J" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Energy" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="1000000" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="g/m2" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Area Density" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="g/mm2" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="g/m2" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Area Density" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="1000000000" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Length" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="Gm" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="m" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Length" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="745.7" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="W" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Power" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="HP" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="W" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Power" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="2684519.5377" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="HPh" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="J" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Energy" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="4184" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="Kcal" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="J" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Energy" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="0.2777777778" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m/s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Speed" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="km/h" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="m/s" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Speed" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="1000000000" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m3" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Volume" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="km3" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="m3" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Volume" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="3600000" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="J" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Energy" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="kWh" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="J" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Energy" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="340.29" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m/s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Speed" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="Mach" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="m/s" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Speed" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="1000000" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Length" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="Megam" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="m" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Length" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="2628000" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Time" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="MESMonth" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="s" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Time" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="31536000" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Time" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="MESYear" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="s" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Time" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="0.000000001" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="g" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Mass" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="ng" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="g" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Mass" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="0.000000001" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Time" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="ns" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="s" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Time" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="0.001" />
+      <Property name="K1Multiplier" kind="Plain" value="0.000000001" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="m" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Length" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="picom" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="m" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Length" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="0.001" />
+      <Property name="K1Multiplier" kind="Plain" value="0.000000001" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Time" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="ps" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="s" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Time" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="100000" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="g" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Mass" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="qq" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="g" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Mass" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="1000000" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="g" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Mass" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="ton" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="g" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Mass" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMFactor">
+      <Property name="Addend" kind="Plain" value="0" />
+      <Property name="K0Multiplier" kind="Plain" value="1" />
+      <Property name="K1Multiplier" kind="Plain" value="0.000001" />
+      <Property name="Exponent" kind="Plain" value="1" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="SourceUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="s" />
+          <Property name="UoMBase" kind="SingleReferenceToParent" />
+          <Property name="UoMDimension" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+              <Property name="NId" kind="Plain" value="Time" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetUoM" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+          <Property name="NId" kind="Plain" value="μs" />
+          <Property name="UoMBase" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoM">
+              <Property name="NId" kind="Plain" value="s" />
+              <Property name="UoMBase" kind="SingleReferenceToParent" />
+              <Property name="UoMDimension" kind="SingleReferenceToParent">
+                <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.UoMDimension">
+                  <Property name="NId" kind="Plain" value="Time" />
+                </LogicalKey>
+              </Property>
+            </LogicalKey>
+          </Property>
+          <Property name="UoMDimension" kind="SingleReferenceToParent"/>
+        </LogicalKey>
+      </Property>
+    </Entity>
+  </Section>
+  <!-- ***************** Material Class ***************** -->
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="CreateDefaultMaterialClass" domainName="MasterData">
+    <Entity type="Siemens.SimaticIT.UADM.MasterData.FB_MS_MAT.MSModel.DataModel.MaterialClass">
+      <Property name="NId" kind="Plain" value="n/a" />
+      <Property name="Name" kind="Plain" value="n/a" />
+      <Property name="Description" kind="Plain" value="" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.UADM.MasterData.FB_MS_MAT.MSModel.DataModel.MaterialClass">
+      <Property name="NId" kind="Plain" value="AMPowder" />
+      <Property name="Name" kind="Plain" value="AMPowder" />
+      <Property name="Description" kind="Plain" value="" />
+    </Entity>
+  </Section>
+</Sections>

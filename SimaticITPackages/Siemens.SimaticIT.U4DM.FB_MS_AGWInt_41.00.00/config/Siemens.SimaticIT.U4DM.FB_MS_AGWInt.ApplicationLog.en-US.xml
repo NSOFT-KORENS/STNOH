@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is used to define Application Log messages. You should follow below instructions while defining messages: 
+    - The <message> structure should be repeated for each Application Log message.
+    - The <id> attribute is mandatory and should be unique in this file.
+    - The <short> attribute represents the short text message and should be less than or up to 100 characters.
+    - The <long> attribute represents the long text message and should be less than or up to 400 characters.
+    - The <level> attribute is mandatory and its value should be one of: Verbose | Error | Warning | Critical | Informational.
+    - The <param> structure should be repeated for each parameter of the Application Log message.
+    - The <key> attribute represents the unique identifier for a parameter that repeats multiple times in the message text.
+    - The <type> attribute represents the datatype of the parameter and its value should be one of the primitive types: string | byte | int | decimal | float | double | long | boolean | Guid | Datetime | Timespan.  -->
+<messages>
+  <message>
+    <id>-000001</id>
+    <short>Unable to associate parameters: the Machine does not exist.</short>
+    <long>Unable to associate parameters: Machine %EquipmentNId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>EquipmentNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000002</id>
+    <short>Unable to associate parameters: the Equipment is not a Machine.</short>
+    <long>Unable to associate parameters: Equipment %EquipmentNId% is not a Machine.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>EquipmentNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000003</id>
+    <short>Unable to associate parameters: the link between the Machine and the Automation Node Instance does not exist.</short>
+    <long>Unable to associate parameters: the link between Machine %EquipmentNId% and Automation Node Instance %AutomationNodeInstanceNId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>EquipmentNId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>AutomationNodeInstanceNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000004</id>
+    <short>Unable to associate parameters: the Automation Node Instance does not exist or is not in status Activated.</short>
+    <long>Unable to associate parameters: Automation Node Instance %AutomationNodeInstanceNId% does not exist or is not in status Activated.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AutomationNodeInstanceNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000005</id>
+    <short>Unable to associate parameters: the Automation Node Instance Parameter is not related to the Automation Node Instance.</short>
+    <long>Unable to associate parameters: Automation Node Instance Parameter %AutomationNodeInstanceParameterNId% is not related to Automation Node Instance %AutomationNodeInstanceNId%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AutomationNodeInstanceParameterNId</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>AutomationNodeInstanceNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000006</id>
+    <short>Unable to associate parameters: the Automation Node Data Type does not match with one or more of the discrete Data Types.</short>
+    <long>Unable to associate parameters: Automation Node Data Type %ATNDataType% does not match with the following discrete Data Types: %DSDataTypeList%.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ATNDataType</key>
+        <type>string</type>
+      </param>
+      <param>
+        <key>DSDataTypeList</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000007</id>
+    <short>Unable to associate parameters: the Material Parameter does not exist.</short>
+    <long>Unable to associate parameters: Material Parameter %MaterialParameterNId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>MaterialParameterNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000008</id>
+    <short>Unable to associate parameters: some Materials in input do not exist.</short>
+    <long>Unable to associate parameters: some Materials in input do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000009</id>
+    <short>Unable to associate parameters: all Materials have already been associated.</short>
+    <long>Unable to associate parameters: all Materials have already been associated.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000010</id>
+    <short>Unable to associate parameters: Tool Definition Parameter %ToolDefinitionParameterNId% does not exist.</short>
+    <long>Unable to associate parameters: Tool Definition Parameter %ToolDefinitionParameterNId% does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>ToolDefinitionParameterNId</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000011</id>
+    <short>Unable to associate parameters: some Tool Definitions in input do not exist.</short>
+    <long>Unable to associate parameters: some Tool Definitions in input do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000012</id>
+    <short>Unable to associate parameters: all Tool Definitions have already been associated.</short>
+    <long>Unable to associate parameters: all Tool Definitions have already been associated.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000013</id>
+    <short>Unable to unlink parameters: none of the links exist.</short>
+    <long>Unable to unlink parameters: these links do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000014</id>
+    <short>Unable to associate parameters: at least one Work Instruction Definition parameter in input does not exist.</short>
+    <long>Unable to associate parameters: at least one Work Instruction Definition parameter in input does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000015</id>
+    <short>Unable to associate parameters: all Work Instruction Definition parameters have already been associated.</short>
+    <long>Unable to associate parameters: all Work Instruction Definition parameters have already been associated.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000016</id>
+    <short>The NId for Setpoint Item already exists.</short>
+    <long>The NId for Setpoint Item already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000017</id>
+    <short>The Setpoint does not exist.</short>
+    <long>The Setpoint does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000018</id>
+    <short>The Data Type does not exist.</short>
+    <long>The Data Type does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000019</id>
+    <short>The Setpoint Item does not exist.</short>
+    <long>The Setpoint Item does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000020</id>
+    <short>The Setpoint cannot be created: the specified NId already exists.</short>
+    <long>The Setpoint cannot be created: the specified NId already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000021</id>
+    <short>The specified Setpoint does not exist.</short>
+    <long>The specified Setpoint does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000022</id>
+    <short>The specified Setpoint status does not exist.</short>
+    <long>The specified Setpoint status does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000023</id>
+    <short>The Setpoint Status Transition does not exist.</short>
+    <long>The Setpoint Status Transition does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000024</id>
+    <short>Discrete exception occurred.</short>
+    <long>Discrete exception occurred.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000025</id>
+    <short>Unable to link Equipment: Equipment not provided in input.</short>
+    <long>Unable to link Equipment: Equipment not provided in input.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000026</id>
+    <short>Unable to link Equipment: Link(s) already exists/exist.</short>
+    <long>Unable to link Equipment: Link(s) already exists/exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000027</id>
+    <short>Unable to unlink Equipment: these links do not exist.</short>
+    <long>Unable to unlink Equipment: these links do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+<message>
+    <id>-000028</id>
+    <short>The Equipment Types are already linked to the Setpoint.</short>
+    <long>The Equipment Types are already linked to the Setpoint.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000029</id>
+    <short>Unable to link Equipment associated to Machine Definition to Setpoint.</short>
+    <long>Unable to link Equipment associated to Machine Definition to Setpoint.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000030</id>
+    <short>No Equipment Type linked to Setpoint.</short>
+    <long>No Equipment Type linked to Setpoint.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+ <message>
+    <id>-000031</id>
+    <short>AutomationNodeInstanceNId must be provided to link Automation Node Instance to Setpoint.</short>
+    <long>AutomationNodeInstanceNId must be provided to link Automation Node Instance to Setpoint.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+ <message>
+    <id>-000032</id>
+    <short>AutomationNodeInstanceNId must be provided to link Automation Node Instance to Setpoint.</short>
+    <long>AutomationNodeInstanceNId must be provided to link Automation Node Instance to Setpoint.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+ <message>
+    <id>-000033</id>
+    <short>The ID of the Setpoint to which Automation Node Instance must be linked is missing.</short>
+    <long>The ID of the Setpoint to which Automation Node Instance must be linked is missing.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000034</id>
+    <short>The Tool Definition does not exist.</short>
+    <long>The Tool Definition does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000035</id>
+    <short>The Automation Node Type(s) does/do not exist.</short>
+    <long>The Automation Node Type(s) does/do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000036</id>
+    <short>The Automation Node Type(s) is/are already linked to the Tool Definition.</short>
+    <long>The Automation Node Type(s) is/are already linked to the Tool Definition.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000037</id>
+    <short>ToolDefinitionAutomationNodeTypeAssociation(s) does/do not exist.</short>
+    <long>ToolDefinitionAutomationNodeTypeAssociation(s) does/do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000038</id>
+    <short>Link between the Setpoints and Tool Definitions does not exist.</short>
+    <long>Link between the Setpoints and Tool Definitions does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000039</id>
+    <short>The Automation Node Type Parameter does not exist.</short>
+    <long>The Automation Node Type Parameter does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000040</id>
+    <short>The Setpoint Item(s) does/do not exist.</short>
+    <long>The Setpoint Item(s) does/do not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000041</id>
+    <short>Some of the Setpoint Items are already linked to the Automation Node Type Parameter.</short>
+    <long>Some of the Setpoint Items are already linked to the Automation Node Type Parameter.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000042</id>
+    <short>Cannot unlink the Automation Node Type(s) from the Tool Definition: some of the parameters are linked to the Setpoint Item(s).</short>
+    <long>Cannot unlink the Automation Node Type(s) from the Tool Definition: some of the parameters are linked to the Setpoint Item(s).</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000043</id>
+    <short>Cannot unlink the Tool Definition(s) from the Setpoints: Automation Node parameters are linked to the Setpoint Item(s) for the Tool Definition.</short>
+    <long>Cannot unlink the Tool Definition(s) from the Setpoints: Automation Node parameters are linked to the Setpoint Item(s) for the Tool Definition.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000044</id>
+    <short>Cannot delete Setpoint(s): Setpoint %SetPoint% already linked to Equipment in Process Operation.</short>
+    <long>Cannot delete Setpoint(s): Setpoint %SetPoint% already linked to Equipment in Process Operation.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000045</id>
+    <short>Unable to link Equipment: some Equipment already has default Setpoint. %SetPointEquipmentAssociations%</short>
+    <long>Unable to link Equipment: some Equipment already has default Setpoint. %SetPointEquipmentAssociations%</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>SetPointEquipmentAssociations</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+</messages>

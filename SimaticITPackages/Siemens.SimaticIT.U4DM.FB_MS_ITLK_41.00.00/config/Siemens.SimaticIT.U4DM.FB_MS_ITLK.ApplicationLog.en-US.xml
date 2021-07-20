@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is used to define Application Log messages. You should follow below instructions while defining messages: 
+    - The <message> structure should be repeated for each Application Log message.
+    - The <id> attribute is mandatory and should be unique in this file.
+    - The <short> attribute represents the short text message and should be less than or up to 100 characters.
+    - The <long> attribute represents the long text message and should be less than or up to 400 characters.
+    - The <level> attribute is mandatory and its value should be one of: Verbose | Error | Warning | Critical | Informational.
+    - The <param> structure should be repeated for each parameter of the Application Log message.
+    - The <key> attribute represents the unique identifier for a parameter that repeats multiple times in the message text.
+    - The <type> attribute represents the datatype of the parameter.  -->
+<messages>
+  <message>
+    <id>-803987</id>
+    <short>Error while linking the Interlocking Check to the Process Operation.</short>
+    <long>Error while linking the Interlocking Check to the Process Operation.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-804072</id>
+    <short>Error while linking Interlocking Checks to Process Operations.</short>
+    <long>Error while linking Interlocking Checks to Process Operations: the target Process Operation does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803989</id>
+    <short>Error while updating the link between the Interlocking Check and the Process Operation.</short>
+    <long>Error while updating the link between the Interlocking Check and the Process Operation.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803988</id>
+    <short>Error while unlinking the Interlocking Check from the Process Operation.</short>
+    <long>Error while unlinking the Interlocking Check from the Process Operation.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803985</id>
+    <short>Error while creating Custom Interlocking Checks.</short>
+    <long>Error while creating Custom Interlocking Checks.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803972</id>
+    <short>Error while updating the Custom Interlocking Check.</short>
+    <long>Error while updating the Custom Interlocking Check.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803974</id>
+    <short>Error while deleting Custom Interlocking Checks.</short>
+    <long>Error while deleting Custom Interlocking Checks.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803986</id>
+    <short>Error while creating Custom Interlocking Check Parameters.</short>
+    <long>Error while creating Custom Interlocking Check Parameters.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803973</id>
+    <short>Error while deleting Custom Interlocking Check Parameters.</short>
+    <long>Error while deleting Custom Interlocking Check Parameters.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-803983</id>
+    <short>Error while updating the Custom Interlocking Check Parameter.</short>
+    <long>Error while updating the Custom Interlocking Check Parameter.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000001</id>
+    <short>Error while linking the Interlocking Check to the Operation/Step Category.</short>
+    <long>Error while linking the Interlocking Check to the Operation/Step Category.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000002</id>
+    <short>Error while linking Interlocking Checks to Operation/Step Categories.</short>
+    <long>Error while linking Interlocking Checks to Operation/Step Categories.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000003</id>
+    <short>Error while updating the link between the Interlocking Check and the Operation/Step Category.</short>
+    <long>Error while updating the link between the Interlocking Check and the Operation/Step Category.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000004</id>
+    <short>Error while unlinking the Interlocking Check from the Operation/Step Category.</short>
+    <long>Error while unlinking the Interlocking Check from the Operation/Step Category.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000005</id>
+    <short>Set either Step-relevant or Operation-relevant to create an Interlocking Check.</short>
+    <long>Either Step-relevant or Operation-relevant must be set when creating an Interlocking Check.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000006</id>
+    <short>Error while linking Interlocking Checks to Operation/Step Categories.</short>
+    <long>Error while linking Interlocking Checks to Operation/Step Categories: either the Interlocking Check or the Operation/Step Category does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000007</id>
+    <short>Error while linking Interlocking Checks to Operation/Step Categories.</short>
+    <long>Error while linking Interlocking Checks to Operation/Step Categories: fields Inbound, Outbound, Operation-relevant and Step-relevant must be configured as expected by the system.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000008</id>
+    <short>Error while linking Interlocking Checks to Operation/Step Categories.</short>
+    <long>Error while linking Interlocking Checks to Operation/Step Categories: some parameters have not been set correctly.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000009</id>
+    <short>Error while linking Interlocking Checks to Process Operations.</short>
+    <long>Error while linking Interlocking Checks to Process Operations: either the Interlocking Check or the Process Operation does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000010</id>
+    <short>Error while linking Interlocking Checks to Process Operations.</short>
+    <long>Error while linking Interlocking Checks to Process Operations: for Standard Interlocking Checks, fields Inbound, Outbound, Operation-relevant and Step-relevant must be configured as expected by the system.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000011</id>
+    <short>Error while linking Interlocking Checks to Process Operations.</short>
+    <long>Error while linking Interlocking Checks to Process Operations: some parameters have not been set correctly.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000012</id>
+    <short>Error while unlinking the Interlocking Check from the Operation/Step Category.</short>
+    <long>Error while unlinking the Interlocking Check from the Operation/Step Category: the link does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000013</id>
+    <short>Error while unlinking the Interlocking Check from the Operation/Step Category.</short>
+    <long>Either Step-relevant or Operation-relevant must be specified when updating an Interlocking Check.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000014</id>
+    <short>Error while updating the link between the Interlocking Check and the Operation/Step Category.</short>
+    <long>Error while updating the link between the Interlocking Check and the Operation/Step Category: the link does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000015</id>
+    <short>Error while updating the link between the Interlocking Check and the Operation/Step Category.</short>
+    <long>Error while updating the link between the Interlocking Check and the Operation/Step Category: fields Inbound, Outbound, Operation-relevant and Step-relevant must be configured as expected by the system.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000016</id>
+    <short>Error while updating the link between the Interlocking Check and the Operation/Step Category.</short>
+    <long>Error while updating the link between the Interlocking Check and the Operation/Step Category: some parameters have not been set correctly.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000017</id>
+    <short>Error while updating the link between the Interlocking Check and the Process Operation.</short>
+    <long>Error while updating the link between the Interlocking Check and the Process Operation: the link does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000018</id>
+    <short>Error while updating the link between the Interlocking Check and the Process Operation.</short>
+    <long>Error while updating the link between the Interlocking Check and the Process Operation: for Standard Interlocking Checks, fields Inbound, Outbound, Operation-relevant and Step-relevant must be configured with default values.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000019</id>
+    <short>Error while updating the link between the Interlocking Check and the Process Operation.</short>
+    <long>Error while updating the link between the Interlocking Check and the Process Operation: some parameters have not been set correctly.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000020</id>
+    <short>Error while linking Interlocking Checks to Process Step.</short>
+    <long>Error while linking Interlocking Checks to Process Step.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000021</id>
+    <short>Error while linking Interlocking Checks to Process Step.</short>
+    <long>Error while linking Interlocking Checks to Process Step: the Interlocking Check does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000022</id>
+    <short>Error while linking Interlocking Checks to Process Step.</short>
+    <long>Error while linking Interlocking Checks to a Process Step: the Process Step does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000023</id>
+    <short>Error while linking Interlocking Checks to Process Step.</short>
+    <long>Error while linking Interlocking Checks to a Process Step: either the Interlocking Check is not Step-relevant, or Inbound and Outbound have been set incorrectly.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000024</id>
+    <short>Error while linking Interlocking Checks to Process Step.</short>
+    <long>Error while linking Interlocking Checks to a Process Step: some parameters have not been set correctly.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000025</id>
+    <short>Error while unlinking the Interlocking Check from the Process Step.</short>
+    <long>Error while unlinking the Interlocking Check from the Process Step.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000026</id>
+    <short>Error while updating the link between Interlocking Checks and Process Steps.</short>
+    <long>Error while updating the link between Interlocking Checks and Process Steps.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000027</id>
+    <short>Error while updating the link between Interlocking Checks and Process Steps.</short>
+    <long>Error while updating the link between the Interlocking Check and the Process Step: the link does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000028</id>
+    <short>Error while updating Interlocking Checks on Process Steps.</short>
+    <long>Error while updating the link between the Interlocking Check and the Process Step: either the Parameter value is not set properly, or Inbound and Outbound have been set incorrectly.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key></key>
+        <type></type>
+      </param>
+    </params>
+  </message>
+</messages>

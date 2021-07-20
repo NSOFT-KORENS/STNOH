@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sections>
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="FB_MS_ITLK" domainName="MasterData">
+    <!--<Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheck">
+      <Property name="NId" kind="Plain" value="RebuildCycle" />
+      <Property name="Name" kind="Plain" value="RebuildCycle" />
+      <Property name="Description" kind="Plain" value="Rebuild Cycle" />
+      <Property name="IsStandard" kind="Plain" value="true" />
+      <Property name="IsInbound" kind="Plain" value="true" />
+      <Property name="IsOutbound" kind="Plain" value="false" />   
+	  <Property name="StepRelevant" kind="Plain" value="false" />
+      <Property name="OperationRelevant" kind="Plain" value="true" /> 	  
+    </Entity>-->
+    <!--<Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckParameter">
+      <Property name="NId" kind="Plain" value="MaxRepeatNumber" />
+      <Property name="Name" kind="Plain" value="MaxRepeatNumber" />
+      <Property name="DataType" kind="Plain" value="2" />
+      <Property name="IsMandatory" kind="Plain" value="true" />
+      <Property name="IsList" kind="Plain" value="false" />
+      <Property name="ItlkCheck" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheck">
+          <Property name="NId" kind="Plain" value="RebuildCycle" />
+        </LogicalKey>
+      </Property>
+    </Entity>-->
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheck">
+      <Property name="NId" kind="Plain" value="AllPartsAssembled" />
+      <Property name="Name" kind="Plain" value="AllPartsAssembled" />
+      <Property name="Description" kind="Plain" value="All Parts Assembled" />
+      <Property name="IsStandard" kind="Plain" value="true" />
+      <Property name="IsInbound" kind="Plain" value="false" />
+      <Property name="IsOutbound" kind="Plain" value="true" />
+	  <Property name="StepRelevant" kind="Plain" value="true" />
+      <Property name="OperationRelevant" kind="Plain" value="true" /> 	 
+    </Entity> 
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheck">
+      <Property name="NId" kind="Plain" value="DocumentsUploaded" />
+      <Property name="Name" kind="Plain" value="DocumentsUploaded" />
+      <Property name="Description" kind="Plain" value="Documents Uploaded" />
+      <Property name="IsStandard" kind="Plain" value="true" />
+      <Property name="IsInbound" kind="Plain" value="false" />
+      <Property name="IsOutbound" kind="Plain" value="true" />
+	  <Property name="StepRelevant" kind="Plain" value="true" />
+      <Property name="OperationRelevant" kind="Plain" value="true" /> 	 
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckParameter">
+      <Property name="NId" kind="Plain" value="MinDocCount" />
+      <Property name="Name" kind="Plain" value="MinDocCount" />
+      <Property name="DataType" kind="Plain" value="2" />
+      <Property name="IsList" kind="Plain" value="false" />
+      <Property name="IsMandatory" kind="Plain" value="true" />
+      <Property name="ItlkCheck" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheck">
+          <Property name="NId" kind="Plain" value="DocumentsUploaded" />
+        </LogicalKey>
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheck">
+      <Property name="NId" kind="Plain" value="AllStepsCompleted" />
+      <Property name="Name" kind="Plain" value="AllStepsCompleted" />
+      <Property name="Description" kind="Plain" value="All Steps Completed" />
+      <Property name="IsStandard" kind="Plain" value="true" />
+      <Property name="IsInbound" kind="Plain" value="false" />
+      <Property name="IsOutbound" kind="Plain" value="true" />
+	  <Property name="StepRelevant" kind="Plain" value="false" />
+      <Property name="OperationRelevant" kind="Plain" value="true" /> 	 
+    </Entity>
+  </Section>
+</Sections>

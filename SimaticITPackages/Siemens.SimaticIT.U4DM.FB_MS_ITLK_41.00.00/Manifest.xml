@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.U4DM.FB_MS_ITLK</name>
+    <shortname>FB_MS_ITLK</shortname>
+    <description>Functional block providing functionalities for the itlk check engineering </description>
+    <version>41.00.00</version>
+    <companyname>Siemens.SimaticIT.U4DM</companyname>
+    <author>Siemens.SimaticIT.U4DM</author>
+    <hash>WcrXFJE8fOSguMQpmK3fmUtafh5exbDmoDAHSneuXHI=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>MasterData</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_COMMON_BIN</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.WI_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.RD.FB.ConfigKey</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_RD_SERV</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.EQU_MS</name>
+        <version>06.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.MAT_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.ES_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UADM.FB_MS_MAT</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.MatTool</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_MS_BOP</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UDM_RF</name>
+        <version>05.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.TSK_MS</name>
+        <version>07.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.BPF_MS</name>
+        <version>04.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.OpcenterEX.FN.DEF_MS</name>
+        <version>02.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.CHR_MS</name>
+        <version>04.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.CreateCustomItlkCheckList</name>
+                        <shortname>CreateCustomItlkCheckList</shortname>
+                        <description>Creates a list of custom Interlocking Checks.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.CreateCustomItlkCheckListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UpdateCustomItlkCheckList</name>
+                        <shortname>UpdateCustomItlkCheckList</shortname>
+                        <description>Updates a list of custom Interlocking Checks.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UpdateCustomItlkCheckListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.DeleteCustomItlkCheckList</name>
+                        <shortname>DeleteCustomItlkCheckList</shortname>
+                        <description>Deletes one or more Interlocking Checks.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>false</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.DeleteCustomItlkCheckListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.CreateCustomItlkCheckParameterList</name>
+                        <shortname>CreateCustomItlkCheckParameterList</shortname>
+                        <description>Creates a list of custom Interlocking Check parameters.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.CreateCustomItlkCheckParameterListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UpdateCustomItlkCheckParameterList</name>
+                        <shortname>UpdateCustomItlkCheckParameterList</shortname>
+                        <description>Updates a list of custom Interlocking Checks.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UpdateCustomItlkCheckParameterListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.DeleteCustomItlkCheckParameterList</name>
+                        <shortname>DeleteCustomItlkCheckParameterList</shortname>
+                        <description>Deletes one or more Interlocking Check parameters.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>false</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.DeleteCustomItlkCheckParameterListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.LinkItlkCheckToProcessToOpLinkList</name>
+                        <shortname>LinkItlkCheckToProcessToOpLinkList</shortname>
+                        <description>Associates an Interlocking Check with entity **ProcessToOperationLink**.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.LinkItlkCheckToProcessToOpLinkListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UnlinkItlkCheckToProcessToOpLinkList</name>
+                        <shortname>UnlinkItlkCheckToProcessToOpLinkList</shortname>
+                        <description>Removes the association between an Interlocking Check and a Process Operation.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UnlinkItlkCheckToProcessToOpLinkListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UpdateItlkCheckProcessToOpLinkAssociationList</name>
+                        <shortname>UpdateItlkCheckProcessToOpLinkAssociationList</shortname>
+                        <description>Updates values of Interlocking Check parameters linked to entity **ProcessToOpLink**.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UpdateItlkCheckProcessToOpLinkAssociationListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.LinkItlkCheckToOperationStepCategoryList</name>
+                        <shortname>LinkItlkCheckToOperationStepCategoryList</shortname>
+                        <description>Associates an Interlocking Check to an Operation/Step Category.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.LinkItlkCheckToOperationStepCategoryListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UnlinkItlkCheckToOperationStepCategoryList</name>
+                        <shortname>UnlinkItlkCheckToOperationStepCategoryList</shortname>
+                        <description>Removes the association between an Interlocking Check and an Operation/Step Category.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UnlinkItlkCheckToOperationStepCategoryListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UpdateItlkCheckOperationStepCategoryAssociationList</name>
+                        <shortname>UpdateItlkCheckOperationStepCategoryAssociationList</shortname>
+                        <description>Updates values of Interlocking Check parameters linked to an Operation/Step Category.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UpdateItlkCheckOperationStepCategoryAssociationListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.LinkItlkCheckToOperationToStepLinkList</name>
+                        <shortname>LinkItlkCheckToOperationToStepLinkList</shortname>
+                        <description>Associates a Step with an Interlocking Check. The same association can be created more than once.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.LinkItlkCheckToOperationToStepLinkListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UnlinkItlkCheckToOperationToStepLinkList</name>
+                        <shortname>UnlinkItlkCheckToOperationToStepLinkList</shortname>
+                        <description>Removes a list of associations between Process Steps and Interlocking Checks.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UnlinkItlkCheckToOperationToStepLinkListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UpdateItlkCheckToOperationToStepLinkList</name>
+                        <shortname>UpdateItlkCheckToOperationToStepLinkList</shortname>
+                        <description>Updates values of Interlocking Check parameters linked to a Process Step.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Commands.UpdateItlkCheckToOperationToStepLinkListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command></commands>
+    <commandActions></commandActions>
+    <events><event>
+                <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Events.OnItlkCheckLinkVerified</name>
+                <shortname>OnItlkCheckLinkVerified</shortname>
+                <description> Event raised prior to deleting Interlocking Checks. It verifies whether the Interlocking Checks are linked to an entity (that is, a Process Operation, a Process Step, a Work Order Operation, a Work Order Step).</description>
+                <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event><event>
+                <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Events.OnItlkCheckParameterLinkVerified</name>
+                <shortname>OnItlkCheckParameterLinkVerified</shortname>
+                <description> Event raised prior to deleting Interlocking Check parameters. It verifies whether the Interlocking Check parameters are related to Interlocking Checks linked to an entity (that is, a Process Operation, a Process Step, a Work Order Operation, a Work Order Step).</description>
+                <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event></events>
+    <event_handlers><event_handler>
+<name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Events.LinkItlkCheckToEvolveProcessOperationHandlerShell</name>
+<assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.EventHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+<event_name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.Events.LinkItlkCheckToEvolveProcessOperation</event_name>
+<target_cpu>AnyCPU</target_cpu>
+<dependencies></dependencies>
+</event_handler><event_handler>
+<name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Events.OnItlkCheckLinkVerifiedEventShell</name>
+<assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.EventHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+<event_name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Events.OnItlkCheckLinkVerified</event_name>
+<target_cpu>AnyCPU</target_cpu>
+<dependencies></dependencies>
+</event_handler><event_handler>
+<name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Events.OnItlkCheckParameterLinkVerifiedEventShell</name>
+<assembly>Siemens.SimaticIT.U4DM.FB_MS_ITLK.EventHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+<event_name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Events.OnItlkCheckParameterLinkVerified</event_name>
+<target_cpu>AnyCPU</target_cpu>
+<dependencies></dependencies>
+</event_handler></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.Types.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheck</name>
+      <shortname>ItlkCheck</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckParameter</name>
+      <shortname>ItlkCheckParameter</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheck</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheck</root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckProcessToOpLinkAssociation</name>
+      <shortname>ItlkCheckProcessToOpLinkAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckProcessToOpLinkAssociationParameterValue</name>
+      <shortname>ItlkCheckProcessToOpLinkAssociationParameterValue</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckProcessToOpLinkAssociation</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckProcessToOpLinkAssociation</root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckOperationStepCategoryAssociation</name>
+      <shortname>ItlkCheckOperationStepCategoryAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckOperationStepCategoryAssociationParameterValue</name>
+      <shortname>ItlkCheckOperationStepCategoryAssociationParameterValue</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckOperationStepCategoryAssociation</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckOperationStepCategoryAssociation</root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckOperationToStepLinkAssociation</name>
+      <shortname>ItlkCheckOperationToStepLinkAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckOperationToStepLinkAssociationParameterValue</name>
+      <shortname>ItlkCheckOperationToStepLinkAssociationParameterValue</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckOperationToStepLinkAssociation</parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity>Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheckOperationToStepLinkAssociation</root_entity>
+      <base_entity></base_entity>
+    </wr_entity></wr_entities>
+    <wr_facets></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

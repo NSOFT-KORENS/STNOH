@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.U4DM.T4EAInt</name>
+    <shortname>T4EAInt</shortname>
+    <description></description>
+    <version>41.00.00</version>
+    <companyname>Siemens.SimaticIT.U4DM</companyname>
+    <author>Siemens.SimaticIT.U4DM</author>
+    <hash>RmyFVyffE1a9qAVeokxvkuxW8/DV3Qh18lReVexYeOY=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>MsExt</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_COMMON_BIN</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.RD.FB.ConfigKey</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands><command>
+                        <name>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands.UpdateWorkOrderCC</name>
+                        <shortname>UpdateWorkOrderCC</shortname>
+                        <description>Triggers the creation/update of the As Planned BOP structure (also known as Collaboration Context in Teamcenter Manufacturing) upon import of a Work Order Header in Opcenter Execution Discrete from SAP.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MsExt</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands.UpdateWorkOrderCCHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.T4EAInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands.UpdateWorkOrderCC1</name>
+                        <shortname>UpdateWorkOrderCC1</shortname>
+                        <description>Triggers the creation of an As Planned BOP structure (also known as Collaboration Context in Teamcenter Manufacturing) upon creation of a Work Order Header in Opcenter Execution Discrete from a generic ERP system or Opcenter Execution Discrete UI.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MsExt</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands.UpdateWorkOrderCC1HandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.T4EAInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands.UpdateIssueReport</name>
+                        <shortname>UpdateIssueReport</shortname>
+                        <description>Creates an Issue Report in Teamcenter Manufacturing on the basis of a Non-Conformance opened in Opcenter Execution Discrete.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MsExt</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands.UpdateIssueReportHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.T4EAInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands.ConfirmWorkOrder</name>
+                        <shortname>ConfirmWorkOrder</shortname>
+                        <description>Sends the confirmation about the Work Order completion to the SAP system.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MsExt</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands.ConfirmWorkOrderHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.T4EAInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands.ConfirmWorkOrderOperation</name>
+                        <shortname>ConfirmWorkOrderOperation</shortname>
+                        <description>Sends the confirmation about the Work Order Operation completion to the SAP system.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MsExt</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Commands.ConfirmWorkOrderOperationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.T4EAInt.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command></commands>
+    <commandActions></commandActions>
+    <events></events>
+    <event_handlers></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MsExt</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MsExt.T4EAInt.OEModel.Types.ReadingModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MsExt</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities></wr_entities>
+    <wr_facets></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

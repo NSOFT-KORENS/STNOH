@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This file is used to define Application Log messages. You should follow below instructions while defining messages: 
+    - The <message> structure should be repeated for each Application Log message.
+    - The <id> attribute is mandatory and should be unique in this file.
+    - The <short> attribute represents the short text message and should be less than or up to 100 characters.
+    - The <long> attribute represents the long text message and should be less than or up to 400 characters.
+    - The <level> attribute is mandatory and the value should be one of: Verbose | Error | Warning | Critical | Informational.
+    - The <param> structure should be repeated for each parameter of the Application Log message.
+    - The <key> attribute represents the unique identifier for a parameter that repeats multiple times in the message text.
+    - The <type> attribute represents the datatype of the parameter.  -->
+<messages>
+  <message>
+    <id>-000001</id>
+    <short>Select at least two Operations for each Alternative Group.</short>
+    <long>Select at least two Operations for each Alternative Group.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000002</id>
+    <short>Alternative Groups must contain at least two Operations.</short>
+    <long>Alternative Group %AlternativeGroupNameList% must contain at least two Operations.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AlternativeGroupNameList</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000003</id>
+    <short>The Alternative Group already exists.</short>
+    <long>Alternative Group %AlternativeGroupName% already exists.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AlternativeGroupName</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000004</id>
+    <short>The Parent entity must be the same for all Alternative Group members.</short>
+    <long>The Parent entity must be the same for all Alternative Group members.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000005</id>
+    <short>One preferred Alternative Operation must be selected.</short>
+    <long>One preferred Alternative Operation must be selected.</long>
+    <level>Error</level>
+    <params>
+    </params>
+  </message>
+  <message>
+    <id>-000006</id>
+    <short>Some Operation Dependencies are already part of an Alternative Group.</short>
+    <long>Operation Dependencies %OpDependencyIdList% are already part of an ALternative Group.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>OpDependencyIdList</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000007</id>
+    <short>The selected Alternative Group cannot be deleted: it does not exist.</short>
+    <long>Alternative Group %AlternativeGroupName% cannot be deleted: it does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AlternativeGroupName</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000008</id>
+    <short>The selected Alternative Group cannot be deleted: it contains only one Operation.</short>
+    <long>Alternative Group %AlternativeGroupName% cannot be deleted: it contains only one Operation.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AlternativeGroupName</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000009</id>
+    <short>The selected Alternative Group cannot be updated: it does not exist.</short>
+    <long>Alternative Group %AlternativeGroupName% cannot be updated: it does not exist.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AlternativeGroupName</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000010</id>
+    <short>The selected Alternative Group cannot be updated: You can have only one Operation as preferred.</short>
+    <long>The selected Alternative Group cannot be updated: You can have only one Operation as preferred.</long>
+    <level>Error</level>
+    <params>
+      <param>
+        <key>AlternativeGroupName</key>
+        <type>string</type>
+      </param>
+    </params>
+  </message>
+  <message>
+    <id>-000011</id>
+    <short>The selected Alternative Group cannot be created: the parent entity has no dependencies.</short>
+    <long>The selected Alternative Group cannot be created: the parent entity has no dependencies.</long>
+    <level>Error</level>
+  </message>
+</messages>

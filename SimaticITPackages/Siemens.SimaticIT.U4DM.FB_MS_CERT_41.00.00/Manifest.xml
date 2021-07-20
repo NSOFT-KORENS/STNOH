@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.U4DM.FB_MS_CERT</name>
+    <shortname>FB_MS_CERT</shortname>
+    <description>Certifications Master Data Domain Functional Block</description>
+    <version>41.00.00</version>
+    <companyname>Siemens.SimaticIT.U4DM</companyname>
+    <author>Siemens.SimaticIT.U4DM</author>
+    <hash>p+CZRRSWrq4y/yOkXCfvpCetJNQTBqVRLve7u4Nupe8=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>MasterData</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UDM_RF</name>
+        <version>05.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.WI_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.MAT_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.EQU_MS</name>
+        <version>06.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.ES_MS</name>
+        <version>03.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.TSK_MS</name>
+        <version>07.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.BPF_MS</name>
+        <version>04.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_MS_BOP</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_COMMON_BIN</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.RD.FB.ConfigKey</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_RD_SERV</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_MS_EQUIPMENT</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.UADM.FB_MS_MAT</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.MatTool</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.OpcenterEX.FN.DEF_MS</name>
+        <version>02.01.00</version>
+        <type>Library</type>
+      </functionalblock>
+      <functionalblock>
+        <name>Siemens.SimaticIT.CHR_MS</name>
+        <version>04.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.CreateCertification</name>
+                        <shortname>CreateCertification</shortname>
+                        <description>Creates a Certification for performing a specific Operation during runtime.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.CreateCertificationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.DeleteCertification</name>
+                        <shortname>DeleteCertification</shortname>
+                        <description>Deletes a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.DeleteCertificationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.UpdateCertification</name>
+                        <shortname>UpdateCertification</shortname>
+                        <description>Updates the name and description of the specified Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.UpdateCertificationHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.AssignCertificationToSkillList</name>
+                        <shortname>AssignCertificationToSkillList</shortname>
+                        <description>Assigns one or more specific Skills to a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.AssignCertificationToSkillListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.AssignCertificationToUserList</name>
+                        <shortname>AssignCertificationToUserList</shortname>
+                        <description>Assigns one or more Users to a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.AssignCertificationToUserListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.AssignCertificationToRoleList</name>
+                        <shortname>AssignCertificationToRoleList</shortname>
+                        <description>Assigns one or more Roles to a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.AssignCertificationToRoleListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.TraceCertificationHistory</name>
+                        <shortname>TraceCertificationHistory</shortname>
+                        <description>Traces a specific **CertificationHistory** entity. **CertificationHistory** is a dedicated entity for storing the actions performed on a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.TraceCertificationHistoryHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.AssignCertificationToLocationList</name>
+                        <shortname>AssignCertificationToLocationList</shortname>
+                        <description>Assigns one or more Equipment Configurations to a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.AssignCertificationToLocationListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.AssignCertificationToMaterialList</name>
+                        <shortname>AssignCertificationToMaterialList</shortname>
+                        <description>Assigns one or more specific Materials to a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.AssignCertificationToMaterialListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.RemoveCertificationToLocationList</name>
+                        <shortname>RemoveCertificationToLocationList</shortname>
+                        <description>Removes one or more Equipment Configurations previously associated with a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.RemoveCertificationToLocationListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.RemoveCertificationToSkillList</name>
+                        <shortname>RemoveCertificationToSkillList</shortname>
+                        <description>Removes one or more Skills from an existing association with a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.RemoveCertificationToSkillListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.RemoveCertificationToUserList</name>
+                        <shortname>RemoveCertificationToUserList</shortname>
+                        <description>Removes one or more Users from an existing association with a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.RemoveCertificationToUserListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.RemoveCertificationToMaterialList</name>
+                        <shortname>RemoveCertificationToMaterialList</shortname>
+                        <description>Removes one or more Materials from an existing association with a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.RemoveCertificationToMaterialListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.RemoveCertificationToRoleList</name>
+                        <shortname>RemoveCertificationToRoleList</shortname>
+                        <description>Removes one or more Roles from an existing association with a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.RemoveCertificationToRoleListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.DeleteCertificationList</name>
+                        <shortname>DeleteCertificationList</shortname>
+                        <description>Deletes the specified list of Certifications.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.DeleteCertificationListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.LinkSkillsToCertificate</name>
+                        <shortname>LinkSkillsToCertificate</shortname>
+                        <description>Links one or more Skills to a Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.LinkSkillsToCertificateHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.UnlinkSkillsFromCertificate</name>
+                        <shortname>UnlinkSkillsFromCertificate</shortname>
+                        <description>Unlinks one or more Skills from an existing association with a specific Certification.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.UnlinkSkillsFromCertificateHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.TCM2CreateCertificationWithSkillList</name>
+                        <shortname>TCM2CreateCertificationWithSkillList</shortname>
+                        <description>Creates Certifications with related Skills. Used in case of integration with Teamcenter Manufacturing.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>MasterData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.TCM2CreateCertificationWithSkillListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command></commands>
+    <commandActions><commandAction>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.ValidateCertificateOnLinkHumanResourceToProcessHandlerShell</name>
+                        <shortname>ValidateCertificateOnLinkHumanResourceToProcessHandlerShell</shortname>
+                        <description>Checks whether the Certificates related to the Human Resources linked to the Process Operation/Step are valid.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.Commands.LinkHumanResourceToProcess</command>
+                        <type>PreCheck</type>
+                        <is_enabled>true</is_enabled>
+                        <alias>ValidateCertificateOnLinkHumanResourceToProcess</alias>
+                </commandAction><commandAction>
+                        <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Commands.ValidateCertificateOnUnlinkHumanResourceFromProcessHandlerShell</name>
+                        <shortname>ValidateCertificateOnUnlinkHumanResourceFromProcessHandlerShell</shortname>
+                        <description>Checks whether the Certificates related to the Human Resources unlinked from the Process Operation/Step are valid.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.FB_MS_CERT.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                        <target_cpu>AnyCPU</target_cpu>
+                        <command>Siemens.SimaticIT.U4DM.MasterData.FB_MS_BOP.MSModel.Commands.UnlinkHumanResourceFromProcess</command>
+                        <type>PreCheck</type>
+                        <is_enabled>true</is_enabled>
+                        <alias>ValidateCertificateOnUnlinkHumanResourceFromProcess</alias>
+                </commandAction></commandActions>
+    <events><event>
+                <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Events.OnPLMCreateCertificationWithSkillList</name>
+                <shortname>OnPLMCreateCertificationWithSkillList</shortname>
+                <description> Event to be fired in the relative command for customization.</description>
+                <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Events, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>MasterData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event></events>
+    <event_handlers></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.ReadingModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Types, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>MasterData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.Types.ReadingModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>MasterData</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.RoleCertificationAssociation</name>
+      <shortname>RoleCertificationAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.UserCertificationAssociation</name>
+      <shortname>UserCertificationAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.Certification</name>
+      <shortname>Certification</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.MaterialCertificationAssociation</name>
+      <shortname>MaterialCertificationAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.SkillCertificationAssociation</name>
+      <shortname>SkillCertificationAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.EquipmentCertificationAssociation</name>
+      <shortname>EquipmentCertificationAssociation</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistory</name>
+      <shortname>CertificationHistory</shortname>
+      <haslogicalkey>false</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.MasterData.FB_MS_CERT.MSModel.DataModel.CertificationHistoryAction</name>
+      <shortname>CertificationHistoryAction</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity></wr_entities>
+    <wr_facets></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>

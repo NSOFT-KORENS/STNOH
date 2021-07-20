@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sections>
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="2021-5-7-11-04-31" domainName="MasterData">
+    <Entity type="Siemens.SimaticIT.U4DM.MasterData.FB_MS_ITLK.MSModel.DataModel.ItlkCheck">
+      <Property name="NId" kind="Plain" value="DataCollectionResultChecked" />
+      <Property name="Name" kind="Plain" value="DataCollectionResultChecked" />
+      <Property name="Description" kind="Plain" value="DataCollectionResultChecked" />
+      <Property name="StepRelevant" kind="Plain" value="True" />
+      <Property name="OperationRelevant" kind="Plain" value="True" />
+      <Property name="IsStandard" kind="Plain" value="False" />
+      <Property name="IsInbound" kind="Plain" value="False" />
+      <Property name="IsOutbound" kind="Plain" value="True" />
+    </Entity>
+  </Section>
+</Sections>

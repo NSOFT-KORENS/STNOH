@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sections>
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="QualityExecutionMasterData" domainName="MasterData">
+    <Entity type="Siemens.SimaticIT.MasterData.CHR_MS.MSModel.DataModel.Criticality">
+      <Property name="NId" kind="Plain" value="Main" />
+      <Property name="Name" kind="Plain" value="Main" />
+      <Property name="Description" kind="Plain" value="NULL" />
+      <Property name="IsSystemDefined" kind="Plain" value="true" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.MasterData.CHR_MS.MSModel.DataModel.Criticality">
+      <Property name="NId" kind="Plain" value="Critical" />
+      <Property name="Name" kind="Plain" value="Critical" />
+      <Property name="Description" kind="Plain" value="NULL" />
+      <Property name="IsSystemDefined" kind="Plain" value="true" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.MasterData.CHR_MS.MSModel.DataModel.Criticality">
+      <Property name="NId" kind="Plain" value="Minor" />
+      <Property name="Name" kind="Plain" value="Minor" />
+      <Property name="Description" kind="Plain" value="NULL" />
+      <Property name="IsSystemDefined" kind="Plain" value="true" />
+    </Entity>
+  </Section>
+</Sections>

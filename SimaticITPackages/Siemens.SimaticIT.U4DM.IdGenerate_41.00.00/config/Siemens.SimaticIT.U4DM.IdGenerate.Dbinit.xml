@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sections>
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="IdGenerate" domainName="OperationalData">
+    <Entity type="Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.DataModel.TemplateType">
+      <Property name="NId" kind="Plain" value="WorkOrderNId" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.DataModel.TemplateType">
+      <Property name="NId" kind="Plain" value="SerialNumber" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.OperationalData.IdGenerate.OPModel.DataModel.TemplateType">
+      <Property name="NId" kind="Plain" value="MaterialBatchId" />
+    </Entity>
+  </Section>
+</Sections>
+
+

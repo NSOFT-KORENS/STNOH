@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Sections>
+  <Section engineeringLevel="LibraryFunctionalBlock" implementationName="FB_RD_SERV" domainName="ReferenceData">
+    <!-- Buffer Lifecycle Start  -->
+
+    <!-- Buffer Status Definitions  -->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusDefinition">
+      <Property name="NId" kind="Plain" value="InWork" />
+      <Property name="Name" kind="Plain" value="In Work" />
+      <Property name="Description" kind="Plain" value="Buffer is in InWork state" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusDefinition">
+      <Property name="NId" kind="Plain" value="Released" />
+      <Property name="Name" kind="Plain" value="Released" />
+      <Property name="Description" kind="Plain" value="Buffer is in Released state" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusDefinition">
+      <Property name="NId" kind="Plain" value="InValid" />
+      <Property name="Name" kind="Plain" value="Invalid" />
+      <Property name="Description" kind="Plain" value="Buffer is in InValid state" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+    </Entity>
+
+    <!-- Buffer Status Transition Definition  -->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="from InWork to Released" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="from InWork to InValid" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="from Released to InWork" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="from Released to InValid" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="from InValid to InWork" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransitionDefinition">
+      <Property name="Verb" kind="Plain" value="from InValid to Released" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+
+    <!-- Buffer Status Machine  -->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+      <Property name="NId" kind="Plain" value="BufferLifecycle" />
+      <Property name="Name" kind="Plain" value="Buffer Lifecycle" />
+      <Property name="Description" kind="Plain" value="Buffer life cycle" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+    </Entity>
+
+
+    <!-- Buffer Status  -->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="NId" kind="Plain" value="InWork" />
+      <Property name="Name" kind="Plain" value="In Work" />
+      <Property name="Description" kind="Plain" value="Buffer is in InWork state" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsInitial" kind="Plain" value="True" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="BufferLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference">
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="NId" kind="Plain" value="Released" />
+      <Property name="Name" kind="Plain" value="Released" />
+      <Property name="Description" kind="Plain" value="Buffer is in Released state" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsInitial" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="BufferLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference">
+      </Property>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+      <Property name="NId" kind="Plain" value="InValid" />
+      <Property name="Name" kind="Plain" value="Invalid" />
+      <Property name="Description" kind="Plain" value="Buffer is in InValid state" />
+      <Property name="Color" kind="Plain" value="" />
+      <Property name="IsInitial" kind="Plain" value="False" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="Outcome" kind="Plain" value="0" />
+      <Property name="StateMachine" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+          <Property name="NId" kind="Plain" value="BufferLifecycle" />
+        </LogicalKey>
+      </Property>
+      <Property name="StatusBehaviorDefinitions" kind="ManyToManyReference">
+      </Property>
+    </Entity>
+
+    <!--Buffer Transition-->
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="InWork" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Released" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="Verb" kind="Plain" value="from InWork to Released" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="InWork" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="InValid" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="Verb" kind="Plain" value="from InWork to InValid" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Released" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="InWork" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="Verb" kind="Plain" value="from Released to InWork" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Released" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="InValid" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="Verb" kind="Plain" value="from Released to InValid" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="InValid" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="InWork" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="Verb" kind="Plain" value="from InValid to InWork" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StatusTransition">
+      <Property name="SourceStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="InValid" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="TargetStatus" kind="SingleReferenceToParent">
+        <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.Status">
+          <Property name="NId" kind="Plain" value="Released" />
+          <Property name="StateMachine" kind="SingleReferenceToParent">
+            <LogicalKey entityType="Siemens.SimaticIT.ReferenceData.UDM_RF.RFModel.DataModel.StateMachine">
+              <Property name="NId" kind="Plain" value="BufferLifecycle" />
+            </LogicalKey>
+          </Property>
+        </LogicalKey>
+      </Property>
+      <Property name="Verb" kind="Plain" value="from InValid to Released" />
+      <Property name="IsHidden" kind="Plain" value="False" />
+      <Property name="IsSystemDefined" kind="Plain" value="False" />
+      <Property name="DoRaiseEvent" kind="Plain" value="False"/>
+    </Entity>
+
+    <!-- Work Instruction Association Type  -->
+    <Entity type="Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.WorkInstructionAssociationType">
+      <Property name="NId" kind="Plain" value="Operation" />     
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.WorkInstructionAssociationType">
+      <Property name="NId" kind="Plain" value="SerialNumber" />     
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.WorkInstructionAssociationType">
+      <Property name="NId" kind="Plain" value="SerialNumberOnDemand" />      
+    </Entity>
+    
+    <!--ExtEventType-->
+    <Entity type="Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ExtEventType">
+      <Property name="NId" kind="Plain" value="WorkOrderCompletion"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ExtEventType">
+      <Property name="NId" kind="Plain" value="WorkOrderSNCompletion"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ExtEventType">
+      <Property name="NId" kind="Plain" value="WorkOrderOperationCompletion"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ExtEventType">
+      <Property name="NId" kind="Plain" value="WorkOrderOperationSNCompletion"/>
+    </Entity>
+
+    <!--ExtObjectType-->
+    <Entity type="Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ExtObjectType">
+      <Property name="NId" kind="Plain" value="WorkOrder"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ExtObjectType">
+      <Property name="NId" kind="Plain" value="WorkOrderOperation"/>
+    </Entity>
+    <Entity type="Siemens.SimaticIT.U4DM.ReferenceData.FB_RD_SERV.RFModel.DataModel.ExtObjectType">
+      <Property name="NId" kind="Plain" value="MaterialTrackingUnit"/>
+    </Entity>
+    
+  </Section> 
+</Sections>

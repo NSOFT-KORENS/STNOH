@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?><projectmanifest>
+  <header>
+    <manifestversion>4.1</manifestversion>
+    <platformversion>4.1</platformversion>
+    <type>Library</type>
+    <name>Siemens.SimaticIT.U4DM.RD.FB.ConfigKey</name>
+    <shortname>ConfigKey</shortname>
+    <description>Configuration Keys Reference Data Domain Functional Block</description>
+    <version>41.00.00</version>
+    <companyname>Siemens.SimaticIT.U4DM.RD.FB</companyname>
+    <author>Siemens.SimaticIT.U4DM.RD.FB</author>
+    <hash>t0xeOw53KFpLiT5H/NuDMcA3goZd/B89rqSmia90GyE=</hash>
+    <canbeextended>false</canbeextended>
+    <domain>ReferenceData</domain>
+  </header>
+  <reference>
+    <functionalblocks>
+      <functionalblock>
+        <name>Siemens.SimaticIT.U4DM.FB_COMMON_BIN</name>
+        <version>41.00.00</version>
+        <type>Library</type>
+      </functionalblock>
+    </functionalblocks>
+  </reference>
+  <artifacts>
+    <commands><command>
+                        <name>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.Commands.SetConfigurationKey</name>
+                        <shortname>SetConfigurationKey</shortname>
+                        <description>Sets the Configuration Key.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.Commands.SetConfigurationKeyHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.RD.FB.ConfigKey.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command><command>
+                        <name>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.Commands.SetConfigurationKeyList</name>
+                        <shortname>SetConfigurationKeyList</shortname>
+                        <description>Sets the Multi Value Configuration Key.</description>
+                        <assembly>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.Commands, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                        <dotnetcommandtype></dotnetcommandtype>
+                        <commandtype>Undefined</commandtype>
+                        <domain>ReferenceData</domain>
+                        <visibility>Protected</visibility>
+                        <composite>false</composite>
+                        <taglist>
+                        </taglist>
+                        <securable>true</securable>
+                        <handlers>
+                                <handler>
+                                        <name>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.Commands.SetConfigurationKeyListHandlerShell</name>
+                                        <assembly>Siemens.SimaticIT.U4DM.RD.FB.ConfigKey.CommandHandler, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+                                        <target_cpu>AnyCPU</target_cpu>
+                                        <dependencies></dependencies>
+                                </handler>
+                        </handlers>
+                </command></commands>
+    <commandActions></commandActions>
+    <events><event>
+                <name>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.Events.ConfigurationKeyChanged</name>
+                <shortname>ConfigurationKeyChanged</shortname>
+                <description> Event fired when a Configuration Key value has been changed.</description>
+                <assembly>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.Events, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+                <dotneteventtype></dotneteventtype>
+                <eventtype>Application</eventtype>
+                <domain>ReferenceData</domain>
+                <taglist>
+                </taglist>
+                <securable>true</securable>
+        </event></events>
+    <event_handlers></event_handlers>
+    <signals></signals>
+    <readingFunctions></readingFunctions>
+    <entities></entities>
+    <datamodels><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>ReferenceData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.ReadingModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>ReferenceData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.Types, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>WR</mode>
+      <domain>ReferenceData</domain>
+    </datamodel><datamodel>
+      <assembly>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.Types.ReadingModel, Version=300.0.101.1, Culture=neutral, PublicKeyToken=null</assembly>
+      <mode>RD</mode>
+      <domain>ReferenceData</domain>
+    </datamodel></datamodels>
+    <externaldatamodels></externaldatamodels>
+    <appdatamodels></appdatamodels>
+    <uimodules></uimodules>
+    <uicomponents></uicomponents>
+    <wr_entities><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.DataModel.ConfigurationKey</name>
+      <shortname>ConfigurationKey</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity><wr_entity>
+      <name>Siemens.SimaticIT.U4DM.RD.FB.ReferenceData.ConfigKey.RFModel.DataModel.ConfigurationKeyMultiValue</name>
+      <shortname>ConfigurationKeyMultiValue</shortname>
+      <haslogicalkey>true</haslogicalkey>
+      <autoreference>false</autoreference>
+      <parententity></parententity>
+      <derivefromentity></derivefromentity>
+      <root_entity></root_entity>
+      <base_entity></base_entity>
+    </wr_entity></wr_entities>
+    <wr_facets></wr_facets>
+  </artifacts>
+  <security>
+    <roles></roles>
+  </security>
+  <runtime>
+    <event_subscriptions></event_subscriptions>
+    <handlergroups></handlergroups>
+  </runtime>
+</projectmanifest>
